@@ -414,12 +414,14 @@
       "agents": [
         "./agents/copy-strategist.md",
         "./agents/conversion-copywriter.md",
-        "./agents/voice-editor.md"
+        "./agents/voice-editor.md",
+        "./agents/cold-email-specialist.md"
       ],
       "skills": [
         "./skills/message-architecture/SKILL.md",
         "./skills/offer-testing/SKILL.md",
-        "./skills/voice-guidelines/SKILL.md"
+        "./skills/voice-guidelines/SKILL.md",
+        "./skills/cold-email-personalization/SKILL.md"
       ]
     },
     {
