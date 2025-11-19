@@ -1,0 +1,1868 @@
+{
+  "name": "Claude GTM Agents",
+  "description": "Comprehensive AI agents for sales, marketing, and growth teams",
+  "version": "1.0.0",
+  "owner": {
+    "name": "GTM Agents",
+    "email": "opensource@intentgpt.ai",
+    "url": "https://github.com/gtmagents/gtm-agents"
+  },
+  "plugins": [
+    {
+      "name": "sales-prospecting",
+      "source": "../plugins/sales-prospecting",
+      "description": "Lead generation, qualification, and outreach automation",
+      "category": "sales",
+      "version": "1.0.0",
+      "keywords": [
+        "sales",
+        "prospecting",
+        "pipeline"
+      ],
+      "commands": [
+        "../plugins/sales-prospecting/commands/generate-leads.md",
+        "../plugins/sales-prospecting/commands/build-sequence.md",
+        "../plugins/sales-prospecting/commands/qualify-lead.md"
+      ],
+      "agents": [
+        "../plugins/sales-prospecting/agents/lead-researcher.md",
+        "../plugins/sales-prospecting/agents/outreach-specialist.md",
+        "../plugins/sales-prospecting/agents/qualification-expert.md",
+        "../plugins/sales-prospecting/agents/social-seller.md"
+      ],
+      "skills": [
+        "../plugins/sales-prospecting/skills/cold-outreach/SKILL.md",
+        "../plugins/sales-prospecting/skills/social-selling/SKILL.md",
+        "../plugins/sales-prospecting/skills/lead-qualification/SKILL.md",
+        "../plugins/sales-prospecting/skills/discovery-calls/SKILL.md",
+        "../plugins/sales-prospecting/skills/objection-handling/SKILL.md"
+      ]
+    },
+    {
+      "name": "content-marketing",
+      "source": "../plugins/content-marketing",
+      "description": "Content strategy, blog production, and pillar asset creation",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "content",
+        "marketing",
+        "seo"
+      ],
+      "commands": [
+        "../plugins/content-marketing/commands/content-pipeline.md",
+        "../plugins/content-marketing/commands/generate-blog.md",
+        "../plugins/content-marketing/commands/create-ebook.md"
+      ],
+      "agents": [
+        "../plugins/content-marketing/agents/content-strategist.md",
+        "../plugins/content-marketing/agents/blog-writer.md",
+        "../plugins/content-marketing/agents/thought-leader.md"
+      ],
+      "skills": [
+        "../plugins/content-marketing/skills/seo-writing/SKILL.md",
+        "../plugins/content-marketing/skills/thought-leadership/SKILL.md",
+        "../plugins/content-marketing/skills/case-studies/SKILL.md",
+        "../plugins/content-marketing/skills/whitepapers/SKILL.md",
+        "../plugins/content-marketing/skills/webinars/SKILL.md",
+        "../plugins/content-marketing/skills/storytelling/SKILL.md",
+        "../plugins/content-marketing/skills/editorial-ops/SKILL.md"
+      ]
+    },
+    {
+      "name": "campaign-orchestration",
+      "source": "../plugins/campaign-orchestration",
+      "description": "Multi-channel campaign coordination and optimization",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "campaigns",
+        "orchestration",
+        "marketing"
+      ],
+      "commands": [
+        "../plugins/campaign-orchestration/commands/launch-campaign.md",
+        "../plugins/campaign-orchestration/commands/coordinate-channels.md",
+        "../plugins/campaign-orchestration/commands/optimize-performance.md"
+      ],
+      "agents": [
+        "../plugins/campaign-orchestration/agents/campaign-manager.md",
+        "../plugins/campaign-orchestration/agents/channel-coordinator.md",
+        "../plugins/campaign-orchestration/agents/performance-optimizer.md"
+      ],
+      "skills": [
+        "../plugins/campaign-orchestration/skills/campaign-planning/SKILL.md",
+        "../plugins/campaign-orchestration/skills/channel-integration/SKILL.md",
+        "../plugins/campaign-orchestration/skills/performance-tracking/SKILL.md"
+      ]
+    },
+    {
+      "name": "data-enrichment-master",
+      "source": "../plugins/data-enrichment-master",
+      "description": "Lead enrichment, firmographics, technographics, and data quality",
+      "category": "data",
+      "version": "1.0.0",
+      "keywords": [
+        "data",
+        "enrichment",
+        "revops"
+      ],
+      "commands": [
+        "../plugins/data-enrichment-master/commands/enrich-leads.md",
+        "../plugins/data-enrichment-master/commands/append-data.md",
+        "../plugins/data-enrichment-master/commands/clean-database.md",
+        "../plugins/data-enrichment-master/commands/waterfall-enrichment.md"
+      ],
+      "agents": [
+        "../plugins/data-enrichment-master/agents/data-specialist.md",
+        "../plugins/data-enrichment-master/agents/company-analyst.md",
+        "../plugins/data-enrichment-master/agents/quality-analyst.md",
+        "../plugins/data-enrichment-master/agents/enrichment-expert.md"
+      ],
+      "skills": [
+        "../plugins/data-enrichment-master/skills/data-sourcing/SKILL.md",
+        "../plugins/data-enrichment-master/skills/firmographic-analysis/SKILL.md"
+      ]
+    },
+    {
+      "name": "email-marketing",
+      "source": "../plugins/email-marketing",
+      "description": "Lifecycle campaigns, automation workflows, and deliverability operations",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "email",
+        "marketing",
+        "automation"
+      ],
+      "commands": [
+        "../plugins/email-marketing/commands/design-campaign.md",
+        "../plugins/email-marketing/commands/build-automation.md",
+        "../plugins/email-marketing/commands/optimize-deliverability.md"
+      ],
+      "agents": [
+        "../plugins/email-marketing/agents/email-strategist.md",
+        "../plugins/email-marketing/agents/automation-specialist.md",
+        "../plugins/email-marketing/agents/deliverability-analyst.md"
+      ],
+      "skills": [
+        "../plugins/email-marketing/skills/drip-campaigns/SKILL.md",
+        "../plugins/email-marketing/skills/segmentation/SKILL.md",
+        "../plugins/email-marketing/skills/ab-testing/SKILL.md",
+        "../plugins/email-marketing/skills/deliverability-ops/SKILL.md"
+      ]
+    },
+    {
+      "name": "social-media",
+      "source": "../plugins/social-media",
+      "description": "Social strategy, content production, and community management",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "social",
+        "community",
+        "content"
+      ],
+      "commands": [
+        "../plugins/social-media/commands/plan-calendar.md",
+        "../plugins/social-media/commands/produce-assets.md",
+        "../plugins/social-media/commands/monitor-performance.md"
+      ],
+      "agents": [
+        "../plugins/social-media/agents/social-strategist.md",
+        "../plugins/social-media/agents/content-producer.md",
+        "../plugins/social-media/agents/community-lead.md"
+      ],
+      "skills": [
+        "../plugins/social-media/skills/platform-frameworks/SKILL.md",
+        "../plugins/social-media/skills/trend-research/SKILL.md",
+        "../plugins/social-media/skills/community-engagement/SKILL.md"
+      ]
+    },
+    {
+      "name": "seo",
+      "source": "../plugins/seo",
+      "description": "Keyword strategy, on-page optimization, and technical SEO operations",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "seo",
+        "organic",
+        "search"
+      ],
+      "commands": [
+        "../plugins/seo/commands/build-keyword-strategy.md",
+        "../plugins/seo/commands/optimize-page.md",
+        "../plugins/seo/commands/audit-site.md"
+      ],
+      "agents": [
+        "../plugins/seo/agents/seo-architect.md",
+        "../plugins/seo/agents/content-optimizer.md",
+        "../plugins/seo/agents/technical-lead.md"
+      ],
+      "skills": [
+        "../plugins/seo/skills/keyword-research/SKILL.md",
+        "../plugins/seo/skills/on-page/SKILL.md",
+        "../plugins/seo/skills/technical-seo/SKILL.md"
+      ]
+    },
+    {
+      "name": "marketing-automation",
+      "source": "../plugins/marketing-automation",
+      "description": "Lifecycle journey orchestration, workflow configuration, and automation governance",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "automation",
+        "workflow",
+        "lifecycle"
+      ],
+      "commands": [
+        "../plugins/marketing-automation/commands/orchestrate-journey.md",
+        "../plugins/marketing-automation/commands/configure-workflow.md",
+        "../plugins/marketing-automation/commands/monitor-automation.md"
+      ],
+      "agents": [
+        "../plugins/marketing-automation/agents/journey-architect.md",
+        "../plugins/marketing-automation/agents/nurture-operator.md",
+        "../plugins/marketing-automation/agents/data-orchestrator.md"
+      ],
+      "skills": [
+        "../plugins/marketing-automation/skills/lifecycle-mapping/SKILL.md",
+        "../plugins/marketing-automation/skills/workflow-testing/SKILL.md",
+        "../plugins/marketing-automation/skills/data-governance/SKILL.md"
+      ]
+    },
+    {
+      "name": "paid-media",
+      "source": "../plugins/paid-media",
+      "description": "Paid acquisition strategy, channel execution, and performance optimization",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "paid",
+        "media",
+        "acquisition"
+      ],
+      "commands": [
+        "../plugins/paid-media/commands/design-campaign.md",
+        "../plugins/paid-media/commands/launch-ads.md",
+        "../plugins/paid-media/commands/assess-performance.md"
+      ],
+      "agents": [
+        "../plugins/paid-media/agents/media-strategist.md",
+        "../plugins/paid-media/agents/channel-operator.md",
+        "../plugins/paid-media/agents/performance-analyst.md"
+      ],
+      "skills": [
+        "../plugins/paid-media/skills/campaign-architecture/SKILL.md",
+        "../plugins/paid-media/skills/creative-variants/SKILL.md",
+        "../plugins/paid-media/skills/budget-optimization/SKILL.md"
+      ]
+    },
+    {
+      "name": "pr-communications",
+      "source": "../plugins/pr-communications",
+      "description": "PR strategy, media outreach, and crisis communications",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "pr",
+        "communications",
+        "media"
+      ],
+      "commands": [
+        "../plugins/pr-communications/commands/plan-launch.md",
+        "../plugins/pr-communications/commands/pitch-media.md",
+        "../plugins/pr-communications/commands/manage-crisis.md"
+      ],
+      "agents": [
+        "../plugins/pr-communications/agents/communications-director.md",
+        "../plugins/pr-communications/agents/media-relations-lead.md",
+        "../plugins/pr-communications/agents/crisis-manager.md"
+      ],
+      "skills": [
+        "../plugins/pr-communications/skills/messaging-frameworks/SKILL.md",
+        "../plugins/pr-communications/skills/media-database/SKILL.md",
+        "../plugins/pr-communications/skills/crisis-playbooks/SKILL.md"
+      ]
+    },
+    {
+      "name": "product-marketing",
+      "source": "../plugins/product-marketing",
+      "description": "Positioning, launch orchestration, and competitive intelligence",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "product",
+        "marketing",
+        "launch"
+      ],
+      "commands": [
+        "../plugins/product-marketing/commands/blueprint-positioning.md",
+        "../plugins/product-marketing/commands/build-launch-plan.md",
+        "../plugins/product-marketing/commands/competitive-brief.md"
+      ],
+      "agents": [
+        "../plugins/product-marketing/agents/product-narrative-lead.md",
+        "../plugins/product-marketing/agents/launch-strategist.md",
+        "../plugins/product-marketing/agents/competitive-intel-lead.md"
+      ],
+      "skills": [
+        "../plugins/product-marketing/skills/positioning/SKILL.md",
+        "../plugins/product-marketing/skills/launch-plays/SKILL.md",
+        "../plugins/product-marketing/skills/competitive-intel/SKILL.md"
+      ]
+    },
+    {
+      "name": "event-marketing",
+      "source": "../plugins/event-marketing",
+      "description": "Event strategy, production, and post-event impact orchestration",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "events",
+        "field",
+        "experiential"
+      ],
+      "commands": [
+        "../plugins/event-marketing/commands/design-event.md",
+        "../plugins/event-marketing/commands/manage-production.md",
+        "../plugins/event-marketing/commands/follow-up-impact.md"
+      ],
+      "agents": [
+        "../plugins/event-marketing/agents/event-strategist.md",
+        "../plugins/event-marketing/agents/event-producer.md",
+        "../plugins/event-marketing/agents/field-program-manager.md"
+      ],
+      "skills": [
+        "../plugins/event-marketing/skills/event-briefs/SKILL.md",
+        "../plugins/event-marketing/skills/program-ops/SKILL.md",
+        "../plugins/event-marketing/skills/field-playbooks/SKILL.md"
+      ]
+    },
+    {
+      "name": "webinar-automation",
+      "source": "../plugins/webinar-automation",
+      "description": "Webinar program strategy, production automation, and engagement analytics",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "webinar",
+        "automation",
+        "virtual-events"
+      ],
+      "commands": [
+        "../plugins/webinar-automation/commands/plan-series.md",
+        "../plugins/webinar-automation/commands/configure-session.md",
+        "../plugins/webinar-automation/commands/analyze-performance.md"
+      ],
+      "agents": [
+        "../plugins/webinar-automation/agents/program-architect.md",
+        "../plugins/webinar-automation/agents/production-specialist.md",
+        "../plugins/webinar-automation/agents/engagement-analyst.md"
+      ],
+      "skills": [
+        "../plugins/webinar-automation/skills/webinar-design/SKILL.md",
+        "../plugins/webinar-automation/skills/registration-ops/SKILL.md",
+        "../plugins/webinar-automation/skills/engagement-analytics/SKILL.md"
+      ]
+    },
+    {
+      "name": "video-marketing",
+      "source": "../plugins/video-marketing",
+      "description": "Video strategy, creative production, and performance analytics",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "video",
+        "creative",
+        "content"
+      ],
+      "commands": [
+        "../plugins/video-marketing/commands/design-video-campaign.md",
+        "../plugins/video-marketing/commands/plan-production.md",
+        "../plugins/video-marketing/commands/report-performance.md"
+      ],
+      "agents": [
+        "../plugins/video-marketing/agents/video-strategist.md",
+        "../plugins/video-marketing/agents/video-creative-director.md",
+        "../plugins/video-marketing/agents/video-post-production-lead.md"
+      ],
+      "skills": [
+        "../plugins/video-marketing/skills/scriptwriting/SKILL.md",
+        "../plugins/video-marketing/skills/production-ops/SKILL.md",
+        "../plugins/video-marketing/skills/distribution-analytics/SKILL.md"
+      ]
+    },
+    {
+      "name": "copywriting",
+      "source": "../plugins/copywriting",
+      "description": "Message architecture, conversion copy, and brand voice governance",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "copywriting",
+        "messaging",
+        "creative"
+      ],
+      "commands": [
+        "../plugins/copywriting/commands/create-messaging-brief.md",
+        "../plugins/copywriting/commands/generate-channel-copy.md",
+        "../plugins/copywriting/commands/test-and-report.md"
+      ],
+      "agents": [
+        "../plugins/copywriting/agents/copy-strategist.md",
+        "../plugins/copywriting/agents/conversion-copywriter.md",
+        "../plugins/copywriting/agents/voice-editor.md"
+      ],
+      "skills": [
+        "../plugins/copywriting/skills/message-architecture/SKILL.md",
+        "../plugins/copywriting/skills/offer-testing/SKILL.md",
+        "../plugins/copywriting/skills/voice-guidelines/SKILL.md"
+      ]
+    },
+    {
+      "name": "customer-marketing",
+      "source": "../plugins/customer-marketing",
+      "description": "Customer lifecycle orchestration, adoption programs, and advocacy activation",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "customer",
+        "lifecycle",
+        "advocacy"
+      ],
+      "commands": [
+        "../plugins/customer-marketing/commands/design-lifecycle-journey.md",
+        "../plugins/customer-marketing/commands/launch-adoption-program.md",
+        "../plugins/customer-marketing/commands/activate-advocacy.md"
+      ],
+      "agents": [
+        "../plugins/customer-marketing/agents/lifecycle-strategist.md",
+        "../plugins/customer-marketing/agents/adoption-program-manager.md",
+        "../plugins/customer-marketing/agents/advocacy-lead.md"
+      ],
+      "skills": [
+        "../plugins/customer-marketing/skills/advocacy-programs/SKILL.md",
+        "../plugins/customer-marketing/skills/expansion-plays/SKILL.md",
+        "../plugins/customer-marketing/skills/customer-insights/SKILL.md"
+      ]
+    },
+    {
+      "name": "abm-orchestration",
+      "source": "../plugins/abm-orchestration",
+      "description": "Account-based marketing orchestrator coordinating tiering, plays, and analytics",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "abm",
+        "orchestration",
+        "account-based"
+      ],
+      "commands": [
+        "../plugins/abm-orchestration/commands/target-accounts.md",
+        "../plugins/abm-orchestration/commands/plan-plays.md",
+        "../plugins/abm-orchestration/commands/monitor-abm.md"
+      ],
+      "agents": [
+        "../plugins/abm-orchestration/agents/abm-strategist.md",
+        "../plugins/abm-orchestration/agents/account-planner.md",
+        "../plugins/abm-orchestration/agents/abm-analyst.md"
+      ],
+      "skills": [
+        "../plugins/abm-orchestration/skills/account-tiering/SKILL.md",
+        "../plugins/abm-orchestration/skills/personalization/SKILL.md",
+        "../plugins/abm-orchestration/skills/signal-intel/SKILL.md"
+      ]
+    },
+    {
+      "name": "lead-nurture-orchestration",
+      "source": "../plugins/lead-nurture-orchestration",
+      "description": "Lifecycle nurture orchestration across segments with automation builds and optimization",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "nurture",
+        "lifecycle",
+        "automation"
+      ],
+      "commands": [
+        "../plugins/lead-nurture-orchestration/commands/design-nurture.md",
+        "../plugins/lead-nurture-orchestration/commands/configure-branches.md",
+        "../plugins/lead-nurture-orchestration/commands/optimize-nurture.md"
+      ],
+      "agents": [
+        "../plugins/lead-nurture-orchestration/agents/nurture-architect.md",
+        "../plugins/lead-nurture-orchestration/agents/marketing-ops-partner.md",
+        "../plugins/lead-nurture-orchestration/agents/nurture-analytics-partner.md"
+      ],
+      "skills": [
+        "../plugins/lead-nurture-orchestration/skills/lifecycle-cadence/SKILL.md",
+        "../plugins/lead-nurture-orchestration/skills/personalization-logic/SKILL.md",
+        "../plugins/lead-nurture-orchestration/skills/nurture-testing/SKILL.md"
+      ]
+    },
+    {
+      "name": "product-launch-orchestration",
+      "source": "../plugins/product-launch-orchestration",
+      "description": "Product launch governance orchestrator covering war rooms, execution, and retros",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "launch",
+        "orchestration",
+        "gtm"
+      ],
+      "commands": [
+        "../plugins/product-launch-orchestration/commands/assemble-war-room.md",
+        "../plugins/product-launch-orchestration/commands/run-launch.md",
+        "../plugins/product-launch-orchestration/commands/post-launch-retro.md"
+      ],
+      "agents": [
+        "../plugins/product-launch-orchestration/agents/launch-director.md",
+        "../plugins/product-launch-orchestration/agents/workstream-lead.md",
+        "../plugins/product-launch-orchestration/agents/enablement-captain.md"
+      ],
+      "skills": [
+        "../plugins/product-launch-orchestration/skills/launch-tiering/SKILL.md",
+        "../plugins/product-launch-orchestration/skills/war-room-ops/SKILL.md",
+        "../plugins/product-launch-orchestration/skills/risk-playbooks/SKILL.md"
+      ]
+    },
+    {
+      "name": "content-pipeline-orchestration",
+      "source": "../plugins/content-pipeline-orchestration",
+      "description": "Content pillar orchestration from planning through production and distribution",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "content",
+        "orchestration",
+        "pipeline"
+      ],
+      "commands": [
+        "../plugins/content-pipeline-orchestration/commands/plan-pillar.md",
+        "../plugins/content-pipeline-orchestration/commands/manage-production.md",
+        "../plugins/content-pipeline-orchestration/commands/distribute-assets.md"
+      ],
+      "agents": [
+        "../plugins/content-pipeline-orchestration/agents/editorial-director.md",
+        "../plugins/content-pipeline-orchestration/agents/creative-producer.md",
+        "../plugins/content-pipeline-orchestration/agents/distribution-lead.md"
+      ],
+      "skills": [
+        "../plugins/content-pipeline-orchestration/skills/editorial-calendar/SKILL.md",
+        "../plugins/content-pipeline-orchestration/skills/asset-tracking/SKILL.md",
+        "../plugins/content-pipeline-orchestration/skills/distribution-checklist/SKILL.md"
+      ]
+    },
+    {
+      "name": "analytics-pipeline-orchestration",
+      "source": "../plugins/analytics-pipeline-orchestration",
+      "description": "Analytics pipeline orchestrator covering instrumentation, modeling, and dashboards",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "analytics",
+        "data",
+        "dashboard"
+      ],
+      "commands": [
+        "../plugins/analytics-pipeline-orchestration/commands/define-events.md",
+        "../plugins/analytics-pipeline-orchestration/commands/build-model.md",
+        "../plugins/analytics-pipeline-orchestration/commands/ship-dashboards.md"
+      ],
+      "agents": [
+        "../plugins/analytics-pipeline-orchestration/agents/analytics-data-strategist.md",
+        "../plugins/analytics-pipeline-orchestration/agents/analytics-modeling-lead.md",
+        "../plugins/analytics-pipeline-orchestration/agents/bi-publisher.md"
+      ],
+      "skills": [
+        "../plugins/analytics-pipeline-orchestration/skills/instrumentation/SKILL.md",
+        "../plugins/analytics-pipeline-orchestration/skills/quality-gates/SKILL.md",
+        "../plugins/analytics-pipeline-orchestration/skills/visualization-patterns/SKILL.md"
+      ]
+    },
+    {
+      "name": "email-sequence-orchestration",
+      "source": "../plugins/email-sequence-orchestration",
+      "description": "Lifecycle email orchestration for planning, automating, and analyzing multi-touch sequences",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "email",
+        "nurture",
+        "automation"
+      ],
+      "commands": [
+        "../plugins/email-sequence-orchestration/commands/plan-sequences.md",
+        "../plugins/email-sequence-orchestration/commands/automate-delivery.md",
+        "../plugins/email-sequence-orchestration/commands/analyze-sequences.md"
+      ],
+      "agents": [
+        "../plugins/email-sequence-orchestration/agents/email-architect.md",
+        "../plugins/email-sequence-orchestration/agents/deliverability-lead.md",
+        "../plugins/email-sequence-orchestration/agents/experiment-analyst.md"
+      ],
+      "skills": [
+        "../plugins/email-sequence-orchestration/skills/cadence-design/SKILL.md",
+        "../plugins/email-sequence-orchestration/skills/qa-gates/SKILL.md"
+      ]
+    },
+    {
+      "name": "sales-handoff-orchestration",
+      "source": "../plugins/sales-handoff-orchestration",
+      "description": "Route MQLs to sales with SLAs, enablement, and escalation paths",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "sales",
+        "handoff",
+        "revops"
+      ],
+      "commands": [
+        "../plugins/sales-handoff-orchestration/commands/define-handoff.md",
+        "../plugins/sales-handoff-orchestration/commands/run-standups.md",
+        "../plugins/sales-handoff-orchestration/commands/monitor-sla.md"
+      ],
+      "agents": [
+        "../plugins/sales-handoff-orchestration/agents/revops-director.md",
+        "../plugins/sales-handoff-orchestration/agents/lifecycle-coordinator.md",
+        "../plugins/sales-handoff-orchestration/agents/sales-manager.md"
+      ],
+      "skills": [
+        "../plugins/sales-handoff-orchestration/skills/routing-logic/SKILL.md",
+        "../plugins/sales-handoff-orchestration/skills/sla-tracking/SKILL.md",
+        "../plugins/sales-handoff-orchestration/skills/enablement-kit/SKILL.md"
+      ]
+    },
+    {
+      "name": "sales-pipeline",
+      "source": "../plugins/sales-pipeline",
+      "description": "Pipeline management toolkit covering audits, coverage modeling, and enablement",
+      "category": "sales",
+      "version": "1.0.0",
+      "keywords": [
+        "sales",
+        "pipeline",
+        "forecast"
+      ],
+      "commands": [
+        "../plugins/sales-pipeline/commands/audit-pipeline.md",
+        "../plugins/sales-pipeline/commands/forecast-coverage.md",
+        "../plugins/sales-pipeline/commands/enablement-kit.md"
+      ],
+      "agents": [
+        "../plugins/sales-pipeline/agents/pipeline-director.md",
+        "../plugins/sales-pipeline/agents/pipeline-analyst.md",
+        "../plugins/sales-pipeline/agents/forecast-coach.md"
+      ],
+      "skills": [
+        "../plugins/sales-pipeline/skills/crm-hygiene/SKILL.md",
+        "../plugins/sales-pipeline/skills/forecast-discipline/SKILL.md",
+        "../plugins/sales-pipeline/skills/deal-review/SKILL.md"
+      ]
+    },
+    {
+      "name": "sales-enablement",
+      "source": "../plugins/sales-enablement",
+      "description": "Sales enablement program design, content management, and reinforcement",
+      "category": "sales",
+      "version": "1.0.0",
+      "keywords": [
+        "sales",
+        "enablement",
+        "playbooks"
+      ],
+      "commands": [
+        "../plugins/sales-enablement/commands/build-playbook.md",
+        "../plugins/sales-enablement/commands/launch-program.md",
+        "../plugins/sales-enablement/commands/reinforce-program.md",
+        "../plugins/sales-enablement/commands/audit-content.md"
+      ],
+      "agents": [
+        "../plugins/sales-enablement/agents/enablement-strategist.md",
+        "../plugins/sales-enablement/agents/content-architect.md",
+        "../plugins/sales-enablement/agents/field-coach.md"
+      ],
+      "skills": [
+        "../plugins/sales-enablement/skills/messaging-framework/SKILL.md",
+        "../plugins/sales-enablement/skills/battlecard-system/SKILL.md",
+        "../plugins/sales-enablement/skills/reinforcement-loop/SKILL.md"
+      ]
+    },
+    {
+      "name": "sales-operations",
+      "source": "../plugins/sales-operations",
+      "description": "Sales operations planning covering territories, capacity, and compensation",
+      "category": "sales",
+      "version": "1.0.0",
+      "keywords": [
+        "sales",
+        "operations",
+        "revops"
+      ],
+      "commands": [
+        "../plugins/sales-operations/commands/design-territories.md",
+        "../plugins/sales-operations/commands/build-capacity-plan.md",
+        "../plugins/sales-operations/commands/design-comp-plan.md"
+      ],
+      "agents": [
+        "../plugins/sales-operations/agents/territory-architect.md",
+        "../plugins/sales-operations/agents/capacity-planner.md",
+        "../plugins/sales-operations/agents/compensation-architect.md"
+      ],
+      "skills": [
+        "../plugins/sales-operations/skills/territory-optimization/SKILL.md",
+        "../plugins/sales-operations/skills/capacity-modeling/SKILL.md",
+        "../plugins/sales-operations/skills/quota-health/SKILL.md",
+        "../plugins/sales-operations/skills/comp-mechanics/SKILL.md",
+        "../plugins/sales-operations/skills/roe-governance/SKILL.md"
+      ]
+    },
+    {
+      "name": "sales-coaching",
+      "source": "../plugins/sales-coaching",
+      "description": "Sales coaching programs for call reviews, cohorts, and reinforcement",
+      "category": "sales",
+      "version": "1.0.0",
+      "keywords": [
+        "sales",
+        "coaching",
+        "enablement"
+      ],
+      "commands": [
+        "../plugins/sales-coaching/commands/build-coaching-plan.md",
+        "../plugins/sales-coaching/commands/review-call.md",
+        "../plugins/sales-coaching/commands/launch-coaching-program.md"
+      ],
+      "agents": [
+        "../plugins/sales-coaching/agents/performance-coach.md",
+        "../plugins/sales-coaching/agents/call-analyst.md",
+        "../plugins/sales-coaching/agents/enablement-partner.md"
+      ],
+      "skills": [
+        "../plugins/sales-coaching/skills/coaching-framework/SKILL.md",
+        "../plugins/sales-coaching/skills/reinforcement-drills/SKILL.md",
+        "../plugins/sales-coaching/skills/call-highlights/SKILL.md"
+      ]
+    },
+    {
+      "name": "account-management",
+      "source": "../plugins/account-management",
+      "description": "Account management toolkit for success plans, QBRs, and expansions",
+      "category": "sales",
+      "version": "1.0.0",
+      "keywords": [
+        "account",
+        "success",
+        "expansion"
+      ],
+      "commands": [
+        "../plugins/account-management/commands/build-success-plan.md",
+        "../plugins/account-management/commands/plan-qbr.md",
+        "../plugins/account-management/commands/run-account-review.md"
+      ],
+      "agents": [
+        "../plugins/account-management/agents/relationship-director.md",
+        "../plugins/account-management/agents/account-health-analyst.md",
+        "../plugins/account-management/agents/success-planner.md"
+      ],
+      "skills": [
+        "../plugins/account-management/skills/success-planning-framework/SKILL.md",
+        "../plugins/account-management/skills/account-health-framework/SKILL.md",
+        "../plugins/account-management/skills/expansion-playbook/SKILL.md",
+        "../plugins/account-management/skills/exec-briefing/SKILL.md"
+      ]
+    },
+    {
+      "name": "sales-calls",
+      "source": "../plugins/sales-calls",
+      "description": "Sales call prep, live guidance, and post-call analysis workflows",
+      "category": "sales",
+      "version": "1.0.0",
+      "keywords": [
+        "sales",
+        "calls",
+        "coaching"
+      ],
+      "commands": [
+        "../plugins/sales-calls/commands/prepare-call.md",
+        "../plugins/sales-calls/commands/analyze-call.md",
+        "../plugins/sales-calls/commands/run-call-review.md"
+      ],
+      "agents": [
+        "../plugins/sales-calls/agents/call-strategist.md",
+        "../plugins/sales-calls/agents/conversation-engineer.md",
+        "../plugins/sales-calls/agents/deal-analyst.md"
+      ],
+      "skills": [
+        "../plugins/sales-calls/skills/call-brief-framework/SKILL.md",
+        "../plugins/sales-calls/skills/persona-intel/SKILL.md",
+        "../plugins/sales-calls/skills/call-analysis-framework/SKILL.md",
+        "../plugins/sales-calls/skills/call-review-kit/SKILL.md",
+        "../plugins/sales-calls/skills/meddic-checklist/SKILL.md"
+      ]
+    },
+    {
+      "name": "enterprise-sales",
+      "source": "../plugins/enterprise-sales",
+      "description": "Enterprise pursuit orchestration with value, procurement, and governance workflows",
+      "category": "sales",
+      "version": "1.0.0",
+      "keywords": [
+        "enterprise",
+        "pursuit",
+        "value"
+      ],
+      "commands": [
+        "../plugins/enterprise-sales/commands/plan-pursuit.md",
+        "../plugins/enterprise-sales/commands/build-value-narrative.md",
+        "../plugins/enterprise-sales/commands/navigate-procurement.md"
+      ],
+      "agents": [
+        "../plugins/enterprise-sales/agents/pursuit-director.md",
+        "../plugins/enterprise-sales/agents/value-architect.md",
+        "../plugins/enterprise-sales/agents/procurement-strategist.md"
+      ],
+      "skills": [
+        "../plugins/enterprise-sales/skills/pursuit-governance/SKILL.md",
+        "../plugins/enterprise-sales/skills/risk-register/SKILL.md",
+        "../plugins/enterprise-sales/skills/value-story-framework/SKILL.md",
+        "../plugins/enterprise-sales/skills/cxo-briefing-kit/SKILL.md",
+        "../plugins/enterprise-sales/skills/procurement-playbook/SKILL.md"
+      ]
+    },
+    {
+      "name": "design-creative",
+      "source": "../plugins/design-creative",
+      "description": "Creative strategy, production, and brand governance workflows",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "design",
+        "creative",
+        "brand"
+      ],
+      "commands": [
+        "../plugins/design-creative/commands/develop-concepts.md",
+        "../plugins/design-creative/commands/manage-production.md",
+        "../plugins/design-creative/commands/launch-brand-kit.md"
+      ],
+      "agents": [
+        "../plugins/design-creative/agents/creative-director.md",
+        "../plugins/design-creative/agents/design-ops-lead.md",
+        "../plugins/design-creative/agents/brand-strategist.md"
+      ],
+      "skills": [
+        "../plugins/design-creative/skills/creative-brief-framework/SKILL.md",
+        "../plugins/design-creative/skills/mood-board-builder/SKILL.md",
+        "../plugins/design-creative/skills/brand-governance/SKILL.md",
+        "../plugins/design-creative/skills/production-playbook/SKILL.md",
+        "../plugins/design-creative/skills/creative-qa-checklist/SKILL.md",
+        "../plugins/design-creative/skills/enablement-kit/SKILL.md"
+      ]
+    },
+    {
+      "name": "pricing-strategy",
+      "source": "../plugins/pricing-strategy",
+      "description": "Pricing & packaging design, monetization modeling, and governance",
+      "category": "revenue",
+      "version": "1.0.0",
+      "keywords": [
+        "pricing",
+        "packaging",
+        "monetization"
+      ],
+      "commands": [
+        "../plugins/pricing-strategy/commands/design-packaging.md",
+        "../plugins/pricing-strategy/commands/simulate-pricing-impact.md",
+        "../plugins/pricing-strategy/commands/run-pricing-council.md"
+      ],
+      "agents": [
+        "../plugins/pricing-strategy/agents/pricing-architect.md",
+        "../plugins/pricing-strategy/agents/monetization-analyst.md",
+        "../plugins/pricing-strategy/agents/deal-desk-partner.md"
+      ],
+      "skills": [
+        "../plugins/pricing-strategy/skills/packaging-framework/SKILL.md",
+        "../plugins/pricing-strategy/skills/value-messaging/SKILL.md",
+        "../plugins/pricing-strategy/skills/elasticity-lab/SKILL.md",
+        "../plugins/pricing-strategy/skills/pricing-governance/SKILL.md",
+        "../plugins/pricing-strategy/skills/enablement-kit/SKILL.md"
+      ]
+    },
+    {
+      "name": "customer-analytics",
+      "source": "../plugins/customer-analytics",
+      "description": "Customer segmentation, retention analytics, and insight synthesis",
+      "category": "analytics",
+      "version": "1.0.0",
+      "keywords": [
+        "customer",
+        "segmentation",
+        "retention"
+      ],
+      "commands": [
+        "../plugins/customer-analytics/commands/segment-customers.md",
+        "../plugins/customer-analytics/commands/monitor-retention.md",
+        "../plugins/customer-analytics/commands/synthesize-insights.md"
+      ],
+      "agents": [
+        "../plugins/customer-analytics/agents/segmentation-architect.md",
+        "../plugins/customer-analytics/agents/retention-analyst.md",
+        "../plugins/customer-analytics/agents/customer-insights-partner.md"
+      ],
+      "skills": [
+        "../plugins/customer-analytics/skills/segmentation-framework/SKILL.md",
+        "../plugins/customer-analytics/skills/activation-map/SKILL.md",
+        "../plugins/customer-analytics/skills/retention-dashboard/SKILL.md",
+        "../plugins/customer-analytics/skills/save-play-library/SKILL.md"
+      ]
+    },
+    {
+      "name": "data-signal-enrichment",
+      "source": "../plugins/data-signal-enrichment",
+      "description": "Signal normalization, provider orchestration, and data quality governance",
+      "category": "data",
+      "version": "1.0.0",
+      "keywords": [
+        "data",
+        "enrichment",
+        "signals"
+      ],
+      "commands": [
+        "../plugins/data-signal-enrichment/commands/run-waterfall-enrichment.md",
+        "../plugins/data-signal-enrichment/commands/normalize-signals.md",
+        "../plugins/data-signal-enrichment/commands/audit-provider-health.md"
+      ],
+      "agents": [
+        "../plugins/data-signal-enrichment/agents/signal-integrator.md",
+        "../plugins/data-signal-enrichment/agents/provider-ops-lead.md",
+        "../plugins/data-signal-enrichment/agents/data-quality-steward.md"
+      ],
+      "skills": [
+        "../plugins/data-signal-enrichment/skills/waterfall-blueprint/SKILL.md",
+        "../plugins/data-signal-enrichment/skills/provider-scorecard/SKILL.md",
+        "../plugins/data-signal-enrichment/skills/signal-taxonomy/SKILL.md",
+        "../plugins/data-signal-enrichment/skills/identity-resolution/SKILL.md",
+        "../plugins/data-signal-enrichment/skills/validation-rulebook/SKILL.md"
+      ]
+    },
+    {
+      "name": "growth-experiments",
+      "source": "../plugins/growth-experiments",
+      "description": "Experiment backlog, launch, and learning governance across the funnel",
+      "category": "growth",
+      "version": "1.0.0",
+      "keywords": [
+        "experimentation",
+        "growth",
+        "testing"
+      ],
+      "commands": [
+        "../plugins/growth-experiments/commands/prioritize-hypotheses.md",
+        "../plugins/growth-experiments/commands/launch-experiment.md",
+        "../plugins/growth-experiments/commands/synthesize-learnings.md"
+      ],
+      "agents": [
+        "../plugins/growth-experiments/agents/experimentation-strategist.md",
+        "../plugins/growth-experiments/agents/test-engineer.md",
+        "../plugins/growth-experiments/agents/insight-analyst.md"
+      ],
+      "skills": [
+        "../plugins/growth-experiments/skills/hypothesis-library/SKILL.md",
+        "../plugins/growth-experiments/skills/experiment-design-kit/SKILL.md",
+        "../plugins/growth-experiments/skills/guardrail-scorecard/SKILL.md"
+      ]
+    },
+    {
+      "name": "revenue-analytics",
+      "source": "../plugins/revenue-analytics",
+      "description": "Revenue intelligence dashboards, pipeline diagnostics, and forecast scenarios",
+      "category": "analytics",
+      "version": "1.0.0",
+      "keywords": [
+        "revenue",
+        "analytics",
+        "forecast"
+      ],
+      "commands": [
+        "../plugins/revenue-analytics/commands/monitor-revenue-health.md",
+        "../plugins/revenue-analytics/commands/inspect-pipeline-levers.md",
+        "../plugins/revenue-analytics/commands/build-forecast-scenarios.md"
+      ],
+      "agents": [
+        "../plugins/revenue-analytics/agents/revenue-intelligence-director.md",
+        "../plugins/revenue-analytics/agents/pipeline-analytics-lead.md",
+        "../plugins/revenue-analytics/agents/revenue-forecasting-analyst.md"
+      ],
+      "skills": [
+        "../plugins/revenue-analytics/skills/cohort-analysis/SKILL.md",
+        "../plugins/revenue-analytics/skills/deal-quality-model/SKILL.md",
+        "../plugins/revenue-analytics/skills/revenue-health-dashboard/SKILL.md",
+        "../plugins/revenue-analytics/skills/exec-briefing-kit/SKILL.md"
+      ]
+    },
+    {
+      "name": "marketing-analytics",
+      "source": "../plugins/marketing-analytics",
+      "description": "Cross-channel marketing KPI frameworks, pacing guardrails, and attribution governance",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "marketing",
+        "analytics",
+        "attribution"
+      ],
+      "commands": [
+        "../plugins/marketing-analytics/commands/produce-campaign-report.md",
+        "../plugins/marketing-analytics/commands/monitor-channel-pacing.md",
+        "../plugins/marketing-analytics/commands/evaluate-attribution-models.md"
+      ],
+      "agents": [
+        "../plugins/marketing-analytics/agents/marketing-intelligence-lead.md",
+        "../plugins/marketing-analytics/agents/channel-performance-analyst.md",
+        "../plugins/marketing-analytics/agents/attribution-architect.md"
+      ],
+      "skills": [
+        "../plugins/marketing-analytics/skills/attribution-playbook/SKILL.md",
+        "../plugins/marketing-analytics/skills/roi-benchmark-library/SKILL.md",
+        "../plugins/marketing-analytics/skills/channel-pacing-guardrails/SKILL.md",
+        "../plugins/marketing-analytics/skills/exec-dashboard-blueprint/SKILL.md"
+      ]
+    },
+    {
+      "name": "product-led-growth",
+      "source": "../plugins/product-led-growth",
+      "description": "Self-serve onboarding, PQL routing, and in-app experiment governance",
+      "category": "growth",
+      "version": "1.0.0",
+      "keywords": [
+        "plg",
+        "product",
+        "growth"
+      ],
+      "commands": [
+        "../plugins/product-led-growth/commands/design-onboarding-journey.md",
+        "../plugins/product-led-growth/commands/operationalize-pql-routing.md",
+        "../plugins/product-led-growth/commands/launch-in-app-experiments.md"
+      ],
+      "agents": [
+        "../plugins/product-led-growth/agents/product-adoption-strategist.md",
+        "../plugins/product-led-growth/agents/pql-ops-lead.md",
+        "../plugins/product-led-growth/agents/usage-growth-scientist.md"
+      ],
+      "skills": [
+        "../plugins/product-led-growth/skills/onboarding-blueprint/SKILL.md",
+        "../plugins/product-led-growth/skills/pql-framework/SKILL.md",
+        "../plugins/product-led-growth/skills/in-app-messaging-kit/SKILL.md",
+        "../plugins/product-led-growth/skills/usage-health-scorecard/SKILL.md"
+      ]
+    },
+    {
+      "name": "customer-success",
+      "source": "../plugins/customer-success",
+      "description": "Customer health monitoring, adoption programs, and escalation governance",
+      "category": "success",
+      "version": "1.0.0",
+      "keywords": [
+        "customer",
+        "success",
+        "retention"
+      ],
+      "commands": [
+        "../plugins/customer-success/commands/monitor-customer-health.md",
+        "../plugins/customer-success/commands/build-adoption-program.md",
+        "../plugins/customer-success/commands/run-escalation-playbook.md"
+      ],
+      "agents": [
+        "../plugins/customer-success/agents/customer-health-director.md",
+        "../plugins/customer-success/agents/adoption-program-manager.md",
+        "../plugins/customer-success/agents/escalation-strategist.md"
+      ],
+      "skills": [
+        "../plugins/customer-success/skills/adoption-playbook/SKILL.md",
+        "../plugins/customer-success/skills/risk-scoring-framework/SKILL.md",
+        "../plugins/customer-success/skills/executive-ebr-kit/SKILL.md",
+        "../plugins/customer-success/skills/sentiment-feedback-loop/SKILL.md"
+      ]
+    },
+    {
+      "name": "business-intelligence",
+      "source": "../plugins/business-intelligence",
+      "description": "BI roadmap governance, data contracts, dashboards, and executive briefings",
+      "category": "analytics",
+      "version": "1.0.0",
+      "keywords": [
+        "bi",
+        "analytics",
+        "dashboard"
+      ],
+      "commands": [
+        "../plugins/business-intelligence/commands/plan-bi-roadmap.md",
+        "../plugins/business-intelligence/commands/build-exec-dashboard.md",
+        "../plugins/business-intelligence/commands/audit-data-contracts.md"
+      ],
+      "agents": [
+        "../plugins/business-intelligence/agents/insights-program-director.md",
+        "../plugins/business-intelligence/agents/data-architecture-lead.md",
+        "../plugins/business-intelligence/agents/analytics-enablement-partner.md"
+      ],
+      "skills": [
+        "../plugins/business-intelligence/skills/metric-governance-kit/SKILL.md",
+        "../plugins/business-intelligence/skills/dashboard-playbook/SKILL.md",
+        "../plugins/business-intelligence/skills/data-contract-framework/SKILL.md",
+        "../plugins/business-intelligence/skills/executive-kpi-briefings/SKILL.md"
+      ]
+    },
+    {
+      "name": "partnership-development",
+      "source": "../plugins/partnership-development",
+      "description": "Partner strategy, co-selling, and co-marketing governance for ecosystem growth",
+      "category": "growth",
+      "version": "1.0.0",
+      "keywords": [
+        "partners",
+        "ecosystem",
+        "alliances"
+      ],
+      "commands": [
+        "../plugins/partnership-development/commands/design-partner-ecosystem.md",
+        "../plugins/partnership-development/commands/build-co-sell-playbook.md",
+        "../plugins/partnership-development/commands/run-partner-qbr.md"
+      ],
+      "agents": [
+        "../plugins/partnership-development/agents/partner-strategy-director.md",
+        "../plugins/partnership-development/agents/partner-co-sell-lead.md",
+        "../plugins/partnership-development/agents/partner-program-architect.md"
+      ],
+      "skills": [
+        "../plugins/partnership-development/skills/partner-ecosystem-map/SKILL.md",
+        "../plugins/partnership-development/skills/joint-solution-blueprint/SKILL.md",
+        "../plugins/partnership-development/skills/partner-revenue-desk/SKILL.md",
+        "../plugins/partnership-development/skills/co-marketing-governance/SKILL.md"
+      ]
+    },
+    {
+      "name": "b2b-saas",
+      "source": "../plugins/b2b-saas",
+      "description": "Industry POVs, land/adopt/expand orchestration, and board-ready SaaS narratives",
+      "category": "industry",
+      "version": "1.0.0",
+      "keywords": [
+        "saas",
+        "industry",
+        "enterprise"
+      ],
+      "commands": [
+        "../plugins/b2b-saas/commands/create-industry-playbook.md",
+        "../plugins/b2b-saas/commands/build-land-adopt-expand-plan.md",
+        "../plugins/b2b-saas/commands/prepare-board-readout.md"
+      ],
+      "agents": [
+        "../plugins/b2b-saas/agents/industry-strategist.md",
+        "../plugins/b2b-saas/agents/value-ops-lead.md",
+        "../plugins/b2b-saas/agents/land-adopt-expand-director.md"
+      ],
+      "skills": [
+        "../plugins/b2b-saas/skills/land-adopt-expand-blueprint/SKILL.md",
+        "../plugins/b2b-saas/skills/vertical-solution-templates/SKILL.md",
+        "../plugins/b2b-saas/skills/board-readiness-kit/SKILL.md",
+        "../plugins/b2b-saas/skills/usage-to-value-map/SKILL.md"
+      ]
+    },
+    {
+      "name": "e-commerce",
+      "source": "../plugins/e-commerce",
+      "description": "Conversion diagnostics, merchandising orchestration, and retention programs for DTC teams",
+      "category": "industry",
+      "version": "1.0.0",
+      "keywords": [
+        "ecommerce",
+        "retail",
+        "dtc"
+      ],
+      "commands": [
+        "../plugins/e-commerce/commands/diagnose-conversion-drop.md",
+        "../plugins/e-commerce/commands/plan-merchandising-campaign.md",
+        "../plugins/e-commerce/commands/launch-retention-program.md"
+      ],
+      "agents": [
+        "../plugins/e-commerce/agents/growth-merchandising-director.md",
+        "../plugins/e-commerce/agents/conversion-ops-lead.md",
+        "../plugins/e-commerce/agents/lifecycle-retention-architect.md"
+      ],
+      "skills": [
+        "../plugins/e-commerce/skills/conversion-diagnostic-kit/SKILL.md",
+        "../plugins/e-commerce/skills/merchandising-blueprint/SKILL.md",
+        "../plugins/e-commerce/skills/retention-ltv-playbook/SKILL.md",
+        "../plugins/e-commerce/skills/site-performance-watch/SKILL.md"
+      ]
+    },
+    {
+      "name": "healthcare-marketing",
+      "source": "../plugins/healthcare-marketing",
+      "description": "Clinical campaign orchestration with compliance, patient journeys, and regulatory workflows",
+      "category": "industry",
+      "version": "1.0.0",
+      "keywords": [
+        "healthcare",
+        "hipaa",
+        "clinical"
+      ],
+      "commands": [
+        "../plugins/healthcare-marketing/commands/run-compliance-review.md",
+        "../plugins/healthcare-marketing/commands/design-clinical-campaign.md",
+        "../plugins/healthcare-marketing/commands/orchestrate-patient-journey.md"
+      ],
+      "agents": [
+        "../plugins/healthcare-marketing/agents/compliance-marketing-director.md",
+        "../plugins/healthcare-marketing/agents/clinical-campaign-strategist.md",
+        "../plugins/healthcare-marketing/agents/patient-engagement-program-manager.md"
+      ],
+      "skills": [
+        "../plugins/healthcare-marketing/skills/compliance-briefing-kit/SKILL.md",
+        "../plugins/healthcare-marketing/skills/clinical-proof-library/SKILL.md",
+        "../plugins/healthcare-marketing/skills/patient-journey-mapping/SKILL.md",
+        "../plugins/healthcare-marketing/skills/regulatory-review-checklist/SKILL.md"
+      ]
+    },
+    {
+      "name": "financial-services",
+      "source": "../plugins/financial-services",
+      "description": "Financial GTM compliance, trust communications, and product launch governance",
+      "category": "industry",
+      "version": "1.0.0",
+      "keywords": [
+        "financial",
+        "compliance",
+        "trust"
+      ],
+      "commands": [
+        "../plugins/financial-services/commands/review-financial-campaign.md",
+        "../plugins/financial-services/commands/build-product-go-to-market.md",
+        "../plugins/financial-services/commands/manage-trust-communications.md"
+      ],
+      "agents": [
+        "../plugins/financial-services/agents/trust-compliance-director.md",
+        "../plugins/financial-services/agents/financial-product-strategist.md",
+        "../plugins/financial-services/agents/trust-communications-lead.md"
+      ],
+      "skills": [
+        "../plugins/financial-services/skills/compliance-statement-library/SKILL.md",
+        "../plugins/financial-services/skills/regulator-briefing-playbook/SKILL.md",
+        "../plugins/financial-services/skills/financial-product-blueprint/SKILL.md",
+        "../plugins/financial-services/skills/customer-trust-dashboard/SKILL.md"
+      ]
+    },
+    {
+      "name": "edtech-growth",
+      "source": "../plugins/edtech-growth",
+      "description": "Enrollment growth, curriculum partnerships, and student success programs for EdTech teams",
+      "category": "industry",
+      "version": "1.0.0",
+      "keywords": [
+        "edtech",
+        "education",
+        "enrollment"
+      ],
+      "commands": [
+        "../plugins/edtech-growth/commands/analyze-enrollment-funnel.md",
+        "../plugins/edtech-growth/commands/design-curriculum-partnership.md",
+        "../plugins/edtech-growth/commands/launch-student-success-program.md"
+      ],
+      "agents": [
+        "../plugins/edtech-growth/agents/enrollment-growth-strategist.md",
+        "../plugins/edtech-growth/agents/curriculum-partnership-lead.md",
+        "../plugins/edtech-growth/agents/student-success-program-manager.md"
+      ],
+      "skills": [
+        "../plugins/edtech-growth/skills/enrollment-persona-playbook/SKILL.md",
+        "../plugins/edtech-growth/skills/curriculum-alignment-kit/SKILL.md",
+        "../plugins/edtech-growth/skills/student-success-scorecard/SKILL.md",
+        "../plugins/edtech-growth/skills/community-advocacy-toolkit/SKILL.md"
+      ]
+    },
+    {
+      "name": "manufacturing-sales",
+      "source": "../plugins/manufacturing-sales",
+      "description": "Long-cycle manufacturing pursuits with technical bids and partner integrations",
+      "category": "industry",
+      "version": "1.0.0",
+      "keywords": [
+        "manufacturing",
+        "industrial",
+        "pursuit"
+      ],
+      "commands": [
+        "../plugins/manufacturing-sales/commands/qualify-industrial-opportunity.md",
+        "../plugins/manufacturing-sales/commands/build-technical-bid-plan.md",
+        "../plugins/manufacturing-sales/commands/run-deal-health-review.md"
+      ],
+      "agents": [
+        "../plugins/manufacturing-sales/agents/industrial-account-director.md",
+        "../plugins/manufacturing-sales/agents/technical-solutions-architect.md",
+        "../plugins/manufacturing-sales/agents/channel-integration-program-manager.md"
+      ],
+      "skills": [
+        "../plugins/manufacturing-sales/skills/account-based-blueprint/SKILL.md",
+        "../plugins/manufacturing-sales/skills/technical-bid-library/SKILL.md",
+        "../plugins/manufacturing-sales/skills/deal-health-dashboard/SKILL.md",
+        "../plugins/manufacturing-sales/skills/partner-integration-kit/SKILL.md"
+      ]
+    },
+    {
+      "name": "social-media-marketing",
+      "source": "../plugins/social-media-marketing",
+      "description": "Cross-channel social strategy, experimentation, and community governance",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "social",
+        "community",
+        "content"
+      ],
+      "commands": [
+        "../plugins/social-media-marketing/commands/plan-channel-roadmap.md",
+        "../plugins/social-media-marketing/commands/build-social-calendar.md",
+        "../plugins/social-media-marketing/commands/monitor-community-sentiment.md"
+      ],
+      "agents": [
+        "../plugins/social-media-marketing/agents/social-strategy-director.md",
+        "../plugins/social-media-marketing/agents/community-insights-lead.md",
+        "../plugins/social-media-marketing/agents/campaign-optimization-manager.md"
+      ],
+      "skills": [
+        "../plugins/social-media-marketing/skills/channel-roadmap-kit/SKILL.md",
+        "../plugins/social-media-marketing/skills/social-calendar-system/SKILL.md",
+        "../plugins/social-media-marketing/skills/community-sentiment-dashboard/SKILL.md",
+        "../plugins/social-media-marketing/skills/creative-iteration-playbook/SKILL.md"
+      ]
+    },
+    {
+      "name": "technical-writing",
+      "source": "../plugins/technical-writing",
+      "description": "Documentation strategy, API references, and release communication workflows",
+      "category": "content",
+      "version": "1.0.0",
+      "keywords": [
+        "documentation",
+        "api",
+        "release"
+      ],
+      "commands": [
+        "../plugins/technical-writing/commands/plan-documentation-roadmap.md",
+        "../plugins/technical-writing/commands/publish-release-documentation.md",
+        "../plugins/technical-writing/commands/update-api-reference.md"
+      ],
+      "agents": [
+        "../plugins/technical-writing/agents/documentation-architect.md",
+        "../plugins/technical-writing/agents/api-docs-editor.md",
+        "../plugins/technical-writing/agents/release-documentation-manager.md"
+      ],
+      "skills": [
+        "../plugins/technical-writing/skills/doc-requirements-matrix/SKILL.md",
+        "../plugins/technical-writing/skills/api-style-guide/SKILL.md",
+        "../plugins/technical-writing/skills/quality-review-checklist/SKILL.md",
+        "../plugins/technical-writing/skills/versioning-dashboard/SKILL.md"
+      ]
+    },
+    {
+      "name": "competitive-intelligence",
+      "source": "../plugins/competitive-intelligence",
+      "description": "Competitive intel research, battlecards, and win/loss programs",
+      "category": "strategy",
+      "version": "1.0.0",
+      "keywords": [
+        "competitive",
+        "intel",
+        "win-loss"
+      ],
+      "commands": [
+        "../plugins/competitive-intelligence/commands/analyze-competitive-landscape.md",
+        "../plugins/competitive-intelligence/commands/build-battlecard-suite.md",
+        "../plugins/competitive-intelligence/commands/run-win-loss-program.md"
+      ],
+      "agents": [
+        "../plugins/competitive-intelligence/agents/market-insights-director.md",
+        "../plugins/competitive-intelligence/agents/battlecard-program-manager.md",
+        "../plugins/competitive-intelligence/agents/win-loss-analyst.md"
+      ],
+      "skills": [
+        "../plugins/competitive-intelligence/skills/battlecard-library/SKILL.md",
+        "../plugins/competitive-intelligence/skills/win-loss-dataset/SKILL.md",
+        "../plugins/competitive-intelligence/skills/market-signal-tracker/SKILL.md",
+        "../plugins/competitive-intelligence/skills/executive-briefing-kit/SKILL.md"
+      ]
+    },
+    {
+      "name": "voice-of-customer",
+      "source": "../plugins/voice-of-customer",
+      "description": "Voice of Customer programs, insight synthesis, and advocacy activation",
+      "category": "customer",
+      "version": "1.0.0",
+      "keywords": [
+        "voc",
+        "customer",
+        "insights"
+      ],
+      "commands": [
+        "../plugins/voice-of-customer/commands/run-voc-listening-tour.md",
+        "../plugins/voice-of-customer/commands/synthesize-voc-insights.md",
+        "../plugins/voice-of-customer/commands/activate-advocacy-program.md"
+      ],
+      "agents": [
+        "../plugins/voice-of-customer/agents/voc-program-director.md",
+        "../plugins/voice-of-customer/agents/customer-insights-lab-analyst.md",
+        "../plugins/voice-of-customer/agents/customer-advocacy-strategist.md"
+      ],
+      "skills": [
+        "../plugins/voice-of-customer/skills/customer-feedback-taxonomy/SKILL.md",
+        "../plugins/voice-of-customer/skills/closed-loop-playbook/SKILL.md",
+        "../plugins/voice-of-customer/skills/signal-correlation-workbench/SKILL.md",
+        "../plugins/voice-of-customer/skills/advocacy-roster-system/SKILL.md"
+      ]
+    },
+    {
+      "name": "market-research",
+      "source": "../plugins/market-research",
+      "description": "Market research programs covering landscape studies, qual labs, and quant surveys",
+      "category": "strategy",
+      "version": "1.0.0",
+      "keywords": [
+        "research",
+        "insights",
+        "market"
+      ],
+      "commands": [
+        "../plugins/market-research/commands/run-market-landscape-study.md",
+        "../plugins/market-research/commands/orchestrate-qualitative-lab.md",
+        "../plugins/market-research/commands/launch-quantitative-survey.md"
+      ],
+      "agents": [
+        "../plugins/market-research/agents/insights-research-director.md",
+        "../plugins/market-research/agents/qualitative-field-lead.md",
+        "../plugins/market-research/agents/quant-insights-architect.md"
+      ],
+      "skills": [
+        "../plugins/market-research/skills/research-brief-blueprint/SKILL.md",
+        "../plugins/market-research/skills/participant-operations-hub/SKILL.md",
+        "../plugins/market-research/skills/insights-repository-kit/SKILL.md",
+        "../plugins/market-research/skills/market-scenario-modeler/SKILL.md"
+      ]
+    },
+    {
+      "name": "brand-strategy",
+      "source": "../plugins/brand-strategy",
+      "description": "Brand platform design, creative systems, and governance operations",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "brand",
+        "positioning",
+        "governance"
+      ],
+      "commands": [
+        "../plugins/brand-strategy/commands/define-brand-platform.md",
+        "../plugins/brand-strategy/commands/design-multi-channel-brand-experience.md",
+        "../plugins/brand-strategy/commands/run-brand-governance-council.md"
+      ],
+      "agents": [
+        "../plugins/brand-strategy/agents/brand-foundation-architect.md",
+        "../plugins/brand-strategy/agents/brand-experience-creative-director.md",
+        "../plugins/brand-strategy/agents/brand-governance-lead.md"
+      ],
+      "skills": [
+        "../plugins/brand-strategy/skills/brand-narrative-playbook/SKILL.md",
+        "../plugins/brand-strategy/skills/brand-voice-glossary/SKILL.md",
+        "../plugins/brand-strategy/skills/experience-system-blueprint/SKILL.md",
+        "../plugins/brand-strategy/skills/brand-measurement-dashboard/SKILL.md",
+        "../plugins/brand-strategy/skills/brand-governance-os/SKILL.md"
+      ]
+    },
+    {
+      "name": "community-building",
+      "source": "../plugins/community-building",
+      "description": "Community ecosystem strategy, programming, insights, and governance",
+      "category": "marketing",
+      "version": "1.0.0",
+      "keywords": [
+        "community",
+        "advocacy",
+        "engagement"
+      ],
+      "commands": [
+        "../plugins/community-building/commands/design-community-strategy.md",
+        "../plugins/community-building/commands/launch-community-activation-series.md",
+        "../plugins/community-building/commands/run-member-insight-sprint.md"
+      ],
+      "agents": [
+        "../plugins/community-building/agents/community-ecosystem-strategist.md",
+        "../plugins/community-building/agents/community-operations-lead.md",
+        "../plugins/community-building/agents/member-insights-advocate.md"
+      ],
+      "skills": [
+        "../plugins/community-building/skills/community-program-matrix/SKILL.md",
+        "../plugins/community-building/skills/community-kpi-dashboard/SKILL.md",
+        "../plugins/community-building/skills/moderation-safety-playbook/SKILL.md",
+        "../plugins/community-building/skills/champion-engagement-system/SKILL.md",
+        "../plugins/community-building/skills/community-insight-taxonomy/SKILL.md",
+        "../plugins/community-building/skills/closed-loop-community-playbook/SKILL.md"
+      ]
+    },
+    {
+      "name": "personalization-engine",
+      "source": "../plugins/personalization-engine",
+      "description": "Personalization orchestration covering profiles, decision rules, and governance",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "personalization",
+        "decisioning",
+        "automation"
+      ],
+      "commands": [
+        "../plugins/personalization-engine/commands/define-profiles.md",
+        "../plugins/personalization-engine/commands/configure-rules.md",
+        "../plugins/personalization-engine/commands/monitor-personalization.md"
+      ],
+      "agents": [
+        "../plugins/personalization-engine/agents/personalization-architect.md",
+        "../plugins/personalization-engine/agents/customer-data-engineer.md",
+        "../plugins/personalization-engine/agents/personalization-testing-lead.md"
+      ],
+      "skills": [
+        "../plugins/personalization-engine/skills/decision-trees/SKILL.md",
+        "../plugins/personalization-engine/skills/content-variants/SKILL.md",
+        "../plugins/personalization-engine/skills/governance/SKILL.md"
+      ]
+    },
+    {
+      "name": "social-scheduler-orchestration",
+      "source": "../plugins/social-scheduler-orchestration",
+      "description": "Cross-network social scheduling orchestrator with approvals and performance insights",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "social",
+        "scheduler",
+        "calendar"
+      ],
+      "commands": [
+        "../plugins/social-scheduler-orchestration/commands/plan-calendar.md",
+        "../plugins/social-scheduler-orchestration/commands/route-approvals.md",
+        "../plugins/social-scheduler-orchestration/commands/analyze-social.md"
+      ],
+      "agents": [
+        "../plugins/social-scheduler-orchestration/agents/social-program-manager.md",
+        "../plugins/social-scheduler-orchestration/agents/asset-coordinator.md",
+        "../plugins/social-scheduler-orchestration/agents/social-analytics-partner.md"
+      ],
+      "skills": [
+        "../plugins/social-scheduler-orchestration/skills/calendar-governance/SKILL.md",
+        "../plugins/social-scheduler-orchestration/skills/brand-guardrails/SKILL.md",
+        "../plugins/social-scheduler-orchestration/skills/performance-metrics/SKILL.md"
+      ]
+    },
+    {
+      "name": "seo-workflow-orchestration",
+      "source": "../plugins/seo-workflow-orchestration",
+      "description": "SEO workflow orchestration from keyword strategy through technical diagnostics",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "seo",
+        "workflow",
+        "search"
+      ],
+      "commands": [
+        "../plugins/seo-workflow-orchestration/commands/prioritize-keywords.md",
+        "../plugins/seo-workflow-orchestration/commands/deploy-optimizations.md",
+        "../plugins/seo-workflow-orchestration/commands/audit-technical.md"
+      ],
+      "agents": [
+        "../plugins/seo-workflow-orchestration/agents/seo-director.md",
+        "../plugins/seo-workflow-orchestration/agents/on-page-lead.md",
+        "../plugins/seo-workflow-orchestration/agents/technical-analyst.md"
+      ],
+      "skills": [
+        "../plugins/seo-workflow-orchestration/skills/keyword-strategy/SKILL.md",
+        "../plugins/seo-workflow-orchestration/skills/publishing-process/SKILL.md",
+        "../plugins/seo-workflow-orchestration/skills/diagnostics/SKILL.md"
+      ]
+    },
+    {
+      "name": "revenue-forecasting-pipeline",
+      "source": "../plugins/revenue-forecasting-pipeline",
+      "description": "Revenue forecasting orchestrator covering pipeline ingestion, scenarios, and variance reporting",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "revenue",
+        "forecast",
+        "pipeline"
+      ],
+      "commands": [
+        "../plugins/revenue-forecasting-pipeline/commands/ingest-pipeline.md",
+        "../plugins/revenue-forecasting-pipeline/commands/run-forecast.md",
+        "../plugins/revenue-forecasting-pipeline/commands/report-variance.md"
+      ],
+      "agents": [
+        "../plugins/revenue-forecasting-pipeline/agents/forecast-architect.md",
+        "../plugins/revenue-forecasting-pipeline/agents/revops-analyst.md",
+        "../plugins/revenue-forecasting-pipeline/agents/finance-partner.md"
+      ],
+      "skills": [
+        "../plugins/revenue-forecasting-pipeline/skills/forecast-modeling/SKILL.md",
+        "../plugins/revenue-forecasting-pipeline/skills/variance-analysis/SKILL.md",
+        "../plugins/revenue-forecasting-pipeline/skills/executive-briefs/SKILL.md"
+      ]
+    },
+    {
+      "name": "customer-journey-orchestration",
+      "source": "../plugins/customer-journey-orchestration",
+      "description": "Customer journey orchestration covering mapping, prioritization, and initiative execution",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "customer",
+        "journey",
+        "cx"
+      ],
+      "commands": [
+        "../plugins/customer-journey-orchestration/commands/map-journey.md",
+        "../plugins/customer-journey-orchestration/commands/prioritize-gaps.md",
+        "../plugins/customer-journey-orchestration/commands/implement-actions.md"
+      ],
+      "agents": [
+        "../plugins/customer-journey-orchestration/agents/cx-strategist.md",
+        "../plugins/customer-journey-orchestration/agents/research-lead.md",
+        "../plugins/customer-journey-orchestration/agents/journey-ops-owner.md"
+      ],
+      "skills": [
+        "../plugins/customer-journey-orchestration/skills/journey-mapping/SKILL.md",
+        "../plugins/customer-journey-orchestration/skills/voice-of-customer/SKILL.md",
+        "../plugins/customer-journey-orchestration/skills/governance/SKILL.md"
+      ]
+    },
+    {
+      "name": "community-orchestration",
+      "source": "../plugins/community-orchestration",
+      "description": "Community orchestration covering programming, live events, and engagement measurement",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "community",
+        "engagement",
+        "advocacy"
+      ],
+      "commands": [
+        "../plugins/community-orchestration/commands/plan-community-calendar.md",
+        "../plugins/community-orchestration/commands/run-community-event.md",
+        "../plugins/community-orchestration/commands/measure-engagement.md"
+      ],
+      "agents": [
+        "../plugins/community-orchestration/agents/community-lead.md",
+        "../plugins/community-orchestration/agents/community-moderator.md",
+        "../plugins/community-orchestration/agents/community-analyst.md"
+      ],
+      "skills": [
+        "../plugins/community-orchestration/skills/community-ops/SKILL.md",
+        "../plugins/community-orchestration/skills/escalation/SKILL.md",
+        "../plugins/community-orchestration/skills/sentiment-analysis/SKILL.md"
+      ]
+    },
+    {
+      "name": "referral-program-orchestration",
+      "source": "../plugins/referral-program-orchestration",
+      "description": "Referral program orchestration covering design, launch, and optimization",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "referral",
+        "growth",
+        "partner"
+      ],
+      "commands": [
+        "../plugins/referral-program-orchestration/commands/design-referral.md",
+        "../plugins/referral-program-orchestration/commands/launch-program.md",
+        "../plugins/referral-program-orchestration/commands/optimize-referrals.md"
+      ],
+      "agents": [
+        "../plugins/referral-program-orchestration/agents/referral-architect.md",
+        "../plugins/referral-program-orchestration/agents/lifecycle-ops.md",
+        "../plugins/referral-program-orchestration/agents/partner-manager.md"
+      ],
+      "skills": [
+        "../plugins/referral-program-orchestration/skills/incentive-design/SKILL.md",
+        "../plugins/referral-program-orchestration/skills/fraud-detection/SKILL.md",
+        "../plugins/referral-program-orchestration/skills/partner-ops/SKILL.md"
+      ]
+    },
+    {
+      "name": "partner-co-marketing-orchestration",
+      "source": "../plugins/partner-co-marketing-orchestration",
+      "description": "Partner co-marketing orchestration covering joint planning, assets, and attribution",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "partner",
+        "marketing",
+        "campaign"
+      ],
+      "commands": [
+        "../plugins/partner-co-marketing-orchestration/commands/co-plan-campaign.md",
+        "../plugins/partner-co-marketing-orchestration/commands/manage-assets.md",
+        "../plugins/partner-co-marketing-orchestration/commands/track-source.md"
+      ],
+      "agents": [
+        "../plugins/partner-co-marketing-orchestration/agents/partner-marketer.md",
+        "../plugins/partner-co-marketing-orchestration/agents/co-marketing-asset-manager.md",
+        "../plugins/partner-co-marketing-orchestration/agents/co-marketing-analytics-lead.md"
+      ],
+      "skills": [
+        "../plugins/partner-co-marketing-orchestration/skills/co-branding/SKILL.md",
+        "../plugins/partner-co-marketing-orchestration/skills/asset-approval/SKILL.md",
+        "../plugins/partner-co-marketing-orchestration/skills/attribution/SKILL.md"
+      ]
+    },
+    {
+      "name": "customer-advocacy-orchestration",
+      "source": "../plugins/customer-advocacy-orchestration",
+      "description": "Customer advocacy orchestration covering sourcing, activation, and storytelling",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "advocacy",
+        "reference",
+        "customer"
+      ],
+      "commands": [
+        "../plugins/customer-advocacy-orchestration/commands/identify-advocates.md",
+        "../plugins/customer-advocacy-orchestration/commands/activate-program.md",
+        "../plugins/customer-advocacy-orchestration/commands/create-stories.md",
+        "../plugins/customer-advocacy-orchestration/commands/report-advocacy.md"
+      ],
+      "agents": [
+        "../plugins/customer-advocacy-orchestration/agents/advocacy-strategist.md",
+        "../plugins/customer-advocacy-orchestration/agents/reference-manager.md",
+        "../plugins/customer-advocacy-orchestration/agents/story-producer.md"
+      ],
+      "skills": [
+        "../plugins/customer-advocacy-orchestration/skills/advocate-sourcing/SKILL.md",
+        "../plugins/customer-advocacy-orchestration/skills/reference-ops/SKILL.md",
+        "../plugins/customer-advocacy-orchestration/skills/storytelling/SKILL.md"
+      ]
+    },
+    {
+      "name": "loyalty-lifecycle-orchestration",
+      "source": "../plugins/loyalty-lifecycle-orchestration",
+      "description": "Loyalty lifecycle orchestration covering program design, rewards, and analytics",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "loyalty",
+        "retention",
+        "rewards"
+      ],
+      "commands": [
+        "../plugins/loyalty-lifecycle-orchestration/commands/plan-loyalty.md",
+        "../plugins/loyalty-lifecycle-orchestration/commands/configure-rewards.md",
+        "../plugins/loyalty-lifecycle-orchestration/commands/monitor-loyalty.md"
+      ],
+      "agents": [
+        "../plugins/loyalty-lifecycle-orchestration/agents/loyalty-strategist.md",
+        "../plugins/loyalty-lifecycle-orchestration/agents/reward-operations.md",
+        "../plugins/loyalty-lifecycle-orchestration/agents/member-insights.md"
+      ],
+      "skills": [
+        "../plugins/loyalty-lifecycle-orchestration/skills/loyalty-modeling/SKILL.md",
+        "../plugins/loyalty-lifecycle-orchestration/skills/reward-ops/SKILL.md",
+        "../plugins/loyalty-lifecycle-orchestration/skills/member-insights/SKILL.md"
+      ]
+    },
+    {
+      "name": "intent-signal-orchestration",
+      "source": "../plugins/intent-signal-orchestration",
+      "description": "Intent signal orchestration covering ingestion, prioritization, and activation plays",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "intent",
+        "signal",
+        "activation"
+      ],
+      "commands": [
+        "../plugins/intent-signal-orchestration/commands/connect-signals.md",
+        "../plugins/intent-signal-orchestration/commands/prioritize-accounts.md",
+        "../plugins/intent-signal-orchestration/commands/trigger-plays.md"
+      ],
+      "agents": [
+        "../plugins/intent-signal-orchestration/agents/intent-analyst.md",
+        "../plugins/intent-signal-orchestration/agents/automation-lead.md",
+        "../plugins/intent-signal-orchestration/agents/sales-liaison.md"
+      ],
+      "skills": [
+        "../plugins/intent-signal-orchestration/skills/signal-scoring/SKILL.md",
+        "../plugins/intent-signal-orchestration/skills/suppression-logic/SKILL.md",
+        "../plugins/intent-signal-orchestration/skills/outbound-plays/SKILL.md"
+      ]
+    },
+    {
+      "name": "renewal-orchestration",
+      "source": "../plugins/renewal-orchestration",
+      "description": "Renewal orchestration covering forecasting, play execution, and retrospectives",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "renewal",
+        "cs",
+        "retention"
+      ],
+      "commands": [
+        "../plugins/renewal-orchestration/commands/forecast-renewals.md",
+        "../plugins/renewal-orchestration/commands/orchestrate-renewal-play.md",
+        "../plugins/renewal-orchestration/commands/run-retro.md"
+      ],
+      "agents": [
+        "../plugins/renewal-orchestration/agents/renewal-director.md",
+        "../plugins/renewal-orchestration/agents/cs-ops-partner.md",
+        "../plugins/renewal-orchestration/agents/exec-sponsor.md"
+      ],
+      "skills": [
+        "../plugins/renewal-orchestration/skills/renewal-playbooks/SKILL.md",
+        "../plugins/renewal-orchestration/skills/escalation-framework/SKILL.md",
+        "../plugins/renewal-orchestration/skills/deal-desk/SKILL.md"
+      ]
+    },
+    {
+      "name": "customer-feedback-orchestration",
+      "source": "../plugins/customer-feedback-orchestration",
+      "description": "Customer feedback orchestration covering research, synthesis, and stakeholder workflows",
+      "category": "orchestration",
+      "version": "1.0.0",
+      "keywords": [
+        "customer",
+        "feedback",
+        "voice-of-customer"
+      ],
+      "commands": [
+        "../plugins/customer-feedback-orchestration/commands/run-survey.md",
+        "../plugins/customer-feedback-orchestration/commands/synthesize-feedback.md",
+        "../plugins/customer-feedback-orchestration/commands/route-insights.md"
+      ],
+      "agents": [
+        "../plugins/customer-feedback-orchestration/agents/research-lead.md",
+        "../plugins/customer-feedback-orchestration/agents/product-liaison.md",
+        "../plugins/customer-feedback-orchestration/agents/cs-analyst.md"
+      ],
+      "skills": [
+        "../plugins/customer-feedback-orchestration/skills/survey-design/SKILL.md",
+        "../plugins/customer-feedback-orchestration/skills/insight-synthesis/SKILL.md",
+        "../plugins/customer-feedback-orchestration/skills/stakeholder-ops/SKILL.md"
+      ]
+    }
+  ]
+}

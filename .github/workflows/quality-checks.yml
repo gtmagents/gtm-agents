@@ -1,0 +1,25 @@
+name: Marketplace Quality Checks
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ "*" ]
+
+jobs:
+  validate-and-smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate marketplace catalog
+        run: python scripts/validate_marketplace.py
+
+      - name: Run plugin smoke test
+        run: python scripts/smoke_test_plugins.py

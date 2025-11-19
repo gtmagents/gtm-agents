@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "[husky] Running marketplace validator..."
+python scripts/validate_marketplace.py || exit 1
+
+echo "[husky] Running plugin smoke test..."
+python scripts/smoke_test_plugins.py || exit 1
+
+echo "[husky] Running scaffolding lint (dry-run)..."
+python scripts/scaffold_asset.py agent /tmp/__husky_template_check.md --force >/dev/null 2>&1 && rm -f /tmp/__husky_template_check.md
