@@ -24,8 +24,41 @@ def fail(message: str):
     sys.exit(1)
 
 
-def resolve_component_path(rel_path: str) -> Path:
-    return (MARKETPLACE.parent / rel_path).resolve()
+def resolve_component_path(plugin_source: str, rel_path: str) -> Path:
+    """Return the absolute path for a plugin component reference.
+
+    Modern marketplace entries use paths like "./commands/foo.md" relative to
+    the plugin root. Legacy entries may still include "./plugins/..." or
+    "../plugins/..." which should resolve from the repo root. This helper
+    handles both cases so we can gradually normalize manifests without
+    breaking older references.
+    """
+
+    rel_path = rel_path.strip()
+    normalized = rel_path.replace("\\", "/")
+    plugin_root = (ROOT / plugin_source.lstrip("./")).resolve()
+
+    # Legacy references that already include the plugins/ prefix (or traverse
+    # upward) should resolve relative to the repo root.
+    if (
+        normalized.startswith("./plugins/")
+        or normalized.startswith("plugins/")
+        or normalized.startswith("../")
+    ):
+        return (ROOT / normalized.lstrip("./")).resolve()
+
+    # Standard case: treat "./foo/bar.md" as relative to the plugin root.
+    if normalized.startswith("./"):
+        return (plugin_root / normalized[2:]).resolve()
+
+    # Absolute paths (rare) are returned as-is; any missing files will be
+    # reported by the downstream validator.
+    abs_candidate = Path(normalized)
+    if abs_candidate.is_absolute():
+        return abs_candidate
+
+    # Fallback to interpreting the entry relative to the plugin root.
+    return (plugin_root / normalized).resolve()
 
 
 def validate_file(path: Path):
