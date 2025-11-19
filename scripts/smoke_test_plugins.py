@@ -18,6 +18,30 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 MARKETPLACE_PATH = REPO_ROOT / ".claude-plugin" / "marketplace.json"
 
 
+def resolve_component_path(plugin_source: str, rel_path: str) -> Path:
+    """Resolve rel_path relative to the plugin root, with legacy support."""
+
+    rel_path = rel_path.strip()
+    normalized = rel_path.replace("\\", "/")
+    plugin_root = (REPO_ROOT / plugin_source.lstrip("./")).resolve()
+
+    if (
+        normalized.startswith("./plugins/")
+        or normalized.startswith("plugins/")
+        or normalized.startswith("../")
+    ):
+        return (REPO_ROOT / normalized.lstrip("./")).resolve()
+
+    if normalized.startswith("./"):
+        return (plugin_root / normalized[2:]).resolve()
+
+    abs_candidate = Path(normalized)
+    if abs_candidate.is_absolute():
+        return abs_candidate
+
+    return (plugin_root / normalized).resolve()
+
+
 def read_markdown(path: Path) -> Tuple[bool, str]:
     """Return (is_valid, message) for the provided markdown file."""
     if not path.exists():
@@ -33,9 +57,10 @@ def read_markdown(path: Path) -> Tuple[bool, str]:
 
 
 def iter_components(plugin: dict) -> Iterable[Tuple[str, Path]]:
+    plugin_source = plugin["source"]
     for collection in ("agents", "commands", "skills"):
         for rel_path in plugin.get(collection, []):
-            yield collection[:-1], (MARKETPLACE_PATH.parent / rel_path).resolve()
+            yield collection[:-1], resolve_component_path(plugin_source, rel_path)
 
 
 def run_smoke_test(selected_plugins: List[str] | None = None) -> int:

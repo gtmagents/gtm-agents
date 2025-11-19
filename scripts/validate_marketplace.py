@@ -109,12 +109,13 @@ def validate_marketplace():
                 fail(f"Plugin '{plugin.get('name')}' contains duplicate keyword '{keyword}'")
             keyword_set.add(keyword)
 
+        plugin_source = plugin["source"]
         for field in ("commands", "agents", "skills"):
             entries = plugin[field]
             if not isinstance(entries, list) or not entries:
                 fail(f"Plugin '{plugin['name']}' has empty {field}")
             for rel_path in entries:
-                component_path = resolve_component_path(rel_path)
+                component_path = resolve_component_path(plugin_source, rel_path)
                 validate_file(component_path)
                 ensure_component_matches_plugin(plugin["name"], field, component_path)
 
