@@ -128,7 +128,7 @@ A marketplace is a collection of plugins (tools and agents) that you can install
 
 3. **Wait for confirmation**
    - Claude will respond confirming the marketplace has been added
-   - This makes all 67 plugins available for installation
+   - This makes all 67 plugins available for installation but **does not load any agents or tools** into your context.
 
 4. **Browse available plugins** (optional)
    - Type `/plugin` to see all available plugins
