@@ -1,0 +1,29 @@
+{
+    "firmographic": {
+        "company_name": "{{company.name}}",
+        "industry": "{{company.industry}}",
+        "employee_count": "{{company.employees}}",
+        "revenue_range": "{{company.revenue}}",
+        "location": "{{company.city}}"
+    },
+    "technographic": {
+        "tech_stack": "{{company.tech_stack}}",
+        "competitor_product": "{{company.competitor}}",
+        "crm_system": "{{company.crm}}"
+    },
+    "persona": {
+        "first_name": "{{contact.first_name}}",
+        "title": "{{contact.title}}",
+        "role_category": "{{contact.role}}",
+        "pain_point": "{{contact.pain_point}}"
+    },
+    "behavioral": {
+        "last_page_visit": "{{behavior.last_page}}",
+        "content_downloaded": "{{behavior.content_download}}",
+        "webinar_attended": "{{behavior.webinar}}"
+    },
+    "logic_examples": {
+        "industry_intro": "{% if company.industry == 'Finance' %}Secure your transactions{% else %}Scale your operations{% endif %}",
+        "competitor_takeout": "{% if company.competitor == 'CompetitorX' %}Switch from X and save 20%{% endif %}"
+    }
+}
