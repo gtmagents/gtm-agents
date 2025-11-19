@@ -123,10 +123,8 @@ A marketplace is a collection of plugins (tools and agents) that you can install
 
 2. **Type the following command** in the chat:
    ```
-   /plugin marketplace add your-org/gtm-agents
+   /plugin marketplace add gtmagents/gtm-agents
    ```
-   
-   > **📝 Note:** Replace `your-org` with the actual organization name where this repository is hosted. If you're using this from GitHub, it might be something like `username/claude-gtm-agents`.
 
 3. **Wait for confirmation**
    - Claude will respond confirming the marketplace has been added

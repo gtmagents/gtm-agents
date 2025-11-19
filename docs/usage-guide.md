@@ -54,7 +54,7 @@ Welcome to the GTM (Go-To-Market) Claude Code plugin marketplace! This guide wil
 
 ### Step 1: Add the Marketplace
 ```bash
-/plugin marketplace add your-org/gtm-agents
+/plugin marketplace add gtmagents/gtm-agents
 ```
 
 ### Step 2: Explore Available Plugins

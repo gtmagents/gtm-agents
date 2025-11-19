@@ -17,7 +17,7 @@ Once the essentials are installed, proceed with the role-specific steps below.
 
 ```bash
 # 1. Add the marketplace (one-time setup)
-/plugin marketplace add your-org/gtm-agents
+/plugin marketplace add gtmagents/gtm-agents
 
 # 2. Install essential sales plugins
 /plugin install sales-prospecting
@@ -34,7 +34,7 @@ Once the essentials are installed, proceed with the role-specific steps below.
 
 ```bash
 # 1. Add the marketplace (one-time setup)
-/plugin marketplace add your-org/gtm-agents
+/plugin marketplace add gtmagents/gtm-agents
 
 # 2. Install essential marketing plugins
 /plugin install content-marketing
@@ -51,7 +51,7 @@ Once the essentials are installed, proceed with the role-specific steps below.
 
 ```bash
 # 1. Add the marketplace (one-time setup)
-/plugin marketplace add your-org/gtm-agents
+/plugin marketplace add gtmagents/gtm-agents
 
 # 2. Install essential growth plugins
 /plugin install growth-experiments

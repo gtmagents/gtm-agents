@@ -139,7 +139,7 @@ You're spending too much time on repetitive tasks:
 Add this marketplace to Claude Code:
 
 ```bash
-/plugin marketplace add your-org/gtm-agents
+/plugin marketplace add gtmagents/gtm-agents
 ```
 
 This makes all 67 plugins available for installation, but does not load any agents or tools into your context.
