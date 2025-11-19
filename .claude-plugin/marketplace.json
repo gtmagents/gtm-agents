@@ -20,22 +20,22 @@
         "pipeline"
       ],
       "commands": [
-        "./plugins/sales-prospecting/commands/generate-leads.md",
-        "./plugins/sales-prospecting/commands/build-sequence.md",
-        "./plugins/sales-prospecting/commands/qualify-lead.md"
+        "./commands/generate-leads.md",
+        "./commands/build-sequence.md",
+        "./commands/qualify-lead.md"
       ],
       "agents": [
-        "./plugins/sales-prospecting/agents/lead-researcher.md",
-        "./plugins/sales-prospecting/agents/outreach-specialist.md",
-        "./plugins/sales-prospecting/agents/qualification-expert.md",
-        "./plugins/sales-prospecting/agents/social-seller.md"
+        "./agents/lead-researcher.md",
+        "./agents/outreach-specialist.md",
+        "./agents/qualification-expert.md",
+        "./agents/social-seller.md"
       ],
       "skills": [
-        "./plugins/sales-prospecting/skills/cold-outreach/SKILL.md",
-        "./plugins/sales-prospecting/skills/social-selling/SKILL.md",
-        "./plugins/sales-prospecting/skills/lead-qualification/SKILL.md",
-        "./plugins/sales-prospecting/skills/discovery-calls/SKILL.md",
-        "./plugins/sales-prospecting/skills/objection-handling/SKILL.md"
+        "./skills/cold-outreach/SKILL.md",
+        "./skills/social-selling/SKILL.md",
+        "./skills/lead-qualification/SKILL.md",
+        "./skills/discovery-calls/SKILL.md",
+        "./skills/objection-handling/SKILL.md"
       ]
     },
     {
@@ -50,23 +50,23 @@
         "seo"
       ],
       "commands": [
-        "./plugins/content-marketing/commands/content-pipeline.md",
-        "./plugins/content-marketing/commands/generate-blog.md",
-        "./plugins/content-marketing/commands/create-ebook.md"
+        "./commands/content-pipeline.md",
+        "./commands/generate-blog.md",
+        "./commands/create-ebook.md"
       ],
       "agents": [
-        "./plugins/content-marketing/agents/content-strategist.md",
-        "./plugins/content-marketing/agents/blog-writer.md",
-        "./plugins/content-marketing/agents/thought-leader.md"
+        "./agents/content-strategist.md",
+        "./agents/blog-writer.md",
+        "./agents/thought-leader.md"
       ],
       "skills": [
-        "./plugins/content-marketing/skills/seo-writing/SKILL.md",
-        "./plugins/content-marketing/skills/thought-leadership/SKILL.md",
-        "./plugins/content-marketing/skills/case-studies/SKILL.md",
-        "./plugins/content-marketing/skills/whitepapers/SKILL.md",
-        "./plugins/content-marketing/skills/webinars/SKILL.md",
-        "./plugins/content-marketing/skills/storytelling/SKILL.md",
-        "./plugins/content-marketing/skills/editorial-ops/SKILL.md"
+        "./skills/seo-writing/SKILL.md",
+        "./skills/thought-leadership/SKILL.md",
+        "./skills/case-studies/SKILL.md",
+        "./skills/whitepapers/SKILL.md",
+        "./skills/webinars/SKILL.md",
+        "./skills/storytelling/SKILL.md",
+        "./skills/editorial-ops/SKILL.md"
       ]
     },
     {
@@ -81,19 +81,19 @@
         "marketing"
       ],
       "commands": [
-        "./plugins/campaign-orchestration/commands/launch-campaign.md",
-        "./plugins/campaign-orchestration/commands/coordinate-channels.md",
-        "./plugins/campaign-orchestration/commands/optimize-performance.md"
+        "./commands/launch-campaign.md",
+        "./commands/coordinate-channels.md",
+        "./commands/optimize-performance.md"
       ],
       "agents": [
-        "./plugins/campaign-orchestration/agents/campaign-manager.md",
-        "./plugins/campaign-orchestration/agents/channel-coordinator.md",
-        "./plugins/campaign-orchestration/agents/performance-optimizer.md"
+        "./agents/campaign-manager.md",
+        "./agents/channel-coordinator.md",
+        "./agents/performance-optimizer.md"
       ],
       "skills": [
-        "./plugins/campaign-orchestration/skills/campaign-planning/SKILL.md",
-        "./plugins/campaign-orchestration/skills/channel-integration/SKILL.md",
-        "./plugins/campaign-orchestration/skills/performance-tracking/SKILL.md"
+        "./skills/campaign-planning/SKILL.md",
+        "./skills/channel-integration/SKILL.md",
+        "./skills/performance-tracking/SKILL.md"
       ]
     },
     {
@@ -108,20 +108,20 @@
         "revops"
       ],
       "commands": [
-        "./plugins/data-enrichment-master/commands/enrich-leads.md",
-        "./plugins/data-enrichment-master/commands/append-data.md",
-        "./plugins/data-enrichment-master/commands/clean-database.md",
-        "./plugins/data-enrichment-master/commands/waterfall-enrichment.md"
+        "./commands/enrich-leads.md",
+        "./commands/append-data.md",
+        "./commands/clean-database.md",
+        "./commands/waterfall-enrichment.md"
       ],
       "agents": [
-        "./plugins/data-enrichment-master/agents/data-specialist.md",
-        "./plugins/data-enrichment-master/agents/company-analyst.md",
-        "./plugins/data-enrichment-master/agents/quality-analyst.md",
-        "./plugins/data-enrichment-master/agents/enrichment-expert.md"
+        "./agents/data-specialist.md",
+        "./agents/company-analyst.md",
+        "./agents/quality-analyst.md",
+        "./agents/enrichment-expert.md"
       ],
       "skills": [
-        "./plugins/data-enrichment-master/skills/data-sourcing/SKILL.md",
-        "./plugins/data-enrichment-master/skills/firmographic-analysis/SKILL.md"
+        "./skills/data-sourcing/SKILL.md",
+        "./skills/firmographic-analysis/SKILL.md"
       ]
     },
     {
@@ -136,20 +136,20 @@
         "automation"
       ],
       "commands": [
-        "./plugins/email-marketing/commands/design-campaign.md",
-        "./plugins/email-marketing/commands/build-automation.md",
-        "./plugins/email-marketing/commands/optimize-deliverability.md"
+        "./commands/design-campaign.md",
+        "./commands/build-automation.md",
+        "./commands/optimize-deliverability.md"
       ],
       "agents": [
-        "./plugins/email-marketing/agents/email-strategist.md",
-        "./plugins/email-marketing/agents/automation-specialist.md",
-        "./plugins/email-marketing/agents/deliverability-analyst.md"
+        "./agents/email-strategist.md",
+        "./agents/automation-specialist.md",
+        "./agents/deliverability-analyst.md"
       ],
       "skills": [
-        "./plugins/email-marketing/skills/drip-campaigns/SKILL.md",
-        "./plugins/email-marketing/skills/segmentation/SKILL.md",
-        "./plugins/email-marketing/skills/ab-testing/SKILL.md",
-        "./plugins/email-marketing/skills/deliverability-ops/SKILL.md"
+        "./skills/drip-campaigns/SKILL.md",
+        "./skills/segmentation/SKILL.md",
+        "./skills/ab-testing/SKILL.md",
+        "./skills/deliverability-ops/SKILL.md"
       ]
     },
     {
@@ -164,19 +164,19 @@
         "content"
       ],
       "commands": [
-        "./plugins/social-media/commands/plan-calendar.md",
-        "./plugins/social-media/commands/produce-assets.md",
-        "./plugins/social-media/commands/monitor-performance.md"
+        "./commands/plan-calendar.md",
+        "./commands/produce-assets.md",
+        "./commands/monitor-performance.md"
       ],
       "agents": [
-        "./plugins/social-media/agents/social-strategist.md",
-        "./plugins/social-media/agents/content-producer.md",
-        "./plugins/social-media/agents/community-lead.md"
+        "./agents/social-strategist.md",
+        "./agents/content-producer.md",
+        "./agents/community-lead.md"
       ],
       "skills": [
-        "./plugins/social-media/skills/platform-frameworks/SKILL.md",
-        "./plugins/social-media/skills/trend-research/SKILL.md",
-        "./plugins/social-media/skills/community-engagement/SKILL.md"
+        "./skills/platform-frameworks/SKILL.md",
+        "./skills/trend-research/SKILL.md",
+        "./skills/community-engagement/SKILL.md"
       ]
     },
     {
@@ -191,19 +191,19 @@
         "search"
       ],
       "commands": [
-        "./plugins/seo/commands/build-keyword-strategy.md",
-        "./plugins/seo/commands/optimize-page.md",
-        "./plugins/seo/commands/audit-site.md"
+        "./commands/build-keyword-strategy.md",
+        "./commands/optimize-page.md",
+        "./commands/audit-site.md"
       ],
       "agents": [
-        "./plugins/seo/agents/seo-architect.md",
-        "./plugins/seo/agents/content-optimizer.md",
-        "./plugins/seo/agents/technical-lead.md"
+        "./agents/seo-architect.md",
+        "./agents/content-optimizer.md",
+        "./agents/technical-lead.md"
       ],
       "skills": [
-        "./plugins/seo/skills/keyword-research/SKILL.md",
-        "./plugins/seo/skills/on-page/SKILL.md",
-        "./plugins/seo/skills/technical-seo/SKILL.md"
+        "./skills/keyword-research/SKILL.md",
+        "./skills/on-page/SKILL.md",
+        "./skills/technical-seo/SKILL.md"
       ]
     },
     {
@@ -218,19 +218,19 @@
         "lifecycle"
       ],
       "commands": [
-        "./plugins/marketing-automation/commands/orchestrate-journey.md",
-        "./plugins/marketing-automation/commands/configure-workflow.md",
-        "./plugins/marketing-automation/commands/monitor-automation.md"
+        "./commands/orchestrate-journey.md",
+        "./commands/configure-workflow.md",
+        "./commands/monitor-automation.md"
       ],
       "agents": [
-        "./plugins/marketing-automation/agents/journey-architect.md",
-        "./plugins/marketing-automation/agents/nurture-operator.md",
-        "./plugins/marketing-automation/agents/data-orchestrator.md"
+        "./agents/journey-architect.md",
+        "./agents/nurture-operator.md",
+        "./agents/data-orchestrator.md"
       ],
       "skills": [
-        "./plugins/marketing-automation/skills/lifecycle-mapping/SKILL.md",
-        "./plugins/marketing-automation/skills/workflow-testing/SKILL.md",
-        "./plugins/marketing-automation/skills/data-governance/SKILL.md"
+        "./skills/lifecycle-mapping/SKILL.md",
+        "./skills/workflow-testing/SKILL.md",
+        "./skills/data-governance/SKILL.md"
       ]
     },
     {
@@ -245,19 +245,19 @@
         "acquisition"
       ],
       "commands": [
-        "./plugins/paid-media/commands/design-campaign.md",
-        "./plugins/paid-media/commands/launch-ads.md",
-        "./plugins/paid-media/commands/assess-performance.md"
+        "./commands/design-campaign.md",
+        "./commands/launch-ads.md",
+        "./commands/assess-performance.md"
       ],
       "agents": [
-        "./plugins/paid-media/agents/media-strategist.md",
-        "./plugins/paid-media/agents/channel-operator.md",
-        "./plugins/paid-media/agents/performance-analyst.md"
+        "./agents/media-strategist.md",
+        "./agents/channel-operator.md",
+        "./agents/performance-analyst.md"
       ],
       "skills": [
-        "./plugins/paid-media/skills/campaign-architecture/SKILL.md",
-        "./plugins/paid-media/skills/creative-variants/SKILL.md",
-        "./plugins/paid-media/skills/budget-optimization/SKILL.md"
+        "./skills/campaign-architecture/SKILL.md",
+        "./skills/creative-variants/SKILL.md",
+        "./skills/budget-optimization/SKILL.md"
       ]
     },
     {
@@ -272,19 +272,19 @@
         "media"
       ],
       "commands": [
-        "./plugins/pr-communications/commands/plan-launch.md",
-        "./plugins/pr-communications/commands/pitch-media.md",
-        "./plugins/pr-communications/commands/manage-crisis.md"
+        "./commands/plan-launch.md",
+        "./commands/pitch-media.md",
+        "./commands/manage-crisis.md"
       ],
       "agents": [
-        "./plugins/pr-communications/agents/communications-director.md",
-        "./plugins/pr-communications/agents/media-relations-lead.md",
-        "./plugins/pr-communications/agents/crisis-manager.md"
+        "./agents/communications-director.md",
+        "./agents/media-relations-lead.md",
+        "./agents/crisis-manager.md"
       ],
       "skills": [
-        "./plugins/pr-communications/skills/messaging-frameworks/SKILL.md",
-        "./plugins/pr-communications/skills/media-database/SKILL.md",
-        "./plugins/pr-communications/skills/crisis-playbooks/SKILL.md"
+        "./skills/messaging-frameworks/SKILL.md",
+        "./skills/media-database/SKILL.md",
+        "./skills/crisis-playbooks/SKILL.md"
       ]
     },
     {
@@ -299,19 +299,19 @@
         "launch"
       ],
       "commands": [
-        "./plugins/product-marketing/commands/blueprint-positioning.md",
-        "./plugins/product-marketing/commands/build-launch-plan.md",
-        "./plugins/product-marketing/commands/competitive-brief.md"
+        "./commands/blueprint-positioning.md",
+        "./commands/build-launch-plan.md",
+        "./commands/competitive-brief.md"
       ],
       "agents": [
-        "./plugins/product-marketing/agents/product-narrative-lead.md",
-        "./plugins/product-marketing/agents/launch-strategist.md",
-        "./plugins/product-marketing/agents/competitive-intel-lead.md"
+        "./agents/product-narrative-lead.md",
+        "./agents/launch-strategist.md",
+        "./agents/competitive-intel-lead.md"
       ],
       "skills": [
-        "./plugins/product-marketing/skills/positioning/SKILL.md",
-        "./plugins/product-marketing/skills/launch-plays/SKILL.md",
-        "./plugins/product-marketing/skills/competitive-intel/SKILL.md"
+        "./skills/positioning/SKILL.md",
+        "./skills/launch-plays/SKILL.md",
+        "./skills/competitive-intel/SKILL.md"
       ]
     },
     {
@@ -326,19 +326,19 @@
         "experiential"
       ],
       "commands": [
-        "./plugins/event-marketing/commands/design-event.md",
-        "./plugins/event-marketing/commands/manage-production.md",
-        "./plugins/event-marketing/commands/follow-up-impact.md"
+        "./commands/design-event.md",
+        "./commands/manage-production.md",
+        "./commands/follow-up-impact.md"
       ],
       "agents": [
-        "./plugins/event-marketing/agents/event-strategist.md",
-        "./plugins/event-marketing/agents/event-producer.md",
-        "./plugins/event-marketing/agents/field-program-manager.md"
+        "./agents/event-strategist.md",
+        "./agents/event-producer.md",
+        "./agents/field-program-manager.md"
       ],
       "skills": [
-        "./plugins/event-marketing/skills/event-briefs/SKILL.md",
-        "./plugins/event-marketing/skills/program-ops/SKILL.md",
-        "./plugins/event-marketing/skills/field-playbooks/SKILL.md"
+        "./skills/event-briefs/SKILL.md",
+        "./skills/program-ops/SKILL.md",
+        "./skills/field-playbooks/SKILL.md"
       ]
     },
     {
@@ -353,19 +353,19 @@
         "virtual-events"
       ],
       "commands": [
-        "./plugins/webinar-automation/commands/plan-series.md",
-        "./plugins/webinar-automation/commands/configure-session.md",
-        "./plugins/webinar-automation/commands/analyze-performance.md"
+        "./commands/plan-series.md",
+        "./commands/configure-session.md",
+        "./commands/analyze-performance.md"
       ],
       "agents": [
-        "./plugins/webinar-automation/agents/program-architect.md",
-        "./plugins/webinar-automation/agents/production-specialist.md",
-        "./plugins/webinar-automation/agents/engagement-analyst.md"
+        "./agents/program-architect.md",
+        "./agents/production-specialist.md",
+        "./agents/engagement-analyst.md"
       ],
       "skills": [
-        "./plugins/webinar-automation/skills/webinar-design/SKILL.md",
-        "./plugins/webinar-automation/skills/registration-ops/SKILL.md",
-        "./plugins/webinar-automation/skills/engagement-analytics/SKILL.md"
+        "./skills/webinar-design/SKILL.md",
+        "./skills/registration-ops/SKILL.md",
+        "./skills/engagement-analytics/SKILL.md"
       ]
     },
     {
@@ -380,19 +380,19 @@
         "content"
       ],
       "commands": [
-        "./plugins/video-marketing/commands/design-video-campaign.md",
-        "./plugins/video-marketing/commands/plan-production.md",
-        "./plugins/video-marketing/commands/report-performance.md"
+        "./commands/design-video-campaign.md",
+        "./commands/plan-production.md",
+        "./commands/report-performance.md"
       ],
       "agents": [
-        "./plugins/video-marketing/agents/video-strategist.md",
-        "./plugins/video-marketing/agents/video-creative-director.md",
-        "./plugins/video-marketing/agents/video-post-production-lead.md"
+        "./agents/video-strategist.md",
+        "./agents/video-creative-director.md",
+        "./agents/video-post-production-lead.md"
       ],
       "skills": [
-        "./plugins/video-marketing/skills/scriptwriting/SKILL.md",
-        "./plugins/video-marketing/skills/production-ops/SKILL.md",
-        "./plugins/video-marketing/skills/distribution-analytics/SKILL.md"
+        "./skills/scriptwriting/SKILL.md",
+        "./skills/production-ops/SKILL.md",
+        "./skills/distribution-analytics/SKILL.md"
       ]
     },
     {
@@ -407,19 +407,19 @@
         "creative"
       ],
       "commands": [
-        "./plugins/copywriting/commands/create-messaging-brief.md",
-        "./plugins/copywriting/commands/generate-channel-copy.md",
-        "./plugins/copywriting/commands/test-and-report.md"
+        "./commands/create-messaging-brief.md",
+        "./commands/generate-channel-copy.md",
+        "./commands/test-and-report.md"
       ],
       "agents": [
-        "./plugins/copywriting/agents/copy-strategist.md",
-        "./plugins/copywriting/agents/conversion-copywriter.md",
-        "./plugins/copywriting/agents/voice-editor.md"
+        "./agents/copy-strategist.md",
+        "./agents/conversion-copywriter.md",
+        "./agents/voice-editor.md"
       ],
       "skills": [
-        "./plugins/copywriting/skills/message-architecture/SKILL.md",
-        "./plugins/copywriting/skills/offer-testing/SKILL.md",
-        "./plugins/copywriting/skills/voice-guidelines/SKILL.md"
+        "./skills/message-architecture/SKILL.md",
+        "./skills/offer-testing/SKILL.md",
+        "./skills/voice-guidelines/SKILL.md"
       ]
     },
     {
@@ -434,19 +434,19 @@
         "advocacy"
       ],
       "commands": [
-        "./plugins/customer-marketing/commands/design-lifecycle-journey.md",
-        "./plugins/customer-marketing/commands/launch-adoption-program.md",
-        "./plugins/customer-marketing/commands/activate-advocacy.md"
+        "./commands/design-lifecycle-journey.md",
+        "./commands/launch-adoption-program.md",
+        "./commands/activate-advocacy.md"
       ],
       "agents": [
-        "./plugins/customer-marketing/agents/lifecycle-strategist.md",
-        "./plugins/customer-marketing/agents/adoption-program-manager.md",
-        "./plugins/customer-marketing/agents/advocacy-lead.md"
+        "./agents/lifecycle-strategist.md",
+        "./agents/adoption-program-manager.md",
+        "./agents/advocacy-lead.md"
       ],
       "skills": [
-        "./plugins/customer-marketing/skills/advocacy-programs/SKILL.md",
-        "./plugins/customer-marketing/skills/expansion-plays/SKILL.md",
-        "./plugins/customer-marketing/skills/customer-insights/SKILL.md"
+        "./skills/advocacy-programs/SKILL.md",
+        "./skills/expansion-plays/SKILL.md",
+        "./skills/customer-insights/SKILL.md"
       ]
     },
     {
@@ -461,19 +461,19 @@
         "account-based"
       ],
       "commands": [
-        "./plugins/abm-orchestration/commands/target-accounts.md",
-        "./plugins/abm-orchestration/commands/plan-plays.md",
-        "./plugins/abm-orchestration/commands/monitor-abm.md"
+        "./commands/target-accounts.md",
+        "./commands/plan-plays.md",
+        "./commands/monitor-abm.md"
       ],
       "agents": [
-        "./plugins/abm-orchestration/agents/abm-strategist.md",
-        "./plugins/abm-orchestration/agents/account-planner.md",
-        "./plugins/abm-orchestration/agents/abm-analyst.md"
+        "./agents/abm-strategist.md",
+        "./agents/account-planner.md",
+        "./agents/abm-analyst.md"
       ],
       "skills": [
-        "./plugins/abm-orchestration/skills/account-tiering/SKILL.md",
-        "./plugins/abm-orchestration/skills/personalization/SKILL.md",
-        "./plugins/abm-orchestration/skills/signal-intel/SKILL.md"
+        "./skills/account-tiering/SKILL.md",
+        "./skills/personalization/SKILL.md",
+        "./skills/signal-intel/SKILL.md"
       ]
     },
     {
@@ -488,19 +488,19 @@
         "automation"
       ],
       "commands": [
-        "./plugins/lead-nurture-orchestration/commands/design-nurture.md",
-        "./plugins/lead-nurture-orchestration/commands/configure-branches.md",
-        "./plugins/lead-nurture-orchestration/commands/optimize-nurture.md"
+        "./commands/design-nurture.md",
+        "./commands/configure-branches.md",
+        "./commands/optimize-nurture.md"
       ],
       "agents": [
-        "./plugins/lead-nurture-orchestration/agents/nurture-architect.md",
-        "./plugins/lead-nurture-orchestration/agents/marketing-ops-partner.md",
-        "./plugins/lead-nurture-orchestration/agents/nurture-analytics-partner.md"
+        "./agents/nurture-architect.md",
+        "./agents/marketing-ops-partner.md",
+        "./agents/nurture-analytics-partner.md"
       ],
       "skills": [
-        "./plugins/lead-nurture-orchestration/skills/lifecycle-cadence/SKILL.md",
-        "./plugins/lead-nurture-orchestration/skills/personalization-logic/SKILL.md",
-        "./plugins/lead-nurture-orchestration/skills/nurture-testing/SKILL.md"
+        "./skills/lifecycle-cadence/SKILL.md",
+        "./skills/personalization-logic/SKILL.md",
+        "./skills/nurture-testing/SKILL.md"
       ]
     },
     {
@@ -515,19 +515,19 @@
         "gtm"
       ],
       "commands": [
-        "./plugins/product-launch-orchestration/commands/assemble-war-room.md",
-        "./plugins/product-launch-orchestration/commands/run-launch.md",
-        "./plugins/product-launch-orchestration/commands/post-launch-retro.md"
+        "./commands/assemble-war-room.md",
+        "./commands/run-launch.md",
+        "./commands/post-launch-retro.md"
       ],
       "agents": [
-        "./plugins/product-launch-orchestration/agents/launch-director.md",
-        "./plugins/product-launch-orchestration/agents/workstream-lead.md",
-        "./plugins/product-launch-orchestration/agents/enablement-captain.md"
+        "./agents/launch-director.md",
+        "./agents/workstream-lead.md",
+        "./agents/enablement-captain.md"
       ],
       "skills": [
-        "./plugins/product-launch-orchestration/skills/launch-tiering/SKILL.md",
-        "./plugins/product-launch-orchestration/skills/war-room-ops/SKILL.md",
-        "./plugins/product-launch-orchestration/skills/risk-playbooks/SKILL.md"
+        "./skills/launch-tiering/SKILL.md",
+        "./skills/war-room-ops/SKILL.md",
+        "./skills/risk-playbooks/SKILL.md"
       ]
     },
     {
@@ -542,19 +542,19 @@
         "pipeline"
       ],
       "commands": [
-        "./plugins/content-pipeline-orchestration/commands/plan-pillar.md",
-        "./plugins/content-pipeline-orchestration/commands/manage-production.md",
-        "./plugins/content-pipeline-orchestration/commands/distribute-assets.md"
+        "./commands/plan-pillar.md",
+        "./commands/manage-production.md",
+        "./commands/distribute-assets.md"
       ],
       "agents": [
-        "./plugins/content-pipeline-orchestration/agents/editorial-director.md",
-        "./plugins/content-pipeline-orchestration/agents/creative-producer.md",
-        "./plugins/content-pipeline-orchestration/agents/distribution-lead.md"
+        "./agents/editorial-director.md",
+        "./agents/creative-producer.md",
+        "./agents/distribution-lead.md"
       ],
       "skills": [
-        "./plugins/content-pipeline-orchestration/skills/editorial-calendar/SKILL.md",
-        "./plugins/content-pipeline-orchestration/skills/asset-tracking/SKILL.md",
-        "./plugins/content-pipeline-orchestration/skills/distribution-checklist/SKILL.md"
+        "./skills/editorial-calendar/SKILL.md",
+        "./skills/asset-tracking/SKILL.md",
+        "./skills/distribution-checklist/SKILL.md"
       ]
     },
     {
@@ -569,19 +569,19 @@
         "dashboard"
       ],
       "commands": [
-        "./plugins/analytics-pipeline-orchestration/commands/define-events.md",
-        "./plugins/analytics-pipeline-orchestration/commands/build-model.md",
-        "./plugins/analytics-pipeline-orchestration/commands/ship-dashboards.md"
+        "./commands/define-events.md",
+        "./commands/build-model.md",
+        "./commands/ship-dashboards.md"
       ],
       "agents": [
-        "./plugins/analytics-pipeline-orchestration/agents/analytics-data-strategist.md",
-        "./plugins/analytics-pipeline-orchestration/agents/analytics-modeling-lead.md",
-        "./plugins/analytics-pipeline-orchestration/agents/bi-publisher.md"
+        "./agents/analytics-data-strategist.md",
+        "./agents/analytics-modeling-lead.md",
+        "./agents/bi-publisher.md"
       ],
       "skills": [
-        "./plugins/analytics-pipeline-orchestration/skills/instrumentation/SKILL.md",
-        "./plugins/analytics-pipeline-orchestration/skills/quality-gates/SKILL.md",
-        "./plugins/analytics-pipeline-orchestration/skills/visualization-patterns/SKILL.md"
+        "./skills/instrumentation/SKILL.md",
+        "./skills/quality-gates/SKILL.md",
+        "./skills/visualization-patterns/SKILL.md"
       ]
     },
     {
@@ -596,18 +596,18 @@
         "automation"
       ],
       "commands": [
-        "./plugins/email-sequence-orchestration/commands/plan-sequences.md",
-        "./plugins/email-sequence-orchestration/commands/automate-delivery.md",
-        "./plugins/email-sequence-orchestration/commands/analyze-sequences.md"
+        "./commands/plan-sequences.md",
+        "./commands/automate-delivery.md",
+        "./commands/analyze-sequences.md"
       ],
       "agents": [
-        "./plugins/email-sequence-orchestration/agents/email-architect.md",
-        "./plugins/email-sequence-orchestration/agents/deliverability-lead.md",
-        "./plugins/email-sequence-orchestration/agents/experiment-analyst.md"
+        "./agents/email-architect.md",
+        "./agents/deliverability-lead.md",
+        "./agents/experiment-analyst.md"
       ],
       "skills": [
-        "./plugins/email-sequence-orchestration/skills/cadence-design/SKILL.md",
-        "./plugins/email-sequence-orchestration/skills/qa-gates/SKILL.md"
+        "./skills/cadence-design/SKILL.md",
+        "./skills/qa-gates/SKILL.md"
       ]
     },
     {
@@ -622,19 +622,19 @@
         "revops"
       ],
       "commands": [
-        "./plugins/sales-handoff-orchestration/commands/define-handoff.md",
-        "./plugins/sales-handoff-orchestration/commands/run-standups.md",
-        "./plugins/sales-handoff-orchestration/commands/monitor-sla.md"
+        "./commands/define-handoff.md",
+        "./commands/run-standups.md",
+        "./commands/monitor-sla.md"
       ],
       "agents": [
-        "./plugins/sales-handoff-orchestration/agents/revops-director.md",
-        "./plugins/sales-handoff-orchestration/agents/lifecycle-coordinator.md",
-        "./plugins/sales-handoff-orchestration/agents/sales-manager.md"
+        "./agents/revops-director.md",
+        "./agents/lifecycle-coordinator.md",
+        "./agents/sales-manager.md"
       ],
       "skills": [
-        "./plugins/sales-handoff-orchestration/skills/routing-logic/SKILL.md",
-        "./plugins/sales-handoff-orchestration/skills/sla-tracking/SKILL.md",
-        "./plugins/sales-handoff-orchestration/skills/enablement-kit/SKILL.md"
+        "./skills/routing-logic/SKILL.md",
+        "./skills/sla-tracking/SKILL.md",
+        "./skills/enablement-kit/SKILL.md"
       ]
     },
     {
@@ -649,19 +649,19 @@
         "forecast"
       ],
       "commands": [
-        "./plugins/sales-pipeline/commands/audit-pipeline.md",
-        "./plugins/sales-pipeline/commands/forecast-coverage.md",
-        "./plugins/sales-pipeline/commands/enablement-kit.md"
+        "./commands/audit-pipeline.md",
+        "./commands/forecast-coverage.md",
+        "./commands/enablement-kit.md"
       ],
       "agents": [
-        "./plugins/sales-pipeline/agents/pipeline-director.md",
-        "./plugins/sales-pipeline/agents/pipeline-analyst.md",
-        "./plugins/sales-pipeline/agents/forecast-coach.md"
+        "./agents/pipeline-director.md",
+        "./agents/pipeline-analyst.md",
+        "./agents/forecast-coach.md"
       ],
       "skills": [
-        "./plugins/sales-pipeline/skills/crm-hygiene/SKILL.md",
-        "./plugins/sales-pipeline/skills/forecast-discipline/SKILL.md",
-        "./plugins/sales-pipeline/skills/deal-review/SKILL.md"
+        "./skills/crm-hygiene/SKILL.md",
+        "./skills/forecast-discipline/SKILL.md",
+        "./skills/deal-review/SKILL.md"
       ]
     },
     {
@@ -676,20 +676,20 @@
         "playbooks"
       ],
       "commands": [
-        "./plugins/sales-enablement/commands/build-playbook.md",
-        "./plugins/sales-enablement/commands/launch-program.md",
-        "./plugins/sales-enablement/commands/reinforce-program.md",
-        "./plugins/sales-enablement/commands/audit-content.md"
+        "./commands/build-playbook.md",
+        "./commands/launch-program.md",
+        "./commands/reinforce-program.md",
+        "./commands/audit-content.md"
       ],
       "agents": [
-        "./plugins/sales-enablement/agents/enablement-strategist.md",
-        "./plugins/sales-enablement/agents/content-architect.md",
-        "./plugins/sales-enablement/agents/field-coach.md"
+        "./agents/enablement-strategist.md",
+        "./agents/content-architect.md",
+        "./agents/field-coach.md"
       ],
       "skills": [
-        "./plugins/sales-enablement/skills/messaging-framework/SKILL.md",
-        "./plugins/sales-enablement/skills/battlecard-system/SKILL.md",
-        "./plugins/sales-enablement/skills/reinforcement-loop/SKILL.md"
+        "./skills/messaging-framework/SKILL.md",
+        "./skills/battlecard-system/SKILL.md",
+        "./skills/reinforcement-loop/SKILL.md"
       ]
     },
     {
@@ -704,21 +704,21 @@
         "revops"
       ],
       "commands": [
-        "./plugins/sales-operations/commands/design-territories.md",
-        "./plugins/sales-operations/commands/build-capacity-plan.md",
-        "./plugins/sales-operations/commands/design-comp-plan.md"
+        "./commands/design-territories.md",
+        "./commands/build-capacity-plan.md",
+        "./commands/design-comp-plan.md"
       ],
       "agents": [
-        "./plugins/sales-operations/agents/territory-architect.md",
-        "./plugins/sales-operations/agents/capacity-planner.md",
-        "./plugins/sales-operations/agents/compensation-architect.md"
+        "./agents/territory-architect.md",
+        "./agents/capacity-planner.md",
+        "./agents/compensation-architect.md"
       ],
       "skills": [
-        "./plugins/sales-operations/skills/territory-optimization/SKILL.md",
-        "./plugins/sales-operations/skills/capacity-modeling/SKILL.md",
-        "./plugins/sales-operations/skills/quota-health/SKILL.md",
-        "./plugins/sales-operations/skills/comp-mechanics/SKILL.md",
-        "./plugins/sales-operations/skills/roe-governance/SKILL.md"
+        "./skills/territory-optimization/SKILL.md",
+        "./skills/capacity-modeling/SKILL.md",
+        "./skills/quota-health/SKILL.md",
+        "./skills/comp-mechanics/SKILL.md",
+        "./skills/roe-governance/SKILL.md"
       ]
     },
     {
@@ -733,19 +733,19 @@
         "enablement"
       ],
       "commands": [
-        "./plugins/sales-coaching/commands/build-coaching-plan.md",
-        "./plugins/sales-coaching/commands/review-call.md",
-        "./plugins/sales-coaching/commands/launch-coaching-program.md"
+        "./commands/build-coaching-plan.md",
+        "./commands/review-call.md",
+        "./commands/launch-coaching-program.md"
       ],
       "agents": [
-        "./plugins/sales-coaching/agents/performance-coach.md",
-        "./plugins/sales-coaching/agents/call-analyst.md",
-        "./plugins/sales-coaching/agents/enablement-partner.md"
+        "./agents/performance-coach.md",
+        "./agents/call-analyst.md",
+        "./agents/enablement-partner.md"
       ],
       "skills": [
-        "./plugins/sales-coaching/skills/coaching-framework/SKILL.md",
-        "./plugins/sales-coaching/skills/reinforcement-drills/SKILL.md",
-        "./plugins/sales-coaching/skills/call-highlights/SKILL.md"
+        "./skills/coaching-framework/SKILL.md",
+        "./skills/reinforcement-drills/SKILL.md",
+        "./skills/call-highlights/SKILL.md"
       ]
     },
     {
@@ -760,20 +760,20 @@
         "expansion"
       ],
       "commands": [
-        "./plugins/account-management/commands/build-success-plan.md",
-        "./plugins/account-management/commands/plan-qbr.md",
-        "./plugins/account-management/commands/run-account-review.md"
+        "./commands/build-success-plan.md",
+        "./commands/plan-qbr.md",
+        "./commands/run-account-review.md"
       ],
       "agents": [
-        "./plugins/account-management/agents/relationship-director.md",
-        "./plugins/account-management/agents/account-health-analyst.md",
-        "./plugins/account-management/agents/success-planner.md"
+        "./agents/relationship-director.md",
+        "./agents/account-health-analyst.md",
+        "./agents/success-planner.md"
       ],
       "skills": [
-        "./plugins/account-management/skills/success-planning-framework/SKILL.md",
-        "./plugins/account-management/skills/account-health-framework/SKILL.md",
-        "./plugins/account-management/skills/expansion-playbook/SKILL.md",
-        "./plugins/account-management/skills/exec-briefing/SKILL.md"
+        "./skills/success-planning-framework/SKILL.md",
+        "./skills/account-health-framework/SKILL.md",
+        "./skills/expansion-playbook/SKILL.md",
+        "./skills/exec-briefing/SKILL.md"
       ]
     },
     {
@@ -788,21 +788,21 @@
         "coaching"
       ],
       "commands": [
-        "./plugins/sales-calls/commands/prepare-call.md",
-        "./plugins/sales-calls/commands/analyze-call.md",
-        "./plugins/sales-calls/commands/run-call-review.md"
+        "./commands/prepare-call.md",
+        "./commands/analyze-call.md",
+        "./commands/run-call-review.md"
       ],
       "agents": [
-        "./plugins/sales-calls/agents/call-strategist.md",
-        "./plugins/sales-calls/agents/conversation-engineer.md",
-        "./plugins/sales-calls/agents/deal-analyst.md"
+        "./agents/call-strategist.md",
+        "./agents/conversation-engineer.md",
+        "./agents/deal-analyst.md"
       ],
       "skills": [
-        "./plugins/sales-calls/skills/call-brief-framework/SKILL.md",
-        "./plugins/sales-calls/skills/persona-intel/SKILL.md",
-        "./plugins/sales-calls/skills/call-analysis-framework/SKILL.md",
-        "./plugins/sales-calls/skills/call-review-kit/SKILL.md",
-        "./plugins/sales-calls/skills/meddic-checklist/SKILL.md"
+        "./skills/call-brief-framework/SKILL.md",
+        "./skills/persona-intel/SKILL.md",
+        "./skills/call-analysis-framework/SKILL.md",
+        "./skills/call-review-kit/SKILL.md",
+        "./skills/meddic-checklist/SKILL.md"
       ]
     },
     {
@@ -817,21 +817,21 @@
         "value"
       ],
       "commands": [
-        "./plugins/enterprise-sales/commands/plan-pursuit.md",
-        "./plugins/enterprise-sales/commands/build-value-narrative.md",
-        "./plugins/enterprise-sales/commands/navigate-procurement.md"
+        "./commands/plan-pursuit.md",
+        "./commands/build-value-narrative.md",
+        "./commands/navigate-procurement.md"
       ],
       "agents": [
-        "./plugins/enterprise-sales/agents/pursuit-director.md",
-        "./plugins/enterprise-sales/agents/value-architect.md",
-        "./plugins/enterprise-sales/agents/procurement-strategist.md"
+        "./agents/pursuit-director.md",
+        "./agents/value-architect.md",
+        "./agents/procurement-strategist.md"
       ],
       "skills": [
-        "./plugins/enterprise-sales/skills/pursuit-governance/SKILL.md",
-        "./plugins/enterprise-sales/skills/risk-register/SKILL.md",
-        "./plugins/enterprise-sales/skills/value-story-framework/SKILL.md",
-        "./plugins/enterprise-sales/skills/cxo-briefing-kit/SKILL.md",
-        "./plugins/enterprise-sales/skills/procurement-playbook/SKILL.md"
+        "./skills/pursuit-governance/SKILL.md",
+        "./skills/risk-register/SKILL.md",
+        "./skills/value-story-framework/SKILL.md",
+        "./skills/cxo-briefing-kit/SKILL.md",
+        "./skills/procurement-playbook/SKILL.md"
       ]
     },
     {
@@ -846,22 +846,22 @@
         "brand"
       ],
       "commands": [
-        "./plugins/design-creative/commands/develop-concepts.md",
-        "./plugins/design-creative/commands/manage-production.md",
-        "./plugins/design-creative/commands/launch-brand-kit.md"
+        "./commands/develop-concepts.md",
+        "./commands/manage-production.md",
+        "./commands/launch-brand-kit.md"
       ],
       "agents": [
-        "./plugins/design-creative/agents/creative-director.md",
-        "./plugins/design-creative/agents/design-ops-lead.md",
-        "./plugins/design-creative/agents/brand-strategist.md"
+        "./agents/creative-director.md",
+        "./agents/design-ops-lead.md",
+        "./agents/brand-strategist.md"
       ],
       "skills": [
-        "./plugins/design-creative/skills/creative-brief-framework/SKILL.md",
-        "./plugins/design-creative/skills/mood-board-builder/SKILL.md",
-        "./plugins/design-creative/skills/brand-governance/SKILL.md",
-        "./plugins/design-creative/skills/production-playbook/SKILL.md",
-        "./plugins/design-creative/skills/creative-qa-checklist/SKILL.md",
-        "./plugins/design-creative/skills/enablement-kit/SKILL.md"
+        "./skills/creative-brief-framework/SKILL.md",
+        "./skills/mood-board-builder/SKILL.md",
+        "./skills/brand-governance/SKILL.md",
+        "./skills/production-playbook/SKILL.md",
+        "./skills/creative-qa-checklist/SKILL.md",
+        "./skills/enablement-kit/SKILL.md"
       ]
     },
     {
@@ -876,21 +876,21 @@
         "monetization"
       ],
       "commands": [
-        "./plugins/pricing-strategy/commands/design-packaging.md",
-        "./plugins/pricing-strategy/commands/simulate-pricing-impact.md",
-        "./plugins/pricing-strategy/commands/run-pricing-council.md"
+        "./commands/design-packaging.md",
+        "./commands/simulate-pricing-impact.md",
+        "./commands/run-pricing-council.md"
       ],
       "agents": [
-        "./plugins/pricing-strategy/agents/pricing-architect.md",
-        "./plugins/pricing-strategy/agents/monetization-analyst.md",
-        "./plugins/pricing-strategy/agents/deal-desk-partner.md"
+        "./agents/pricing-architect.md",
+        "./agents/monetization-analyst.md",
+        "./agents/deal-desk-partner.md"
       ],
       "skills": [
-        "./plugins/pricing-strategy/skills/packaging-framework/SKILL.md",
-        "./plugins/pricing-strategy/skills/value-messaging/SKILL.md",
-        "./plugins/pricing-strategy/skills/elasticity-lab/SKILL.md",
-        "./plugins/pricing-strategy/skills/pricing-governance/SKILL.md",
-        "./plugins/pricing-strategy/skills/enablement-kit/SKILL.md"
+        "./skills/packaging-framework/SKILL.md",
+        "./skills/value-messaging/SKILL.md",
+        "./skills/elasticity-lab/SKILL.md",
+        "./skills/pricing-governance/SKILL.md",
+        "./skills/enablement-kit/SKILL.md"
       ]
     },
     {
@@ -905,20 +905,20 @@
         "retention"
       ],
       "commands": [
-        "./plugins/customer-analytics/commands/segment-customers.md",
-        "./plugins/customer-analytics/commands/monitor-retention.md",
-        "./plugins/customer-analytics/commands/synthesize-insights.md"
+        "./commands/segment-customers.md",
+        "./commands/monitor-retention.md",
+        "./commands/synthesize-insights.md"
       ],
       "agents": [
-        "./plugins/customer-analytics/agents/segmentation-architect.md",
-        "./plugins/customer-analytics/agents/retention-analyst.md",
-        "./plugins/customer-analytics/agents/customer-insights-partner.md"
+        "./agents/segmentation-architect.md",
+        "./agents/retention-analyst.md",
+        "./agents/customer-insights-partner.md"
       ],
       "skills": [
-        "./plugins/customer-analytics/skills/segmentation-framework/SKILL.md",
-        "./plugins/customer-analytics/skills/activation-map/SKILL.md",
-        "./plugins/customer-analytics/skills/retention-dashboard/SKILL.md",
-        "./plugins/customer-analytics/skills/save-play-library/SKILL.md"
+        "./skills/segmentation-framework/SKILL.md",
+        "./skills/activation-map/SKILL.md",
+        "./skills/retention-dashboard/SKILL.md",
+        "./skills/save-play-library/SKILL.md"
       ]
     },
     {
@@ -933,21 +933,21 @@
         "signals"
       ],
       "commands": [
-        "./plugins/data-signal-enrichment/commands/run-waterfall-enrichment.md",
-        "./plugins/data-signal-enrichment/commands/normalize-signals.md",
-        "./plugins/data-signal-enrichment/commands/audit-provider-health.md"
+        "./commands/run-waterfall-enrichment.md",
+        "./commands/normalize-signals.md",
+        "./commands/audit-provider-health.md"
       ],
       "agents": [
-        "./plugins/data-signal-enrichment/agents/signal-integrator.md",
-        "./plugins/data-signal-enrichment/agents/provider-ops-lead.md",
-        "./plugins/data-signal-enrichment/agents/data-quality-steward.md"
+        "./agents/signal-integrator.md",
+        "./agents/provider-ops-lead.md",
+        "./agents/data-quality-steward.md"
       ],
       "skills": [
-        "./plugins/data-signal-enrichment/skills/waterfall-blueprint/SKILL.md",
-        "./plugins/data-signal-enrichment/skills/provider-scorecard/SKILL.md",
-        "./plugins/data-signal-enrichment/skills/signal-taxonomy/SKILL.md",
-        "./plugins/data-signal-enrichment/skills/identity-resolution/SKILL.md",
-        "./plugins/data-signal-enrichment/skills/validation-rulebook/SKILL.md"
+        "./skills/waterfall-blueprint/SKILL.md",
+        "./skills/provider-scorecard/SKILL.md",
+        "./skills/signal-taxonomy/SKILL.md",
+        "./skills/identity-resolution/SKILL.md",
+        "./skills/validation-rulebook/SKILL.md"
       ]
     },
     {
@@ -962,19 +962,19 @@
         "testing"
       ],
       "commands": [
-        "./plugins/growth-experiments/commands/prioritize-hypotheses.md",
-        "./plugins/growth-experiments/commands/launch-experiment.md",
-        "./plugins/growth-experiments/commands/synthesize-learnings.md"
+        "./commands/prioritize-hypotheses.md",
+        "./commands/launch-experiment.md",
+        "./commands/synthesize-learnings.md"
       ],
       "agents": [
-        "./plugins/growth-experiments/agents/experimentation-strategist.md",
-        "./plugins/growth-experiments/agents/test-engineer.md",
-        "./plugins/growth-experiments/agents/insight-analyst.md"
+        "./agents/experimentation-strategist.md",
+        "./agents/test-engineer.md",
+        "./agents/insight-analyst.md"
       ],
       "skills": [
-        "./plugins/growth-experiments/skills/hypothesis-library/SKILL.md",
-        "./plugins/growth-experiments/skills/experiment-design-kit/SKILL.md",
-        "./plugins/growth-experiments/skills/guardrail-scorecard/SKILL.md"
+        "./skills/hypothesis-library/SKILL.md",
+        "./skills/experiment-design-kit/SKILL.md",
+        "./skills/guardrail-scorecard/SKILL.md"
       ]
     },
     {
@@ -989,20 +989,20 @@
         "forecast"
       ],
       "commands": [
-        "./plugins/revenue-analytics/commands/monitor-revenue-health.md",
-        "./plugins/revenue-analytics/commands/inspect-pipeline-levers.md",
-        "./plugins/revenue-analytics/commands/build-forecast-scenarios.md"
+        "./commands/monitor-revenue-health.md",
+        "./commands/inspect-pipeline-levers.md",
+        "./commands/build-forecast-scenarios.md"
       ],
       "agents": [
-        "./plugins/revenue-analytics/agents/revenue-intelligence-director.md",
-        "./plugins/revenue-analytics/agents/pipeline-analytics-lead.md",
-        "./plugins/revenue-analytics/agents/revenue-forecasting-analyst.md"
+        "./agents/revenue-intelligence-director.md",
+        "./agents/pipeline-analytics-lead.md",
+        "./agents/revenue-forecasting-analyst.md"
       ],
       "skills": [
-        "./plugins/revenue-analytics/skills/cohort-analysis/SKILL.md",
-        "./plugins/revenue-analytics/skills/deal-quality-model/SKILL.md",
-        "./plugins/revenue-analytics/skills/revenue-health-dashboard/SKILL.md",
-        "./plugins/revenue-analytics/skills/exec-briefing-kit/SKILL.md"
+        "./skills/cohort-analysis/SKILL.md",
+        "./skills/deal-quality-model/SKILL.md",
+        "./skills/revenue-health-dashboard/SKILL.md",
+        "./skills/exec-briefing-kit/SKILL.md"
       ]
     },
     {
@@ -1017,20 +1017,20 @@
         "attribution"
       ],
       "commands": [
-        "./plugins/marketing-analytics/commands/produce-campaign-report.md",
-        "./plugins/marketing-analytics/commands/monitor-channel-pacing.md",
-        "./plugins/marketing-analytics/commands/evaluate-attribution-models.md"
+        "./commands/produce-campaign-report.md",
+        "./commands/monitor-channel-pacing.md",
+        "./commands/evaluate-attribution-models.md"
       ],
       "agents": [
-        "./plugins/marketing-analytics/agents/marketing-intelligence-lead.md",
-        "./plugins/marketing-analytics/agents/channel-performance-analyst.md",
-        "./plugins/marketing-analytics/agents/attribution-architect.md"
+        "./agents/marketing-intelligence-lead.md",
+        "./agents/channel-performance-analyst.md",
+        "./agents/attribution-architect.md"
       ],
       "skills": [
-        "./plugins/marketing-analytics/skills/attribution-playbook/SKILL.md",
-        "./plugins/marketing-analytics/skills/roi-benchmark-library/SKILL.md",
-        "./plugins/marketing-analytics/skills/channel-pacing-guardrails/SKILL.md",
-        "./plugins/marketing-analytics/skills/exec-dashboard-blueprint/SKILL.md"
+        "./skills/attribution-playbook/SKILL.md",
+        "./skills/roi-benchmark-library/SKILL.md",
+        "./skills/channel-pacing-guardrails/SKILL.md",
+        "./skills/exec-dashboard-blueprint/SKILL.md"
       ]
     },
     {
@@ -1045,20 +1045,20 @@
         "growth"
       ],
       "commands": [
-        "./plugins/product-led-growth/commands/design-onboarding-journey.md",
-        "./plugins/product-led-growth/commands/operationalize-pql-routing.md",
-        "./plugins/product-led-growth/commands/launch-in-app-experiments.md"
+        "./commands/design-onboarding-journey.md",
+        "./commands/operationalize-pql-routing.md",
+        "./commands/launch-in-app-experiments.md"
       ],
       "agents": [
-        "./plugins/product-led-growth/agents/product-adoption-strategist.md",
-        "./plugins/product-led-growth/agents/pql-ops-lead.md",
-        "./plugins/product-led-growth/agents/usage-growth-scientist.md"
+        "./agents/product-adoption-strategist.md",
+        "./agents/pql-ops-lead.md",
+        "./agents/usage-growth-scientist.md"
       ],
       "skills": [
-        "./plugins/product-led-growth/skills/onboarding-blueprint/SKILL.md",
-        "./plugins/product-led-growth/skills/pql-framework/SKILL.md",
-        "./plugins/product-led-growth/skills/in-app-messaging-kit/SKILL.md",
-        "./plugins/product-led-growth/skills/usage-health-scorecard/SKILL.md"
+        "./skills/onboarding-blueprint/SKILL.md",
+        "./skills/pql-framework/SKILL.md",
+        "./skills/in-app-messaging-kit/SKILL.md",
+        "./skills/usage-health-scorecard/SKILL.md"
       ]
     },
     {
@@ -1073,20 +1073,20 @@
         "retention"
       ],
       "commands": [
-        "./plugins/customer-success/commands/monitor-customer-health.md",
-        "./plugins/customer-success/commands/build-adoption-program.md",
-        "./plugins/customer-success/commands/run-escalation-playbook.md"
+        "./commands/monitor-customer-health.md",
+        "./commands/build-adoption-program.md",
+        "./commands/run-escalation-playbook.md"
       ],
       "agents": [
-        "./plugins/customer-success/agents/customer-health-director.md",
-        "./plugins/customer-success/agents/adoption-program-manager.md",
-        "./plugins/customer-success/agents/escalation-strategist.md"
+        "./agents/customer-health-director.md",
+        "./agents/adoption-program-manager.md",
+        "./agents/escalation-strategist.md"
       ],
       "skills": [
-        "./plugins/customer-success/skills/adoption-playbook/SKILL.md",
-        "./plugins/customer-success/skills/risk-scoring-framework/SKILL.md",
-        "./plugins/customer-success/skills/executive-ebr-kit/SKILL.md",
-        "./plugins/customer-success/skills/sentiment-feedback-loop/SKILL.md"
+        "./skills/adoption-playbook/SKILL.md",
+        "./skills/risk-scoring-framework/SKILL.md",
+        "./skills/executive-ebr-kit/SKILL.md",
+        "./skills/sentiment-feedback-loop/SKILL.md"
       ]
     },
     {
@@ -1101,20 +1101,20 @@
         "dashboard"
       ],
       "commands": [
-        "./plugins/business-intelligence/commands/plan-bi-roadmap.md",
-        "./plugins/business-intelligence/commands/build-exec-dashboard.md",
-        "./plugins/business-intelligence/commands/audit-data-contracts.md"
+        "./commands/plan-bi-roadmap.md",
+        "./commands/build-exec-dashboard.md",
+        "./commands/audit-data-contracts.md"
       ],
       "agents": [
-        "./plugins/business-intelligence/agents/insights-program-director.md",
-        "./plugins/business-intelligence/agents/data-architecture-lead.md",
-        "./plugins/business-intelligence/agents/analytics-enablement-partner.md"
+        "./agents/insights-program-director.md",
+        "./agents/data-architecture-lead.md",
+        "./agents/analytics-enablement-partner.md"
       ],
       "skills": [
-        "./plugins/business-intelligence/skills/metric-governance-kit/SKILL.md",
-        "./plugins/business-intelligence/skills/dashboard-playbook/SKILL.md",
-        "./plugins/business-intelligence/skills/data-contract-framework/SKILL.md",
-        "./plugins/business-intelligence/skills/executive-kpi-briefings/SKILL.md"
+        "./skills/metric-governance-kit/SKILL.md",
+        "./skills/dashboard-playbook/SKILL.md",
+        "./skills/data-contract-framework/SKILL.md",
+        "./skills/executive-kpi-briefings/SKILL.md"
       ]
     },
     {
@@ -1129,20 +1129,20 @@
         "alliances"
       ],
       "commands": [
-        "./plugins/partnership-development/commands/design-partner-ecosystem.md",
-        "./plugins/partnership-development/commands/build-co-sell-playbook.md",
-        "./plugins/partnership-development/commands/run-partner-qbr.md"
+        "./commands/design-partner-ecosystem.md",
+        "./commands/build-co-sell-playbook.md",
+        "./commands/run-partner-qbr.md"
       ],
       "agents": [
-        "./plugins/partnership-development/agents/partner-strategy-director.md",
-        "./plugins/partnership-development/agents/partner-co-sell-lead.md",
-        "./plugins/partnership-development/agents/partner-program-architect.md"
+        "./agents/partner-strategy-director.md",
+        "./agents/partner-co-sell-lead.md",
+        "./agents/partner-program-architect.md"
       ],
       "skills": [
-        "./plugins/partnership-development/skills/partner-ecosystem-map/SKILL.md",
-        "./plugins/partnership-development/skills/joint-solution-blueprint/SKILL.md",
-        "./plugins/partnership-development/skills/partner-revenue-desk/SKILL.md",
-        "./plugins/partnership-development/skills/co-marketing-governance/SKILL.md"
+        "./skills/partner-ecosystem-map/SKILL.md",
+        "./skills/joint-solution-blueprint/SKILL.md",
+        "./skills/partner-revenue-desk/SKILL.md",
+        "./skills/co-marketing-governance/SKILL.md"
       ]
     },
     {
@@ -1157,20 +1157,20 @@
         "enterprise"
       ],
       "commands": [
-        "./plugins/b2b-saas/commands/create-industry-playbook.md",
-        "./plugins/b2b-saas/commands/build-land-adopt-expand-plan.md",
-        "./plugins/b2b-saas/commands/prepare-board-readout.md"
+        "./commands/create-industry-playbook.md",
+        "./commands/build-land-adopt-expand-plan.md",
+        "./commands/prepare-board-readout.md"
       ],
       "agents": [
-        "./plugins/b2b-saas/agents/industry-strategist.md",
-        "./plugins/b2b-saas/agents/value-ops-lead.md",
-        "./plugins/b2b-saas/agents/land-adopt-expand-director.md"
+        "./agents/industry-strategist.md",
+        "./agents/value-ops-lead.md",
+        "./agents/land-adopt-expand-director.md"
       ],
       "skills": [
-        "./plugins/b2b-saas/skills/land-adopt-expand-blueprint/SKILL.md",
-        "./plugins/b2b-saas/skills/vertical-solution-templates/SKILL.md",
-        "./plugins/b2b-saas/skills/board-readiness-kit/SKILL.md",
-        "./plugins/b2b-saas/skills/usage-to-value-map/SKILL.md"
+        "./skills/land-adopt-expand-blueprint/SKILL.md",
+        "./skills/vertical-solution-templates/SKILL.md",
+        "./skills/board-readiness-kit/SKILL.md",
+        "./skills/usage-to-value-map/SKILL.md"
       ]
     },
     {
@@ -1185,20 +1185,20 @@
         "dtc"
       ],
       "commands": [
-        "./plugins/e-commerce/commands/diagnose-conversion-drop.md",
-        "./plugins/e-commerce/commands/plan-merchandising-campaign.md",
-        "./plugins/e-commerce/commands/launch-retention-program.md"
+        "./commands/diagnose-conversion-drop.md",
+        "./commands/plan-merchandising-campaign.md",
+        "./commands/launch-retention-program.md"
       ],
       "agents": [
-        "./plugins/e-commerce/agents/growth-merchandising-director.md",
-        "./plugins/e-commerce/agents/conversion-ops-lead.md",
-        "./plugins/e-commerce/agents/lifecycle-retention-architect.md"
+        "./agents/growth-merchandising-director.md",
+        "./agents/conversion-ops-lead.md",
+        "./agents/lifecycle-retention-architect.md"
       ],
       "skills": [
-        "./plugins/e-commerce/skills/conversion-diagnostic-kit/SKILL.md",
-        "./plugins/e-commerce/skills/merchandising-blueprint/SKILL.md",
-        "./plugins/e-commerce/skills/retention-ltv-playbook/SKILL.md",
-        "./plugins/e-commerce/skills/site-performance-watch/SKILL.md"
+        "./skills/conversion-diagnostic-kit/SKILL.md",
+        "./skills/merchandising-blueprint/SKILL.md",
+        "./skills/retention-ltv-playbook/SKILL.md",
+        "./skills/site-performance-watch/SKILL.md"
       ]
     },
     {
@@ -1213,20 +1213,20 @@
         "clinical"
       ],
       "commands": [
-        "./plugins/healthcare-marketing/commands/run-compliance-review.md",
-        "./plugins/healthcare-marketing/commands/design-clinical-campaign.md",
-        "./plugins/healthcare-marketing/commands/orchestrate-patient-journey.md"
+        "./commands/run-compliance-review.md",
+        "./commands/design-clinical-campaign.md",
+        "./commands/orchestrate-patient-journey.md"
       ],
       "agents": [
-        "./plugins/healthcare-marketing/agents/compliance-marketing-director.md",
-        "./plugins/healthcare-marketing/agents/clinical-campaign-strategist.md",
-        "./plugins/healthcare-marketing/agents/patient-engagement-program-manager.md"
+        "./agents/compliance-marketing-director.md",
+        "./agents/clinical-campaign-strategist.md",
+        "./agents/patient-engagement-program-manager.md"
       ],
       "skills": [
-        "./plugins/healthcare-marketing/skills/compliance-briefing-kit/SKILL.md",
-        "./plugins/healthcare-marketing/skills/clinical-proof-library/SKILL.md",
-        "./plugins/healthcare-marketing/skills/patient-journey-mapping/SKILL.md",
-        "./plugins/healthcare-marketing/skills/regulatory-review-checklist/SKILL.md"
+        "./skills/compliance-briefing-kit/SKILL.md",
+        "./skills/clinical-proof-library/SKILL.md",
+        "./skills/patient-journey-mapping/SKILL.md",
+        "./skills/regulatory-review-checklist/SKILL.md"
       ]
     },
     {
@@ -1241,20 +1241,20 @@
         "trust"
       ],
       "commands": [
-        "./plugins/financial-services/commands/review-financial-campaign.md",
-        "./plugins/financial-services/commands/build-product-go-to-market.md",
-        "./plugins/financial-services/commands/manage-trust-communications.md"
+        "./commands/review-financial-campaign.md",
+        "./commands/build-product-go-to-market.md",
+        "./commands/manage-trust-communications.md"
       ],
       "agents": [
-        "./plugins/financial-services/agents/trust-compliance-director.md",
-        "./plugins/financial-services/agents/financial-product-strategist.md",
-        "./plugins/financial-services/agents/trust-communications-lead.md"
+        "./agents/trust-compliance-director.md",
+        "./agents/financial-product-strategist.md",
+        "./agents/trust-communications-lead.md"
       ],
       "skills": [
-        "./plugins/financial-services/skills/compliance-statement-library/SKILL.md",
-        "./plugins/financial-services/skills/regulator-briefing-playbook/SKILL.md",
-        "./plugins/financial-services/skills/financial-product-blueprint/SKILL.md",
-        "./plugins/financial-services/skills/customer-trust-dashboard/SKILL.md"
+        "./skills/compliance-statement-library/SKILL.md",
+        "./skills/regulator-briefing-playbook/SKILL.md",
+        "./skills/financial-product-blueprint/SKILL.md",
+        "./skills/customer-trust-dashboard/SKILL.md"
       ]
     },
     {
@@ -1269,20 +1269,20 @@
         "enrollment"
       ],
       "commands": [
-        "./plugins/edtech-growth/commands/analyze-enrollment-funnel.md",
-        "./plugins/edtech-growth/commands/design-curriculum-partnership.md",
-        "./plugins/edtech-growth/commands/launch-student-success-program.md"
+        "./commands/analyze-enrollment-funnel.md",
+        "./commands/design-curriculum-partnership.md",
+        "./commands/launch-student-success-program.md"
       ],
       "agents": [
-        "./plugins/edtech-growth/agents/enrollment-growth-strategist.md",
-        "./plugins/edtech-growth/agents/curriculum-partnership-lead.md",
-        "./plugins/edtech-growth/agents/student-success-program-manager.md"
+        "./agents/enrollment-growth-strategist.md",
+        "./agents/curriculum-partnership-lead.md",
+        "./agents/student-success-program-manager.md"
       ],
       "skills": [
-        "./plugins/edtech-growth/skills/enrollment-persona-playbook/SKILL.md",
-        "./plugins/edtech-growth/skills/curriculum-alignment-kit/SKILL.md",
-        "./plugins/edtech-growth/skills/student-success-scorecard/SKILL.md",
-        "./plugins/edtech-growth/skills/community-advocacy-toolkit/SKILL.md"
+        "./skills/enrollment-persona-playbook/SKILL.md",
+        "./skills/curriculum-alignment-kit/SKILL.md",
+        "./skills/student-success-scorecard/SKILL.md",
+        "./skills/community-advocacy-toolkit/SKILL.md"
       ]
     },
     {
@@ -1297,20 +1297,20 @@
         "pursuit"
       ],
       "commands": [
-        "./plugins/manufacturing-sales/commands/qualify-industrial-opportunity.md",
-        "./plugins/manufacturing-sales/commands/build-technical-bid-plan.md",
-        "./plugins/manufacturing-sales/commands/run-deal-health-review.md"
+        "./commands/qualify-industrial-opportunity.md",
+        "./commands/build-technical-bid-plan.md",
+        "./commands/run-deal-health-review.md"
       ],
       "agents": [
-        "./plugins/manufacturing-sales/agents/industrial-account-director.md",
-        "./plugins/manufacturing-sales/agents/technical-solutions-architect.md",
-        "./plugins/manufacturing-sales/agents/channel-integration-program-manager.md"
+        "./agents/industrial-account-director.md",
+        "./agents/technical-solutions-architect.md",
+        "./agents/channel-integration-program-manager.md"
       ],
       "skills": [
-        "./plugins/manufacturing-sales/skills/account-based-blueprint/SKILL.md",
-        "./plugins/manufacturing-sales/skills/technical-bid-library/SKILL.md",
-        "./plugins/manufacturing-sales/skills/deal-health-dashboard/SKILL.md",
-        "./plugins/manufacturing-sales/skills/partner-integration-kit/SKILL.md"
+        "./skills/account-based-blueprint/SKILL.md",
+        "./skills/technical-bid-library/SKILL.md",
+        "./skills/deal-health-dashboard/SKILL.md",
+        "./skills/partner-integration-kit/SKILL.md"
       ]
     },
     {
@@ -1325,20 +1325,20 @@
         "content"
       ],
       "commands": [
-        "./plugins/social-media-marketing/commands/plan-channel-roadmap.md",
-        "./plugins/social-media-marketing/commands/build-social-calendar.md",
-        "./plugins/social-media-marketing/commands/monitor-community-sentiment.md"
+        "./commands/plan-channel-roadmap.md",
+        "./commands/build-social-calendar.md",
+        "./commands/monitor-community-sentiment.md"
       ],
       "agents": [
-        "./plugins/social-media-marketing/agents/social-strategy-director.md",
-        "./plugins/social-media-marketing/agents/community-insights-lead.md",
-        "./plugins/social-media-marketing/agents/campaign-optimization-manager.md"
+        "./agents/social-strategy-director.md",
+        "./agents/community-insights-lead.md",
+        "./agents/campaign-optimization-manager.md"
       ],
       "skills": [
-        "./plugins/social-media-marketing/skills/channel-roadmap-kit/SKILL.md",
-        "./plugins/social-media-marketing/skills/social-calendar-system/SKILL.md",
-        "./plugins/social-media-marketing/skills/community-sentiment-dashboard/SKILL.md",
-        "./plugins/social-media-marketing/skills/creative-iteration-playbook/SKILL.md"
+        "./skills/channel-roadmap-kit/SKILL.md",
+        "./skills/social-calendar-system/SKILL.md",
+        "./skills/community-sentiment-dashboard/SKILL.md",
+        "./skills/creative-iteration-playbook/SKILL.md"
       ]
     },
     {
@@ -1353,20 +1353,20 @@
         "release"
       ],
       "commands": [
-        "./plugins/technical-writing/commands/plan-documentation-roadmap.md",
-        "./plugins/technical-writing/commands/publish-release-documentation.md",
-        "./plugins/technical-writing/commands/update-api-reference.md"
+        "./commands/plan-documentation-roadmap.md",
+        "./commands/publish-release-documentation.md",
+        "./commands/update-api-reference.md"
       ],
       "agents": [
-        "./plugins/technical-writing/agents/documentation-architect.md",
-        "./plugins/technical-writing/agents/api-docs-editor.md",
-        "./plugins/technical-writing/agents/release-documentation-manager.md"
+        "./agents/documentation-architect.md",
+        "./agents/api-docs-editor.md",
+        "./agents/release-documentation-manager.md"
       ],
       "skills": [
-        "./plugins/technical-writing/skills/doc-requirements-matrix/SKILL.md",
-        "./plugins/technical-writing/skills/api-style-guide/SKILL.md",
-        "./plugins/technical-writing/skills/quality-review-checklist/SKILL.md",
-        "./plugins/technical-writing/skills/versioning-dashboard/SKILL.md"
+        "./skills/doc-requirements-matrix/SKILL.md",
+        "./skills/api-style-guide/SKILL.md",
+        "./skills/quality-review-checklist/SKILL.md",
+        "./skills/versioning-dashboard/SKILL.md"
       ]
     },
     {
@@ -1381,20 +1381,20 @@
         "win-loss"
       ],
       "commands": [
-        "./plugins/competitive-intelligence/commands/analyze-competitive-landscape.md",
-        "./plugins/competitive-intelligence/commands/build-battlecard-suite.md",
-        "./plugins/competitive-intelligence/commands/run-win-loss-program.md"
+        "./commands/analyze-competitive-landscape.md",
+        "./commands/build-battlecard-suite.md",
+        "./commands/run-win-loss-program.md"
       ],
       "agents": [
-        "./plugins/competitive-intelligence/agents/market-insights-director.md",
-        "./plugins/competitive-intelligence/agents/battlecard-program-manager.md",
-        "./plugins/competitive-intelligence/agents/win-loss-analyst.md"
+        "./agents/market-insights-director.md",
+        "./agents/battlecard-program-manager.md",
+        "./agents/win-loss-analyst.md"
       ],
       "skills": [
-        "./plugins/competitive-intelligence/skills/battlecard-library/SKILL.md",
-        "./plugins/competitive-intelligence/skills/win-loss-dataset/SKILL.md",
-        "./plugins/competitive-intelligence/skills/market-signal-tracker/SKILL.md",
-        "./plugins/competitive-intelligence/skills/executive-briefing-kit/SKILL.md"
+        "./skills/battlecard-library/SKILL.md",
+        "./skills/win-loss-dataset/SKILL.md",
+        "./skills/market-signal-tracker/SKILL.md",
+        "./skills/executive-briefing-kit/SKILL.md"
       ]
     },
     {
@@ -1409,20 +1409,20 @@
         "insights"
       ],
       "commands": [
-        "./plugins/voice-of-customer/commands/run-voc-listening-tour.md",
-        "./plugins/voice-of-customer/commands/synthesize-voc-insights.md",
-        "./plugins/voice-of-customer/commands/activate-advocacy-program.md"
+        "./commands/run-voc-listening-tour.md",
+        "./commands/synthesize-voc-insights.md",
+        "./commands/activate-advocacy-program.md"
       ],
       "agents": [
-        "./plugins/voice-of-customer/agents/voc-program-director.md",
-        "./plugins/voice-of-customer/agents/customer-insights-lab-analyst.md",
-        "./plugins/voice-of-customer/agents/customer-advocacy-strategist.md"
+        "./agents/voc-program-director.md",
+        "./agents/customer-insights-lab-analyst.md",
+        "./agents/customer-advocacy-strategist.md"
       ],
       "skills": [
-        "./plugins/voice-of-customer/skills/customer-feedback-taxonomy/SKILL.md",
-        "./plugins/voice-of-customer/skills/closed-loop-playbook/SKILL.md",
-        "./plugins/voice-of-customer/skills/signal-correlation-workbench/SKILL.md",
-        "./plugins/voice-of-customer/skills/advocacy-roster-system/SKILL.md"
+        "./skills/customer-feedback-taxonomy/SKILL.md",
+        "./skills/closed-loop-playbook/SKILL.md",
+        "./skills/signal-correlation-workbench/SKILL.md",
+        "./skills/advocacy-roster-system/SKILL.md"
       ]
     },
     {
@@ -1437,20 +1437,20 @@
         "market"
       ],
       "commands": [
-        "./plugins/market-research/commands/run-market-landscape-study.md",
-        "./plugins/market-research/commands/orchestrate-qualitative-lab.md",
-        "./plugins/market-research/commands/launch-quantitative-survey.md"
+        "./commands/run-market-landscape-study.md",
+        "./commands/orchestrate-qualitative-lab.md",
+        "./commands/launch-quantitative-survey.md"
       ],
       "agents": [
-        "./plugins/market-research/agents/insights-research-director.md",
-        "./plugins/market-research/agents/qualitative-field-lead.md",
-        "./plugins/market-research/agents/quant-insights-architect.md"
+        "./agents/insights-research-director.md",
+        "./agents/qualitative-field-lead.md",
+        "./agents/quant-insights-architect.md"
       ],
       "skills": [
-        "./plugins/market-research/skills/research-brief-blueprint/SKILL.md",
-        "./plugins/market-research/skills/participant-operations-hub/SKILL.md",
-        "./plugins/market-research/skills/insights-repository-kit/SKILL.md",
-        "./plugins/market-research/skills/market-scenario-modeler/SKILL.md"
+        "./skills/research-brief-blueprint/SKILL.md",
+        "./skills/participant-operations-hub/SKILL.md",
+        "./skills/insights-repository-kit/SKILL.md",
+        "./skills/market-scenario-modeler/SKILL.md"
       ]
     },
     {
@@ -1465,21 +1465,21 @@
         "governance"
       ],
       "commands": [
-        "./plugins/brand-strategy/commands/define-brand-platform.md",
-        "./plugins/brand-strategy/commands/design-multi-channel-brand-experience.md",
-        "./plugins/brand-strategy/commands/run-brand-governance-council.md"
+        "./commands/define-brand-platform.md",
+        "./commands/design-multi-channel-brand-experience.md",
+        "./commands/run-brand-governance-council.md"
       ],
       "agents": [
-        "./plugins/brand-strategy/agents/brand-foundation-architect.md",
-        "./plugins/brand-strategy/agents/brand-experience-creative-director.md",
-        "./plugins/brand-strategy/agents/brand-governance-lead.md"
+        "./agents/brand-foundation-architect.md",
+        "./agents/brand-experience-creative-director.md",
+        "./agents/brand-governance-lead.md"
       ],
       "skills": [
-        "./plugins/brand-strategy/skills/brand-narrative-playbook/SKILL.md",
-        "./plugins/brand-strategy/skills/brand-voice-glossary/SKILL.md",
-        "./plugins/brand-strategy/skills/experience-system-blueprint/SKILL.md",
-        "./plugins/brand-strategy/skills/brand-measurement-dashboard/SKILL.md",
-        "./plugins/brand-strategy/skills/brand-governance-os/SKILL.md"
+        "./skills/brand-narrative-playbook/SKILL.md",
+        "./skills/brand-voice-glossary/SKILL.md",
+        "./skills/experience-system-blueprint/SKILL.md",
+        "./skills/brand-measurement-dashboard/SKILL.md",
+        "./skills/brand-governance-os/SKILL.md"
       ]
     },
     {
@@ -1494,22 +1494,22 @@
         "engagement"
       ],
       "commands": [
-        "./plugins/community-building/commands/design-community-strategy.md",
-        "./plugins/community-building/commands/launch-community-activation-series.md",
-        "./plugins/community-building/commands/run-member-insight-sprint.md"
+        "./commands/design-community-strategy.md",
+        "./commands/launch-community-activation-series.md",
+        "./commands/run-member-insight-sprint.md"
       ],
       "agents": [
-        "./plugins/community-building/agents/community-ecosystem-strategist.md",
-        "./plugins/community-building/agents/community-operations-lead.md",
-        "./plugins/community-building/agents/member-insights-advocate.md"
+        "./agents/community-ecosystem-strategist.md",
+        "./agents/community-operations-lead.md",
+        "./agents/member-insights-advocate.md"
       ],
       "skills": [
-        "./plugins/community-building/skills/community-program-matrix/SKILL.md",
-        "./plugins/community-building/skills/community-kpi-dashboard/SKILL.md",
-        "./plugins/community-building/skills/moderation-safety-playbook/SKILL.md",
-        "./plugins/community-building/skills/champion-engagement-system/SKILL.md",
-        "./plugins/community-building/skills/community-insight-taxonomy/SKILL.md",
-        "./plugins/community-building/skills/closed-loop-community-playbook/SKILL.md"
+        "./skills/community-program-matrix/SKILL.md",
+        "./skills/community-kpi-dashboard/SKILL.md",
+        "./skills/moderation-safety-playbook/SKILL.md",
+        "./skills/champion-engagement-system/SKILL.md",
+        "./skills/community-insight-taxonomy/SKILL.md",
+        "./skills/closed-loop-community-playbook/SKILL.md"
       ]
     },
     {
@@ -1524,19 +1524,19 @@
         "automation"
       ],
       "commands": [
-        "./plugins/personalization-engine/commands/define-profiles.md",
-        "./plugins/personalization-engine/commands/configure-rules.md",
-        "./plugins/personalization-engine/commands/monitor-personalization.md"
+        "./commands/define-profiles.md",
+        "./commands/configure-rules.md",
+        "./commands/monitor-personalization.md"
       ],
       "agents": [
-        "./plugins/personalization-engine/agents/personalization-architect.md",
-        "./plugins/personalization-engine/agents/customer-data-engineer.md",
-        "./plugins/personalization-engine/agents/personalization-testing-lead.md"
+        "./agents/personalization-architect.md",
+        "./agents/customer-data-engineer.md",
+        "./agents/personalization-testing-lead.md"
       ],
       "skills": [
-        "./plugins/personalization-engine/skills/decision-trees/SKILL.md",
-        "./plugins/personalization-engine/skills/content-variants/SKILL.md",
-        "./plugins/personalization-engine/skills/governance/SKILL.md"
+        "./skills/decision-trees/SKILL.md",
+        "./skills/content-variants/SKILL.md",
+        "./skills/governance/SKILL.md"
       ]
     },
     {
@@ -1551,19 +1551,19 @@
         "calendar"
       ],
       "commands": [
-        "./plugins/social-scheduler-orchestration/commands/plan-calendar.md",
-        "./plugins/social-scheduler-orchestration/commands/route-approvals.md",
-        "./plugins/social-scheduler-orchestration/commands/analyze-social.md"
+        "./commands/plan-calendar.md",
+        "./commands/route-approvals.md",
+        "./commands/analyze-social.md"
       ],
       "agents": [
-        "./plugins/social-scheduler-orchestration/agents/social-program-manager.md",
-        "./plugins/social-scheduler-orchestration/agents/asset-coordinator.md",
-        "./plugins/social-scheduler-orchestration/agents/social-analytics-partner.md"
+        "./agents/social-program-manager.md",
+        "./agents/asset-coordinator.md",
+        "./agents/social-analytics-partner.md"
       ],
       "skills": [
-        "./plugins/social-scheduler-orchestration/skills/calendar-governance/SKILL.md",
-        "./plugins/social-scheduler-orchestration/skills/brand-guardrails/SKILL.md",
-        "./plugins/social-scheduler-orchestration/skills/performance-metrics/SKILL.md"
+        "./skills/calendar-governance/SKILL.md",
+        "./skills/brand-guardrails/SKILL.md",
+        "./skills/performance-metrics/SKILL.md"
       ]
     },
     {
@@ -1578,19 +1578,19 @@
         "search"
       ],
       "commands": [
-        "./plugins/seo-workflow-orchestration/commands/prioritize-keywords.md",
-        "./plugins/seo-workflow-orchestration/commands/deploy-optimizations.md",
-        "./plugins/seo-workflow-orchestration/commands/audit-technical.md"
+        "./commands/prioritize-keywords.md",
+        "./commands/deploy-optimizations.md",
+        "./commands/audit-technical.md"
       ],
       "agents": [
-        "./plugins/seo-workflow-orchestration/agents/seo-director.md",
-        "./plugins/seo-workflow-orchestration/agents/on-page-lead.md",
-        "./plugins/seo-workflow-orchestration/agents/technical-analyst.md"
+        "./agents/seo-director.md",
+        "./agents/on-page-lead.md",
+        "./agents/technical-analyst.md"
       ],
       "skills": [
-        "./plugins/seo-workflow-orchestration/skills/keyword-strategy/SKILL.md",
-        "./plugins/seo-workflow-orchestration/skills/publishing-process/SKILL.md",
-        "./plugins/seo-workflow-orchestration/skills/diagnostics/SKILL.md"
+        "./skills/keyword-strategy/SKILL.md",
+        "./skills/publishing-process/SKILL.md",
+        "./skills/diagnostics/SKILL.md"
       ]
     },
     {
@@ -1605,19 +1605,19 @@
         "pipeline"
       ],
       "commands": [
-        "./plugins/revenue-forecasting-pipeline/commands/ingest-pipeline.md",
-        "./plugins/revenue-forecasting-pipeline/commands/run-forecast.md",
-        "./plugins/revenue-forecasting-pipeline/commands/report-variance.md"
+        "./commands/ingest-pipeline.md",
+        "./commands/run-forecast.md",
+        "./commands/report-variance.md"
       ],
       "agents": [
-        "./plugins/revenue-forecasting-pipeline/agents/forecast-architect.md",
-        "./plugins/revenue-forecasting-pipeline/agents/revops-analyst.md",
-        "./plugins/revenue-forecasting-pipeline/agents/finance-partner.md"
+        "./agents/forecast-architect.md",
+        "./agents/revops-analyst.md",
+        "./agents/finance-partner.md"
       ],
       "skills": [
-        "./plugins/revenue-forecasting-pipeline/skills/forecast-modeling/SKILL.md",
-        "./plugins/revenue-forecasting-pipeline/skills/variance-analysis/SKILL.md",
-        "./plugins/revenue-forecasting-pipeline/skills/executive-briefs/SKILL.md"
+        "./skills/forecast-modeling/SKILL.md",
+        "./skills/variance-analysis/SKILL.md",
+        "./skills/executive-briefs/SKILL.md"
       ]
     },
     {
@@ -1632,19 +1632,19 @@
         "cx"
       ],
       "commands": [
-        "./plugins/customer-journey-orchestration/commands/map-journey.md",
-        "./plugins/customer-journey-orchestration/commands/prioritize-gaps.md",
-        "./plugins/customer-journey-orchestration/commands/implement-actions.md"
+        "./commands/map-journey.md",
+        "./commands/prioritize-gaps.md",
+        "./commands/implement-actions.md"
       ],
       "agents": [
-        "./plugins/customer-journey-orchestration/agents/cx-strategist.md",
-        "./plugins/customer-journey-orchestration/agents/research-lead.md",
-        "./plugins/customer-journey-orchestration/agents/journey-ops-owner.md"
+        "./agents/cx-strategist.md",
+        "./agents/research-lead.md",
+        "./agents/journey-ops-owner.md"
       ],
       "skills": [
-        "./plugins/customer-journey-orchestration/skills/journey-mapping/SKILL.md",
-        "./plugins/customer-journey-orchestration/skills/voice-of-customer/SKILL.md",
-        "./plugins/customer-journey-orchestration/skills/governance/SKILL.md"
+        "./skills/journey-mapping/SKILL.md",
+        "./skills/voice-of-customer/SKILL.md",
+        "./skills/governance/SKILL.md"
       ]
     },
     {
@@ -1659,19 +1659,19 @@
         "advocacy"
       ],
       "commands": [
-        "./plugins/community-orchestration/commands/plan-community-calendar.md",
-        "./plugins/community-orchestration/commands/run-community-event.md",
-        "./plugins/community-orchestration/commands/measure-engagement.md"
+        "./commands/plan-community-calendar.md",
+        "./commands/run-community-event.md",
+        "./commands/measure-engagement.md"
       ],
       "agents": [
-        "./plugins/community-orchestration/agents/community-lead.md",
-        "./plugins/community-orchestration/agents/community-moderator.md",
-        "./plugins/community-orchestration/agents/community-analyst.md"
+        "./agents/community-lead.md",
+        "./agents/community-moderator.md",
+        "./agents/community-analyst.md"
       ],
       "skills": [
-        "./plugins/community-orchestration/skills/community-ops/SKILL.md",
-        "./plugins/community-orchestration/skills/escalation/SKILL.md",
-        "./plugins/community-orchestration/skills/sentiment-analysis/SKILL.md"
+        "./skills/community-ops/SKILL.md",
+        "./skills/escalation/SKILL.md",
+        "./skills/sentiment-analysis/SKILL.md"
       ]
     },
     {
@@ -1686,19 +1686,19 @@
         "partner"
       ],
       "commands": [
-        "./plugins/referral-program-orchestration/commands/design-referral.md",
-        "./plugins/referral-program-orchestration/commands/launch-program.md",
-        "./plugins/referral-program-orchestration/commands/optimize-referrals.md"
+        "./commands/design-referral.md",
+        "./commands/launch-program.md",
+        "./commands/optimize-referrals.md"
       ],
       "agents": [
-        "./plugins/referral-program-orchestration/agents/referral-architect.md",
-        "./plugins/referral-program-orchestration/agents/lifecycle-ops.md",
-        "./plugins/referral-program-orchestration/agents/partner-manager.md"
+        "./agents/referral-architect.md",
+        "./agents/lifecycle-ops.md",
+        "./agents/partner-manager.md"
       ],
       "skills": [
-        "./plugins/referral-program-orchestration/skills/incentive-design/SKILL.md",
-        "./plugins/referral-program-orchestration/skills/fraud-detection/SKILL.md",
-        "./plugins/referral-program-orchestration/skills/partner-ops/SKILL.md"
+        "./skills/incentive-design/SKILL.md",
+        "./skills/fraud-detection/SKILL.md",
+        "./skills/partner-ops/SKILL.md"
       ]
     },
     {
@@ -1713,19 +1713,19 @@
         "campaign"
       ],
       "commands": [
-        "./plugins/partner-co-marketing-orchestration/commands/co-plan-campaign.md",
-        "./plugins/partner-co-marketing-orchestration/commands/manage-assets.md",
-        "./plugins/partner-co-marketing-orchestration/commands/track-source.md"
+        "./commands/co-plan-campaign.md",
+        "./commands/manage-assets.md",
+        "./commands/track-source.md"
       ],
       "agents": [
-        "./plugins/partner-co-marketing-orchestration/agents/partner-marketer.md",
-        "./plugins/partner-co-marketing-orchestration/agents/co-marketing-asset-manager.md",
-        "./plugins/partner-co-marketing-orchestration/agents/co-marketing-analytics-lead.md"
+        "./agents/partner-marketer.md",
+        "./agents/co-marketing-asset-manager.md",
+        "./agents/co-marketing-analytics-lead.md"
       ],
       "skills": [
-        "./plugins/partner-co-marketing-orchestration/skills/co-branding/SKILL.md",
-        "./plugins/partner-co-marketing-orchestration/skills/asset-approval/SKILL.md",
-        "./plugins/partner-co-marketing-orchestration/skills/attribution/SKILL.md"
+        "./skills/co-branding/SKILL.md",
+        "./skills/asset-approval/SKILL.md",
+        "./skills/attribution/SKILL.md"
       ]
     },
     {
@@ -1740,20 +1740,20 @@
         "customer"
       ],
       "commands": [
-        "./plugins/customer-advocacy-orchestration/commands/identify-advocates.md",
-        "./plugins/customer-advocacy-orchestration/commands/activate-program.md",
-        "./plugins/customer-advocacy-orchestration/commands/create-stories.md",
-        "./plugins/customer-advocacy-orchestration/commands/report-advocacy.md"
+        "./commands/identify-advocates.md",
+        "./commands/activate-program.md",
+        "./commands/create-stories.md",
+        "./commands/report-advocacy.md"
       ],
       "agents": [
-        "./plugins/customer-advocacy-orchestration/agents/advocacy-strategist.md",
-        "./plugins/customer-advocacy-orchestration/agents/reference-manager.md",
-        "./plugins/customer-advocacy-orchestration/agents/story-producer.md"
+        "./agents/advocacy-strategist.md",
+        "./agents/reference-manager.md",
+        "./agents/story-producer.md"
       ],
       "skills": [
-        "./plugins/customer-advocacy-orchestration/skills/advocate-sourcing/SKILL.md",
-        "./plugins/customer-advocacy-orchestration/skills/reference-ops/SKILL.md",
-        "./plugins/customer-advocacy-orchestration/skills/storytelling/SKILL.md"
+        "./skills/advocate-sourcing/SKILL.md",
+        "./skills/reference-ops/SKILL.md",
+        "./skills/storytelling/SKILL.md"
       ]
     },
     {
@@ -1768,19 +1768,19 @@
         "rewards"
       ],
       "commands": [
-        "./plugins/loyalty-lifecycle-orchestration/commands/plan-loyalty.md",
-        "./plugins/loyalty-lifecycle-orchestration/commands/configure-rewards.md",
-        "./plugins/loyalty-lifecycle-orchestration/commands/monitor-loyalty.md"
+        "./commands/plan-loyalty.md",
+        "./commands/configure-rewards.md",
+        "./commands/monitor-loyalty.md"
       ],
       "agents": [
-        "./plugins/loyalty-lifecycle-orchestration/agents/loyalty-strategist.md",
-        "./plugins/loyalty-lifecycle-orchestration/agents/reward-operations.md",
-        "./plugins/loyalty-lifecycle-orchestration/agents/member-insights.md"
+        "./agents/loyalty-strategist.md",
+        "./agents/reward-operations.md",
+        "./agents/member-insights.md"
       ],
       "skills": [
-        "./plugins/loyalty-lifecycle-orchestration/skills/loyalty-modeling/SKILL.md",
-        "./plugins/loyalty-lifecycle-orchestration/skills/reward-ops/SKILL.md",
-        "./plugins/loyalty-lifecycle-orchestration/skills/member-insights/SKILL.md"
+        "./skills/loyalty-modeling/SKILL.md",
+        "./skills/reward-ops/SKILL.md",
+        "./skills/member-insights/SKILL.md"
       ]
     },
     {
@@ -1795,19 +1795,19 @@
         "activation"
       ],
       "commands": [
-        "./plugins/intent-signal-orchestration/commands/connect-signals.md",
-        "./plugins/intent-signal-orchestration/commands/prioritize-accounts.md",
-        "./plugins/intent-signal-orchestration/commands/trigger-plays.md"
+        "./commands/connect-signals.md",
+        "./commands/prioritize-accounts.md",
+        "./commands/trigger-plays.md"
       ],
       "agents": [
-        "./plugins/intent-signal-orchestration/agents/intent-analyst.md",
-        "./plugins/intent-signal-orchestration/agents/automation-lead.md",
-        "./plugins/intent-signal-orchestration/agents/sales-liaison.md"
+        "./agents/intent-analyst.md",
+        "./agents/automation-lead.md",
+        "./agents/sales-liaison.md"
       ],
       "skills": [
-        "./plugins/intent-signal-orchestration/skills/signal-scoring/SKILL.md",
-        "./plugins/intent-signal-orchestration/skills/suppression-logic/SKILL.md",
-        "./plugins/intent-signal-orchestration/skills/outbound-plays/SKILL.md"
+        "./skills/signal-scoring/SKILL.md",
+        "./skills/suppression-logic/SKILL.md",
+        "./skills/outbound-plays/SKILL.md"
       ]
     },
     {
@@ -1822,19 +1822,19 @@
         "retention"
       ],
       "commands": [
-        "./plugins/renewal-orchestration/commands/forecast-renewals.md",
-        "./plugins/renewal-orchestration/commands/orchestrate-renewal-play.md",
-        "./plugins/renewal-orchestration/commands/run-retro.md"
+        "./commands/forecast-renewals.md",
+        "./commands/orchestrate-renewal-play.md",
+        "./commands/run-retro.md"
       ],
       "agents": [
-        "./plugins/renewal-orchestration/agents/renewal-director.md",
-        "./plugins/renewal-orchestration/agents/cs-ops-partner.md",
-        "./plugins/renewal-orchestration/agents/exec-sponsor.md"
+        "./agents/renewal-director.md",
+        "./agents/cs-ops-partner.md",
+        "./agents/exec-sponsor.md"
       ],
       "skills": [
-        "./plugins/renewal-orchestration/skills/renewal-playbooks/SKILL.md",
-        "./plugins/renewal-orchestration/skills/escalation-framework/SKILL.md",
-        "./plugins/renewal-orchestration/skills/deal-desk/SKILL.md"
+        "./skills/renewal-playbooks/SKILL.md",
+        "./skills/escalation-framework/SKILL.md",
+        "./skills/deal-desk/SKILL.md"
       ]
     },
     {
@@ -1849,19 +1849,19 @@
         "voice-of-customer"
       ],
       "commands": [
-        "./plugins/customer-feedback-orchestration/commands/run-survey.md",
-        "./plugins/customer-feedback-orchestration/commands/synthesize-feedback.md",
-        "./plugins/customer-feedback-orchestration/commands/route-insights.md"
+        "./commands/run-survey.md",
+        "./commands/synthesize-feedback.md",
+        "./commands/route-insights.md"
       ],
       "agents": [
-        "./plugins/customer-feedback-orchestration/agents/research-lead.md",
-        "./plugins/customer-feedback-orchestration/agents/product-liaison.md",
-        "./plugins/customer-feedback-orchestration/agents/cs-analyst.md"
+        "./agents/research-lead.md",
+        "./agents/product-liaison.md",
+        "./agents/cs-analyst.md"
       ],
       "skills": [
-        "./plugins/customer-feedback-orchestration/skills/survey-design/SKILL.md",
-        "./plugins/customer-feedback-orchestration/skills/insight-synthesis/SKILL.md",
-        "./plugins/customer-feedback-orchestration/skills/stakeholder-ops/SKILL.md"
+        "./skills/survey-design/SKILL.md",
+        "./skills/insight-synthesis/SKILL.md",
+        "./skills/stakeholder-ops/SKILL.md"
       ]
     }
   ]

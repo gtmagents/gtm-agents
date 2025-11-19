@@ -207,6 +207,20 @@ If you work across multiple areas, install these versatile plugins:
 
 ---
 
+## Managing Plugins
+
+### List Installed Plugins
+
+```bash
+# All installed plugins
+/plugin list
+
+# Plugins from specific marketplace
+/plugin list gtm-agents
+```
+
+---
+
 ### Installation Process
 
 1. **Copy the command** for your role (from above)
