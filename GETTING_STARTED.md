@@ -57,25 +57,53 @@ Claude Code is an AI-powered coding assistant that helps you automate tasks, gen
 
 ### Installation Steps
 
-1. **Visit the Claude Code website**
-   - Go to [claude.ai/code](https://claude.ai/code) (or check the official Anthropic website for the latest download link)
+### Native / Script Installer (Recommended)
+*macOS / Linux / WSL:*
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
 
-2. **Download Claude Code**
-   - Click the download button for your operating system (Windows, macOS, or Linux)
-   - Wait for the download to complete
+*Windows PowerShell:*
+```powershell
+irm https://claude.ai/install.ps1 | iex
+```
 
-3. **Install the application**
-   - **macOS**: Open the downloaded `.dmg` file and drag Claude Code to your Applications folder
-   - **Windows**: Run the `.exe` installer and follow the on-screen instructions
-   - **Linux**: Follow the distribution-specific installation instructions
+*Windows CMD:*
+```cmd
+curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
+```
 
-4. **Launch Claude Code**
-   - Open Claude Code from your Applications folder (macOS) or Start Menu (Windows)
-   - Sign in with your Claude account
+### Homebrew (macOS / Linux)
+```bash
+brew install --cask claude-code
+```
 
-5. **Verify installation**
-   - You should see the Claude Code interface with a chat window
-   - Type "Hello" to confirm Claude responds
+### NPM (Node.js 18+ required)
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+**Note:** Avoid using `sudo npm install -g` to prevent permission issues.
+
+---
+
+### Authentication & First Run
+1.  Open a terminal and navigate into your project directory:
+    ```bash
+    cd /path/to/your/project
+    ```
+2.  Run Claude Code:
+    ```bash
+    claude
+    ```
+3.  You’ll be prompted to log in. You can sign in via:
+    *   A Claude.ai account (Pro/Max subscription)
+    *   Claude Console (API-key based)
+
+4.  After login you’ll see the Claude Code interface. To verify it’s working, try:
+
+    **Verify installation**
+    - You should see the Claude Code interface with a chat window
+    - Type "Hello" to confirm Claude responds
 
 > **✨ Success!** If Claude responds to your message, you're ready to move on.
 
@@ -89,22 +117,22 @@ A workspace is like a project folder where Claude Code can access and manage fil
 
 ### Creating Your Workspace
 
-1. **Create a folder on your computer**
-   ```
-   📁 Documents/
-      └── 📁 GTM-Work/
-   ```
-   - On **macOS**: Create a folder in your Documents called "GTM-Work"
-   - On **Windows**: Create a folder in your Documents called "GTM-Work"
+1.  **Create a folder on your computer**
+    ```
+    📁 Documents/
+       └── 📁 GTM-Work/
+    ```
+    - On **macOS**: Create a folder in your Documents called "GTM-Work"
+    - On **Windows**: Create a folder in your Documents called "GTM-Work"
 
-2. **Open the folder in Claude Code**
-   - In Claude Code, click **File → Open Folder** (or similar menu option)
-   - Navigate to your newly created `GTM-Work` folder
-   - Click **Select Folder** or **Open**
+2.  **Open the folder in Claude Code**
+    - In Claude Code, click **File → Open Folder** (or similar menu option)
+    - Navigate to your newly created `GTM-Work` folder
+    - Click **Select Folder** or **Open**
 
-3. **Confirm workspace is active**
-   - You should see your folder name in the Claude Code sidebar or title bar
-   - The workspace is now ready for use
+3.  **Confirm workspace is active**
+    - You should see your folder name in the Claude Code sidebar or title bar
+    - The workspace is now ready for use
 
 > **💡 Tip:** You can create multiple workspaces for different projects (e.g., "Sales-Projects", "Marketing-Campaigns", etc.)
 
@@ -118,21 +146,21 @@ A marketplace is a collection of plugins (tools and agents) that you can install
 
 ### Adding the Marketplace
 
-1. **Open the chat in Claude Code**
-   - Make sure you're in your GTM-Work workspace
+1.  **Open the chat in Claude Code**
+    - Make sure you're in your GTM-Work workspace
 
-2. **Type the following command** in the chat:
-   ```
-   /plugin marketplace add gtmagents/gtm-agents
-   ```
+2.  **Type the following command** in the chat:
+    ```
+    /plugin marketplace add gtmagents/gtm-agents
+    ```
 
-3. **Wait for confirmation**
-   - Claude will respond confirming the marketplace has been added
-   - This makes all 67 plugins available for installation but **does not load any agents or tools** into your context.
+3.  **Wait for confirmation**
+    - Claude will respond confirming the marketplace has been added
+    - This makes all 67 plugins available for installation but **does not load any agents or tools** into your context.
 
-4. **Browse available plugins** (optional)
-   - Type `/plugin` to see all available plugins
-   - You'll see a list organized by category
+4.  **Browse available plugins** (optional)
+    - Type `/plugin` to see all available plugins
+    - You'll see a list organized by category
 
 > **✨ Success!** You now have access to all GTM plugins, but they're not loaded yet (which saves memory and keeps things fast).
 
@@ -223,10 +251,10 @@ If you work across multiple areas, install these versatile plugins:
 
 ### Installation Process
 
-1. **Copy the command** for your role (from above)
-2. **Paste it into Claude Code** chat, one line at a time
-3. **Press Enter** after each command
-4. **Wait for confirmation** that each plugin is installed
+1.  **Copy the command** for your role (from above)
+2.  **Paste it into Claude Code** chat, one line at a time
+3.  **Press Enter** after each command
+4.  **Wait for confirmation** that each plugin is installed
 
 > **⏱️ Time:** Installing 3 plugins takes about 30 seconds total.
 
@@ -302,10 +330,10 @@ You can also just describe what you need in plain English:
 
 Now that you're set up, explore these resources:
 
-1. **[Quick Start Guide](QUICK_START.md)** - Top 10 commands and real-world scenarios
-2. **[Usage Guide](docs/usage-guide.md)** - Comprehensive command reference
-3. **[Plugin Reference](docs/plugin-reference.md)** - All 67 plugins explained
-4. **[Business Skills](docs/business-skills.md)** - 52 specialized skills you can use
+1.  **[Quick Start Guide](QUICK_START.md)** - Top 10 commands and real-world scenarios
+2.  **[Usage Guide](docs/usage-guide.md)** - Comprehensive command reference
+3.  **[Plugin Reference](docs/plugin-reference.md)** - All 67 plugins explained
+4.  **[Business Skills](docs/business-skills.md)** - 52 specialized skills you can use
 
 ### 🚀 Expand Your Toolkit
 
@@ -324,11 +352,11 @@ Install more plugins as you need them:
 
 ### 💡 Pro Tips for Beginners
 
-1. **Start simple** - Use basic commands first, add complexity later
-2. **Use natural language** - Just describe what you need
-3. **Ask for help** - Type `/help` or ask Claude "How do I...?"
-4. **Experiment** - You can't break anything, so try different commands
-5. **Save favorites** - Create aliases for commands you use often
+1.  **Start simple** - Use basic commands first, add complexity later
+2.  **Use natural language** - Just describe what you need
+3.  **Ask for help** - Type `/help` or ask Claude "How do I...?"
+4.  **Experiment** - You can't break anything, so try different commands
+5.  **Save favorites** - Create aliases for commands you use often
 
 ### 📚 Common Next Steps by Role
 
@@ -358,9 +386,9 @@ Install more plugins as you need them:
 **Problem:** You typed a command but got an error.
 
 **Solution:**
-1. Make sure you installed the required plugin first
-2. Check for typos in the command
-3. Try typing `/plugin` to see installed plugins
+1.  Make sure you installed the required plugin first
+2.  Check for typos in the command
+3.  Try typing `/plugin` to see installed plugins
 
 ---
 
@@ -369,9 +397,9 @@ Install more plugins as you need them:
 **Problem:** The marketplace couldn't be added.
 
 **Solution:**
-1. Verify you're connected to the internet
-2. Check that you used the correct marketplace name
-3. Make sure you're in a workspace (Step 2)
+1.  Verify you're connected to the internet
+2.  Check that you used the correct marketplace name
+3.  Make sure you're in a workspace (Step 2)
 
 ---
 
@@ -380,9 +408,9 @@ Install more plugins as you need them:
 **Problem:** You installed plugins but can't use them.
 
 **Solution:**
-1. Restart Claude Code
-2. Verify the workspace is open
-3. Type `/plugin` to confirm installation
+1.  Restart Claude Code
+2.  Verify the workspace is open
+3.  Type `/plugin` to confirm installation
 
 ---
 
@@ -391,9 +419,9 @@ Install more plugins as you need them:
 **Problem:** Commands aren't working.
 
 **Solution:**
-1. Check your internet connection
-2. Verify you're signed into your Claude account
-3. Try closing and reopening Claude Code
+1.  Check your internet connection
+2.  Verify you're signed into your Claude account
+3.  Try closing and reopening Claude Code
 
 ---
 
@@ -458,11 +486,11 @@ Congratulations! You've successfully:
 
 ### Tips for Success
 
-1. **Start simple** → Add complexity as you learn
-2. **Use natural language** → Just describe what you need
-3. **Ask for help** → Claude is always ready to assist
-4. **Experiment freely** → You can't break anything
-5. **Save time** → Create aliases for frequent tasks
+1.  **Start simple** → Add complexity as you learn
+2.  **Use natural language** → Just describe what you need
+3.  **Ask for help** → Claude is always ready to assist
+4.  **Experiment freely** → You can't break anything
+5.  **Save time** → Create aliases for frequent tasks
 
 ### Common Patterns
 
@@ -481,8 +509,8 @@ Congratulations! You've successfully:
 **Chain commands for workflows:**
 ```bash
 # Generate leads → Create sequence → Schedule
-/sales-prospecting:generate-leads | 
-/sales-prospecting:build-sequence | 
+/sales-prospecting:generate-leads |
+/sales-prospecting:build-sequence |
 /email-marketing:schedule-campaign
 ```
 
@@ -514,69 +542,69 @@ Congratulations! You've successfully:
 
 ### General Questions
 
-**Q: Do I need to know how to code?**  
+**Q: Do I need to know how to code?**
 A: No! These plugins are designed for business users. Just describe what you need in plain English, and Claude will handle the rest.
 
-**Q: How much does this cost?**  
+**Q: How much does this cost?**
 A: You'll need a Claude account (check [claude.ai](https://claude.ai) for pricing). The GTM Agents plugins themselves are open-source and free to use.
 
-**Q: Will this work on my computer?**  
+**Q: Will this work on my computer?**
 A: Yes! Claude Code works on Windows, macOS, and Linux.
 
-**Q: How long does setup take?**  
+**Q: How long does setup take?**
 A: About 10-15 minutes for first-time setup. After that, installing new plugins takes just seconds.
 
 ### Using the Plugins
 
-**Q: Do I need to install all 67 plugins?**  
+**Q: Do I need to install all 67 plugins?**
 A: No! Start with 2-3 plugins for your role. You can always install more later.
 
-**Q: How do I know which plugins to install?**  
+**Q: How do I know which plugins to install?**
 A: Follow the recommendations in [Step 4](#step-4-install-your-first-plugins) based on your role (Sales, Marketing, or Growth).
 
-**Q: Can I uninstall plugins I don't use?**  
+**Q: Can I uninstall plugins I don't use?**
 A: Yes! Type `/plugin uninstall [plugin-name]` to remove any plugin.
 
-**Q: What if I make a mistake?**  
+**Q: What if I make a mistake?**
 A: Don't worry! You can't break anything. Just ask Claude to help you fix it or undo changes.
 
 ### Data and Privacy
 
-**Q: Is my data safe?**  
+**Q: Is my data safe?**
 A: Yes. All plugins follow Claude's security and privacy standards. Your data stays within your Claude workspace.
 
-**Q: Can I use this with my company's data?**  
+**Q: Can I use this with my company's data?**
 A: Check with your IT department first. Make sure using AI tools complies with your company's policies.
 
-**Q: Where is my work saved?**  
+**Q: Where is my work saved?**
 A: Everything is saved in your workspace folder on your computer. You have full control over your files.
 
 ### Getting Help
 
-**Q: What if a command doesn't work?**  
+**Q: What if a command doesn't work?**
 A: Check the [Troubleshooting](#troubleshooting) section, or just ask Claude: "This command isn't working, can you help?"
 
-**Q: Can I see examples before trying a command?**  
+**Q: Can I see examples before trying a command?**
 A: Yes! Type `/examples [command-name]` to see usage examples.
 
-**Q: How do I learn more advanced features?**  
+**Q: How do I learn more advanced features?**
 A: Once you're comfortable with the basics, check out the [Usage Guide](docs/usage-guide.md) and [Business Skills](docs/business-skills.md) documentation.
 
-**Q: Can I get one-on-one help?**  
+**Q: Can I get one-on-one help?**
 A: Ask Claude directly! Just describe your problem in the chat, and Claude will guide you through the solution.
 
 ### Technical Questions
 
-**Q: Do I need an internet connection?**  
+**Q: Do I need an internet connection?**
 A: Yes, Claude Code requires an internet connection to work.
 
-**Q: Can I use this offline?**  
+**Q: Can I use this offline?**
 A: No, Claude Code needs to connect to Claude's AI to function.
 
-**Q: What if I'm behind a corporate firewall?**  
+**Q: What if I'm behind a corporate firewall?**
 A: You may need to work with your IT department to ensure Claude Code can connect to the internet.
 
-**Q: Can I use this on multiple computers?**  
+**Q: Can I use this on multiple computers?**
 A: Yes! Just install Claude Code on each computer and sign in with the same account.
 
 ---
@@ -589,4 +617,3 @@ A: Yes! Just install Claude Code on each computer and sign in with the same acco
 - 💡 **Share Ideas:** [GitHub Discussions](../../discussions)
 
 **Welcome to the future of GTM work! 🚀**
-
