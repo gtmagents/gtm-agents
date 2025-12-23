@@ -1,0 +1,1317 @@
+<available_skills>
+  <skill>
+    <name>ab-testing</name>
+    <description>Use when designing experiments for subject lines, offers, cadences, or</description>
+    <location>plugins/email-marketing/skills/ab-testing/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>account-based-blueprint</name>
+    <description>Framework for consolidating manufacturing account intelligence, buying</description>
+    <location>plugins/manufacturing-sales/skills/account-based-blueprint/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>account-health-framework</name>
+    <description>Use to score accounts, flag risks, and standardize remediation triggers.</description>
+    <location>plugins/account-management/skills/account-health-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>account-tiering</name>
+    <description>Use when defining ABM tiers, scoring logic, and coverage rules.</description>
+    <location>plugins/abm-orchestration/skills/account-tiering/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>activation-map</name>
+    <description>Use to link segments and insights to GTM plays, owners, and measurement</description>
+    <location>plugins/customer-analytics/skills/activation-map/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>adoption-playbook</name>
+    <description>Structured guide for designing and executing customer adoption programs.</description>
+    <location>plugins/customer-success/skills/adoption-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>advocacy-programs</name>
+    <description>Use when designing and scaling reference, story, advisory, or community</description>
+    <location>plugins/customer-marketing/skills/advocacy-programs/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>advocacy-roster-system</name>
+    <description>Scoring and governance framework for managing reference customers and</description>
+    <location>plugins/voice-of-customer/skills/advocacy-roster-system/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>advocate-sourcing</name>
+    <description>Use to identify, score, and prioritize customer advocates for programs.</description>
+    <location>plugins/customer-advocacy-orchestration/skills/advocate-sourcing/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>algorithmic-art</name>
+    <description>Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.</description>
+    <location>examples/skills/algorithmic-art/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>api-style-guide</name>
+    <description>Style and formatting rules for API/SDK documentation, samples, and tutorials.</description>
+    <location>plugins/technical-writing/skills/api-style-guide/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>artifacts-builder</name>
+    <description>Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.</description>
+    <location>examples/skills/artifacts-builder/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>asset-approval</name>
+    <description>Use to manage co-marketing asset reviews with traceable evidence and</description>
+    <location>plugins/partner-co-marketing-orchestration/skills/asset-approval/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>asset-tracking</name>
+    <description>Use when managing asset metadata, dependencies, and delivery workflows</description>
+    <location>plugins/content-pipeline-orchestration/skills/asset-tracking/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>attribution</name>
+    <description>Use to define measurement, data sharing, and ROI reporting for joint</description>
+    <location>plugins/partner-co-marketing-orchestration/skills/attribution/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>attribution-playbook</name>
+    <description>Standard operating guide for campaign tagging, attribution models, and</description>
+    <location>plugins/marketing-analytics/skills/attribution-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>battlecard-library</name>
+    <description>Template system for building, tagging, and distributing competitive battlecards.</description>
+    <location>plugins/competitive-intelligence/skills/battlecard-library/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>battlecard-system</name>
+    <description>Use to standardize competitive positioning, objection handling, and talk</description>
+    <location>plugins/sales-enablement/skills/battlecard-system/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>board-readiness-kit</name>
+    <description>Narrative and artifact system for preparing SaaS board/investor updates.</description>
+    <location>plugins/b2b-saas/skills/board-readiness-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>brand-governance</name>
+    <description>Use to manage brand guidelines, approvals, and ongoing refresh cadence.</description>
+    <location>plugins/design-creative/skills/brand-governance/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>brand-governance-os</name>
+    <description>Operating system for intake, approvals, QA, and training across brand</description>
+    <location>plugins/brand-strategy/skills/brand-governance-os/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>brand-guardrails</name>
+    <description>Use to review voice, visual, legal, and partner requirements before publishing</description>
+    <location>plugins/social-scheduler-orchestration/skills/brand-guardrails/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>brand-guidelines</name>
+    <description>Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.</description>
+    <location>examples/skills/brand-guidelines/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>brand-measurement-dashboard</name>
+    <description>KPI framework and reporting system for tracking brand health, consistency,</description>
+    <location>plugins/brand-strategy/skills/brand-measurement-dashboard/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>brand-narrative-playbook</name>
+    <description>Messaging and storytelling template that keeps positioning consistent</description>
+    <location>plugins/brand-strategy/skills/brand-narrative-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>brand-voice-glossary</name>
+    <description>Tone, diction, and phrasebook system for consistent writing + localization.</description>
+    <location>plugins/brand-strategy/skills/brand-voice-glossary/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>budget-optimization</name>
+    <description>Use when reallocating spend across channels/ad sets or setting guardrails</description>
+    <location>plugins/paid-media/skills/budget-optimization/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>cadence-design</name>
+    <description>Use when spacing, sequencing, and pacing multi-touch email programs.</description>
+    <location>plugins/email-sequence-orchestration/skills/cadence-design/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>calendar-governance</name>
+    <description>Use to enforce cadence rules, timezone coverage, and operational controls</description>
+    <location>plugins/social-scheduler-orchestration/skills/calendar-governance/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>call-analysis-framework</name>
+    <description>Use to score calls, capture highlights, and convert insights into actions.</description>
+    <location>plugins/sales-calls/skills/call-analysis-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>call-brief-framework</name>
+    <description>Use to structure concise call briefs with objectives, agendas, and role</description>
+    <location>plugins/sales-calls/skills/call-brief-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>call-highlights</name>
+    <description>Use to capture, tag, and distribute call clips for coaching and enablement</description>
+    <location>plugins/sales-coaching/skills/call-highlights/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>call-review-kit</name>
+    <description>Use to facilitate structured call review sessions with agendas, scorecards,</description>
+    <location>plugins/sales-calls/skills/call-review-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>campaign-architecture</name>
+    <description>Use when structuring paid media campaigns/ad sets to balance testing,</description>
+    <location>plugins/paid-media/skills/campaign-architecture/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>campaign-planning</name>
+    <description>Use when developing campaign strategy, briefs, KPIs, and workback schedules before execution.</description>
+    <location>plugins/campaign-orchestration/skills/campaign-planning/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>canvas-design</name>
+    <description>Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.</description>
+    <location>examples/skills/canvas-design/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>capacity-modeling</name>
+    <description>Use to model bookings targets vs headcount, ramp, and productivity assumptions.</description>
+    <location>plugins/sales-operations/skills/capacity-modeling/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>case-studies</name>
+    <description>Use when creating customer stories that prove ROI, highlight use cases, and equip sales with proof.</description>
+    <location>plugins/content-marketing/skills/case-studies/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>champion-engagement-system</name>
+    <description>Framework for recruiting, activating, and rewarding community champions.</description>
+    <location>plugins/community-building/skills/champion-engagement-system/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>channel-integration</name>
+    <description>Use when synchronizing messaging, timing, and measurement across multiple campaign channels.</description>
+    <location>plugins/campaign-orchestration/skills/channel-integration/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>channel-pacing-guardrails</name>
+    <description>Guardrail framework for monitoring spend, efficiency, and CAC thresholds</description>
+    <location>plugins/marketing-analytics/skills/channel-pacing-guardrails/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>channel-roadmap-kit</name>
+    <description>Template system for building quarterly social channel roadmaps with KPIs</description>
+    <location>plugins/social-media-marketing/skills/channel-roadmap-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>clinical-proof-library</name>
+    <description>Repository blueprint for managing clinical studies, testimonials, and</description>
+    <location>plugins/healthcare-marketing/skills/clinical-proof-library/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>closed-loop-community-playbook</name>
+    <description>Processes for routing community insights/actions and communicating outcomes</description>
+    <location>plugins/community-building/skills/closed-loop-community-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>closed-loop-playbook</name>
+    <description>Governance system for routing VoC insights to owners and tracking follow-through.</description>
+    <location>plugins/voice-of-customer/skills/closed-loop-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>co-branding</name>
+    <description>Use to enforce visual, messaging, and legal standards across partner</description>
+    <location>plugins/partner-co-marketing-orchestration/skills/co-branding/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>co-marketing-governance</name>
+    <description>Governance playbook for joint marketing programs, MDF, and performance</description>
+    <location>plugins/partnership-development/skills/co-marketing-governance/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>coaching-framework</name>
+    <description>Use to structure competency rubrics, scoring guides, and coaching plan</description>
+    <location>plugins/sales-coaching/skills/coaching-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>cohort-analysis</name>
+    <description>Standard method for slicing bookings, pipeline, and retention cohorts</description>
+    <location>plugins/revenue-analytics/skills/cohort-analysis/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>cold-email-personalization</name>
+    <description>Complete cold email system teaching research-driven personalization, "poke the bear" openers, custom signal hunting, and strict QA.</description>
+    <location>plugins/copywriting/skills/cold-email-personalization/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>cold-outreach</name>
+    <description>Master cold email, LinkedIn, and first-touch prospect outreach. Use when crafting outbound sequences, social touches, or follow-ups that must earn fast responses.</description>
+    <location>plugins/sales-prospecting/skills/cold-outreach/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>community-advocacy-toolkit</name>
+    <description>Playbook for activating current students, alumni, and partners as advocates.</description>
+    <location>plugins/edtech-growth/skills/community-advocacy-toolkit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>community-engagement</name>
+    <description>Use when planning programs, rituals, and response frameworks for owned</description>
+    <location>plugins/social-media/skills/community-engagement/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>community-insight-taxonomy</name>
+    <description>Tagging schema for classifying community signals by persona, journey,</description>
+    <location>plugins/community-building/skills/community-insight-taxonomy/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>community-kpi-dashboard</name>
+    <description>Measurement system tracking engagement, health, and business impact of</description>
+    <location>plugins/community-building/skills/community-kpi-dashboard/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>community-ops</name>
+    <description>Use to orchestrate workflows, tooling, and automation for community programs.</description>
+    <location>plugins/community-orchestration/skills/community-ops/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>community-program-matrix</name>
+    <description>Planning framework for mapping community programming across personas,</description>
+    <location>plugins/community-building/skills/community-program-matrix/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>community-sentiment-dashboard</name>
+    <description>Reporting template for tracking sentiment, risks, and advocacy signals</description>
+    <location>plugins/social-media-marketing/skills/community-sentiment-dashboard/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>comp-mechanics</name>
+    <description>Use to assemble rate tables, accelerator logic, and plan governance templates.</description>
+    <location>plugins/sales-operations/skills/comp-mechanics/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>competitive-intel</name>
+    <description>Use when researching, documenting, and sharing competitor insights with</description>
+    <location>plugins/product-marketing/skills/competitive-intel/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>compliance-briefing-kit</name>
+    <description>Standardized template for campaign compliance intake, reviews, and approvals.</description>
+    <location>plugins/healthcare-marketing/skills/compliance-briefing-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>compliance-statement-library</name>
+    <description>Repository pattern for pre-approved financial disclosures and claim language.</description>
+    <location>plugins/financial-services/skills/compliance-statement-library/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>content-variants</name>
+    <description>Use when planning, approving, and versioning personalized creative assets.</description>
+    <location>plugins/personalization-engine/skills/content-variants/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>conversion-diagnostic-kit</name>
+    <description>Structured approach for investigating funnel issues across e-commerce</description>
+    <location>plugins/e-commerce/skills/conversion-diagnostic-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>creative-brief-framework</name>
+    <description>Use to structure concise creative briefs with goals, audience, and guardrails.</description>
+    <location>plugins/design-creative/skills/creative-brief-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>creative-iteration-playbook</name>
+    <description>Framework for briefing, testing, and scaling social creative variations.</description>
+    <location>plugins/social-media-marketing/skills/creative-iteration-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>creative-qa-checklist</name>
+    <description>Use to verify creative assets meet brand, accessibility, and localization</description>
+    <location>plugins/design-creative/skills/creative-qa-checklist/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>creative-variants</name>
+    <description>Use when developing hooks, visuals, and copy variations for paid campaigns</description>
+    <location>plugins/paid-media/skills/creative-variants/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>crisis-playbooks</name>
+    <description>Use when incidents occur and you need pre-approved workflows, templates,</description>
+    <location>plugins/pr-communications/skills/crisis-playbooks/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>crm-hygiene</name>
+    <description>Use to enforce stage definitions, next-step requirements, and data completeness</description>
+    <location>plugins/sales-pipeline/skills/crm-hygiene/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>curriculum-alignment-kit</name>
+    <description>Toolkit to map EdTech programs to academic standards, accreditation,</description>
+    <location>plugins/edtech-growth/skills/curriculum-alignment-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>customer-feedback-taxonomy</name>
+    <description>Standardized tagging schema for personas, lifecycle stages, drivers,</description>
+    <location>plugins/voice-of-customer/skills/customer-feedback-taxonomy/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>customer-insights</name>
+    <description>Use when consolidating product usage, health, and sentiment signals for</description>
+    <location>plugins/customer-marketing/skills/customer-insights/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>customer-trust-dashboard</name>
+    <description>Reporting framework for monitoring trust, sentiment, and regulator-facing</description>
+    <location>plugins/financial-services/skills/customer-trust-dashboard/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>cxo-briefing-kit</name>
+    <description>Use to package concise executive updates, decks, and decision logs for</description>
+    <location>plugins/enterprise-sales/skills/cxo-briefing-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>dashboard-playbook</name>
+    <description>Best-practice kit for BI dashboard layout, storytelling, and adoption.</description>
+    <location>plugins/business-intelligence/skills/dashboard-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>data-contract-framework</name>
+    <description>Operating model for defining, enforcing, and auditing BI data contracts.</description>
+    <location>plugins/business-intelligence/skills/data-contract-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>data-governance</name>
+    <description>Use when defining data contracts, consent policies, and monitoring for</description>
+    <location>plugins/marketing-automation/skills/data-governance/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>data-sourcing</name>
+    <description>Optimize provider selection, routing, and credit usage across 150+ enrichment sources for company/contact intelligence.</description>
+    <location>plugins/data-enrichment-master/skills/data-sourcing/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>deal-desk</name>
+    <description>Use to manage pricing, packaging, and approval workflows for renewal</description>
+    <location>plugins/renewal-orchestration/skills/deal-desk/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>deal-health-dashboard</name>
+    <description>Reporting framework for executive visibility into manufacturing pursuits.</description>
+    <location>plugins/manufacturing-sales/skills/deal-health-dashboard/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>deal-quality-model</name>
+    <description>Scoring system for opportunity hygiene, win likelihood, and inspection</description>
+    <location>plugins/revenue-analytics/skills/deal-quality-model/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>deal-review</name>
+    <description>Use to run structured opportunity inspections that align pipeline data</description>
+    <location>plugins/sales-pipeline/skills/deal-review/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>decision-trees</name>
+    <description>Use when designing branching logic, eligibility rules, and fallback paths.</description>
+    <location>plugins/personalization-engine/skills/decision-trees/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>deliverability-ops</name>
+    <description>Use when investigating inbox placement, reputation, and compliance signals</description>
+    <location>plugins/email-marketing/skills/deliverability-ops/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>diagnostics</name>
+    <description>Use for structured technical SEO audits, incident response, and validation.</description>
+    <location>plugins/seo-workflow-orchestration/skills/diagnostics/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>discovery-calls</name>
+    <description>Use when planning, running, or summarizing discovery calls to uncover pain, timeline, and authority.</description>
+    <location>plugins/sales-prospecting/skills/discovery-calls/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>distribution-analytics</name>
+    <description>Use when planning channel distribution and measuring video performance.</description>
+    <location>plugins/video-marketing/skills/distribution-analytics/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>distribution-checklist</name>
+    <description>Use when planning multi-channel publishing, promotions, and measurement</description>
+    <location>plugins/content-pipeline-orchestration/skills/distribution-checklist/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>doc-requirements-matrix</name>
+    <description>Framework for capturing documentation requirements, scoring priority,</description>
+    <location>plugins/technical-writing/skills/doc-requirements-matrix/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>docx</name>
+    <description>Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks</description>
+    <location>examples/skills/document-skills/docx/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>drip-campaigns</name>
+    <description>Use when you need to map sequenced nurture flows with pacing, storytelling</description>
+    <location>plugins/email-marketing/skills/drip-campaigns/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>editorial-calendar</name>
+    <description>Use when structuring pillar calendars, approvals, and cadence governance.</description>
+    <location>plugins/content-pipeline-orchestration/skills/editorial-calendar/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>editorial-ops</name>
+    <description>Use when planning multi-channel editorial calendars, enforcing publishing cadences, and coordinating distribution workflows across GTM teams.</description>
+    <location>plugins/content-marketing/skills/editorial-ops/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>elasticity-lab</name>
+    <description>Use to run pricing elasticity experiments with consistent assumptions</description>
+    <location>plugins/pricing-strategy/skills/elasticity-lab/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>enablement-kit</name>
+    <description>Use to plan trainings, office hours, and adoption programs for new creative</description>
+    <location>plugins/design-creative/skills/enablement-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>enablement-kit</name>
+    <description>Use to plan rollout communications, trainings, and assets after pricing</description>
+    <location>plugins/pricing-strategy/skills/enablement-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>enablement-kit</name>
+    <description>Use to package collateral, talk tracks, and systems guidance for routed</description>
+    <location>plugins/sales-handoff-orchestration/skills/enablement-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>engagement-analytics</name>
+    <description>Use when measuring webinar funnel performance and diagnosing audience</description>
+    <location>plugins/webinar-automation/skills/engagement-analytics/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>enrollment-persona-playbook</name>
+    <description>Persona + messaging framework for K-12, higher-ed, and workforce enrollment</description>
+    <location>plugins/edtech-growth/skills/enrollment-persona-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>escalation</name>
+    <description>Use to define incident tiers, response protocols, and stakeholder communications.</description>
+    <location>plugins/community-orchestration/skills/escalation/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>escalation-framework</name>
+    <description>Use to govern executive involvement, cross-functional response, and risk</description>
+    <location>plugins/renewal-orchestration/skills/escalation-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>event-briefs</name>
+    <description>Use when documenting event objectives, requirements, and alignment across</description>
+    <location>plugins/event-marketing/skills/event-briefs/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>exec-briefing</name>
+    <description>Use to craft concise executive updates, agendas, and follow-up logs for</description>
+    <location>plugins/account-management/skills/exec-briefing/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>exec-briefing-kit</name>
+    <description>Template for packaging revenue analytics into concise exec/board narratives.</description>
+    <location>plugins/revenue-analytics/skills/exec-briefing-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>exec-dashboard-blueprint</name>
+    <description>Layout and storytelling guide for marketing analytics executive dashboards.</description>
+    <location>plugins/marketing-analytics/skills/exec-dashboard-blueprint/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>executive-briefing-kit</name>
+    <description>Framework for packaging competitive updates into executive-ready narratives</description>
+    <location>plugins/competitive-intelligence/skills/executive-briefing-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>executive-briefs</name>
+    <description>Use to craft concise revenue updates for executives and boards.</description>
+    <location>plugins/revenue-forecasting-pipeline/skills/executive-briefs/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>executive-ebr-kit</name>
+    <description>Template pack for executive business reviews with outcomes, risks, and</description>
+    <location>plugins/customer-success/skills/executive-ebr-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>executive-kpi-briefings</name>
+    <description>Template pack for summarizing BI insights for ELT/board stakeholders.</description>
+    <location>plugins/business-intelligence/skills/executive-kpi-briefings/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>expansion-playbook</name>
+    <description>Use to package upsell, cross-sell, and advocacy motions tied to customer</description>
+    <location>plugins/account-management/skills/expansion-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>expansion-plays</name>
+    <description>Use when planning adoption-to-expansion motions and cross-sell/upsell</description>
+    <location>plugins/customer-marketing/skills/expansion-plays/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>experience-system-blueprint</name>
+    <description>Documentation pattern for translating brand platforms into modular experience</description>
+    <location>plugins/brand-strategy/skills/experience-system-blueprint/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>experiment-design-kit</name>
+    <description>Toolkit for structuring hypotheses, variants, guardrails, and measurement</description>
+    <location>plugins/growth-experiments/skills/experiment-design-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>field-playbooks</name>
+    <description>Use when operationalizing regional/field events with consistent playbooks</description>
+    <location>plugins/event-marketing/skills/field-playbooks/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>financial-product-blueprint</name>
+    <description>Template for packaging financial products with pricing, underwriting,</description>
+    <location>plugins/financial-services/skills/financial-product-blueprint/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>firmographic-analysis</name>
+    <description>Use when interpreting company-level enrichment data to segment accounts, spot buying triggers, and tailor outreach.</description>
+    <location>plugins/data-enrichment-master/skills/firmographic-analysis/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>forecast-discipline</name>
+    <description>Use to drive consistent forecast methodology, grading, and inspection</description>
+    <location>plugins/sales-pipeline/skills/forecast-discipline/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>forecast-modeling</name>
+    <description>Use when designing, tuning, or auditing revenue forecast models.</description>
+    <location>plugins/revenue-forecasting-pipeline/skills/forecast-modeling/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>fraud-detection</name>
+    <description>Use to monitor, investigate, and prevent abuse within referral programs.</description>
+    <location>plugins/referral-program-orchestration/skills/fraud-detection/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>frontend-design</name>
+    <description>Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.</description>
+    <location>examples/skills/frontend-design/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>governance</name>
+    <description>Use to establish ownership, cadences, and compliance for customer journey</description>
+    <location>plugins/customer-journey-orchestration/skills/governance/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>governance</name>
+    <description>Use to enforce approvals, compliance, and auditability for personalization</description>
+    <location>plugins/personalization-engine/skills/governance/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>guardrail-scorecard</name>
+    <description>Framework for defining, monitoring, and enforcing guardrail metrics across</description>
+    <location>plugins/growth-experiments/skills/guardrail-scorecard/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>hypothesis-library</name>
+    <description>Curated repository of experiment hypotheses, assumptions, and historical</description>
+    <location>plugins/growth-experiments/skills/hypothesis-library/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>identity-resolution</name>
+    <description>Use to match accounts, contacts, and opportunities across enrichment</description>
+    <location>plugins/data-signal-enrichment/skills/identity-resolution/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>in-app-messaging-kit</name>
+    <description>Library of in-product message patterns, triggers, and targeting rules.</description>
+    <location>plugins/product-led-growth/skills/in-app-messaging-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>incentive-design</name>
+    <description>Use when structuring payouts, tiers, and eligibility for referral programs.</description>
+    <location>plugins/referral-program-orchestration/skills/incentive-design/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>insight-synthesis</name>
+    <description>Use to convert raw customer feedback into compelling narratives, themes,</description>
+    <location>plugins/customer-feedback-orchestration/skills/insight-synthesis/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>insights-repository-kit</name>
+    <description>Governance + tooling pattern for storing research artifacts, tagging,</description>
+    <location>plugins/market-research/skills/insights-repository-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>instrumentation</name>
+    <description>Use when defining events, fields, and governance for GTM analytics pipelines.</description>
+    <location>plugins/analytics-pipeline-orchestration/skills/instrumentation/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>internal-comms</name>
+    <description>A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).</description>
+    <location>examples/skills/internal-comms/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>joint-solution-blueprint</name>
+    <description>Template for documenting co-built solutions, integrations, and GTM motions</description>
+    <location>plugins/partnership-development/skills/joint-solution-blueprint/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>journey-mapping</name>
+    <description>Use to facilitate cross-functional journey mapping with data-backed insights.</description>
+    <location>plugins/customer-journey-orchestration/skills/journey-mapping/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>keyword-research</name>
+    <description>Use when expanding seed topics into intent-based clusters and prioritizing</description>
+    <location>plugins/seo/skills/keyword-research/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>keyword-strategy</name>
+    <description>Use when researching, clustering, and prioritizing keywords for SEO roadmaps.</description>
+    <location>plugins/seo-workflow-orchestration/skills/keyword-strategy/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>land-adopt-expand-blueprint</name>
+    <description>Template for orchestrating phased motions across strategic SaaS accounts.</description>
+    <location>plugins/b2b-saas/skills/land-adopt-expand-blueprint/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>launch-plays</name>
+    <description>Use when orchestrating Tier 1/2/3 launches with repeatable workstreams</description>
+    <location>plugins/product-marketing/skills/launch-plays/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>launch-tiering</name>
+    <description>Use when sizing go-to-market launches by impact, resources, and governance</description>
+    <location>plugins/product-launch-orchestration/skills/launch-tiering/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>lead-qualification</name>
+    <description>Use when evaluating ICP fit, buying intent, and routing priority for new leads.</description>
+    <location>plugins/sales-prospecting/skills/lead-qualification/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>lifecycle-cadence</name>
+    <description>Use when defining nurture pacing, triggers, and suppression logic.</description>
+    <location>plugins/lead-nurture-orchestration/skills/lifecycle-cadence/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>lifecycle-mapping</name>
+    <description>Use when designing automation programs aligned to lifecycle stages, SLAs,</description>
+    <location>plugins/marketing-automation/skills/lifecycle-mapping/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>loyalty-modeling</name>
+    <description>Use to model economics, tiers, and impact forecasts for loyalty programs.</description>
+    <location>plugins/loyalty-lifecycle-orchestration/skills/loyalty-modeling/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>market-scenario-modeler</name>
+    <description>Toolkit for building TAM/SAM/SOM models, sensitivity analyses, and narrative-ready</description>
+    <location>plugins/market-research/skills/market-scenario-modeler/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>market-signal-tracker</name>
+    <description>Operating system for logging market/competitive signals with severity,</description>
+    <location>plugins/competitive-intelligence/skills/market-signal-tracker/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>mcp-builder</name>
+    <description>Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).</description>
+    <location>examples/skills/mcp-builder/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>meddic-checklist</name>
+    <description>Use to inspect qualification coverage across Metrics, Economic buyer,</description>
+    <location>plugins/sales-calls/skills/meddic-checklist/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>media-database</name>
+    <description>Use when researching, segmenting, and maintaining journalist/analyst</description>
+    <location>plugins/pr-communications/skills/media-database/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>member-insights</name>
+    <description>Use to analyze loyalty member behavior, segmentation, and experiment</description>
+    <location>plugins/loyalty-lifecycle-orchestration/skills/member-insights/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>merchandising-blueprint</name>
+    <description>Toolkit for planning promos, onsite placements, and channel coordination.</description>
+    <location>plugins/e-commerce/skills/merchandising-blueprint/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>message-architecture</name>
+    <description>Use when structuring messaging hierarchy, hook banks, and CTA playbooks.</description>
+    <location>plugins/copywriting/skills/message-architecture/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>messaging-framework</name>
+    <description>Use to structure value propositions, proof points, and objection responses</description>
+    <location>plugins/sales-enablement/skills/messaging-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>messaging-frameworks</name>
+    <description>Use when building message houses, key statements, and proof structures</description>
+    <location>plugins/pr-communications/skills/messaging-frameworks/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>metric-governance-kit</name>
+    <description>Framework for defining, approving, and auditing GTM metrics and KPIs.</description>
+    <location>plugins/business-intelligence/skills/metric-governance-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>moderation-safety-playbook</name>
+    <description>Guidelines and workflows for community moderation, trust & safety, and</description>
+    <location>plugins/community-building/skills/moderation-safety-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>mood-board-builder</name>
+    <description>Use to compile visual inspiration, color palettes, and typography references</description>
+    <location>plugins/design-creative/skills/mood-board-builder/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>notion-knowledge-capture</name>
+    <description>Transforms conversations and discussions into structured documentation pages in Notion. Captures insights, decisions, and knowledge from chat context, formats appropriately, and saves to wikis or databases with proper organization and linking for easy discovery.</description>
+    <location>examples/skills/notion-knowledge-capture/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>notion-meeting-intelligence</name>
+    <description>Prepares meeting materials by gathering context from Notion, enriching with Claude research, and creating both an internal pre-read and external agenda saved to Notion. Helps you arrive prepared with comprehensive background and structured meeting docs.</description>
+    <location>examples/skills/notion-meeting-intelligence/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>notion-research-documentation</name>
+    <description>Searches across your Notion workspace, synthesizes findings from multiple pages, and creates comprehensive research documentation saved as new Notion pages. Turns scattered information into structured reports with proper citations and actionable insights.</description>
+    <location>examples/skills/notion-research-documentation/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>notion-spec-to-implementation</name>
+    <description>Turns product or tech specs into concrete Notion tasks that Claude code can implement. Breaks down spec pages into detailed implementation plans with clear tasks, acceptance criteria, and progress tracking to guide development from requirements to completion.</description>
+    <location>examples/skills/notion-spec-to-implementation/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>nurture-testing</name>
+    <description>Use when planning, executing, and logging nurture experiments and regression</description>
+    <location>plugins/lead-nurture-orchestration/skills/nurture-testing/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>objection-handling</name>
+    <description>Use when preparing responses to prospect objections during outbound, discovery, or follow-up conversations.</description>
+    <location>plugins/sales-prospecting/skills/objection-handling/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>offer-testing</name>
+    <description>Use when designing copy experiments to optimize hooks, offers, and CTAs.</description>
+    <location>plugins/copywriting/skills/offer-testing/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>on-page</name>
+    <description>Use when crafting or refreshing pages to align copy, UX, and conversion</description>
+    <location>plugins/seo/skills/on-page/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>onboarding-blueprint</name>
+    <description>Template for designing onboarding journeys, milestones, and measurement</description>
+    <location>plugins/product-led-growth/skills/onboarding-blueprint/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>outbound-plays</name>
+    <description>Use to craft channel-specific outreach sequences that tie directly to</description>
+    <location>plugins/intent-signal-orchestration/skills/outbound-plays/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>packaging-framework</name>
+    <description>Use to structure pricing/packaging proposals with clear fences and value</description>
+    <location>plugins/pricing-strategy/skills/packaging-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>participant-operations-hub</name>
+    <description>Processes and guardrails for recruiting, scheduling, consent, and incentive</description>
+    <location>plugins/market-research/skills/participant-operations-hub/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>partner-ecosystem-map</name>
+    <description>Visualization toolkit for mapping partner landscape, coverage, and priorities.</description>
+    <location>plugins/partnership-development/skills/partner-ecosystem-map/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>partner-integration-kit</name>
+    <description>Toolkit for coordinating system integrators, OEM partners, and service</description>
+    <location>plugins/manufacturing-sales/skills/partner-integration-kit/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>partner-ops</name>
+    <description>Use to manage partner onboarding, enablement, and compliance workflows</description>
+    <location>plugins/referral-program-orchestration/skills/partner-ops/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>partner-revenue-desk</name>
+    <description>Operating model for tracking, attributing, and accelerating partner-sourced</description>
+    <location>plugins/partnership-development/skills/partner-revenue-desk/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>patient-journey-mapping</name>
+    <description>Framework for documenting compliant patient journeys with touchpoints,</description>
+    <location>plugins/healthcare-marketing/skills/patient-journey-mapping/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>pdf</name>
+    <description>Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.</description>
+    <location>examples/skills/document-skills/pdf/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>performance-metrics</name>
+    <description>Use to define KPIs, alert thresholds, and reporting cadences for social</description>
+    <location>plugins/social-scheduler-orchestration/skills/performance-metrics/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>performance-tracking</name>
+    <description>Use when establishing measurement frameworks, dashboards, and optimization rhythms for live campaigns.</description>
+    <location>plugins/campaign-orchestration/skills/performance-tracking/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>persona-intel</name>
+    <description>Use to summarize persona goals, pains, proof points, and questions for</description>
+    <location>plugins/sales-calls/skills/persona-intel/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>personalization</name>
+    <description>Use when crafting tiered ABM messaging, offers, and creative variants.</description>
+    <location>plugins/abm-orchestration/skills/personalization/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>personalization-logic</name>
+    <description>Use when defining dynamic content rules, tokens, and conditional offers</description>
+    <location>plugins/lead-nurture-orchestration/skills/personalization-logic/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>platform-frameworks</name>
+    <description>Use when tailoring content formats, hooks, and publishing mechanics for</description>
+    <location>plugins/social-media/skills/platform-frameworks/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>positioning</name>
+    <description>Use when structuring positioning statements, message houses, and proof</description>
+    <location>plugins/product-marketing/skills/positioning/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>pptx</name>
+    <description>Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks</description>
+    <location>examples/skills/document-skills/pptx/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>pql-framework</name>
+    <description>Methodology for defining product-qualified lead (PQL) signals, scoring,</description>
+    <location>plugins/product-led-growth/skills/pql-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>pricing-governance</name>
+    <description>Use to run pricing councils, track decisions, and enforce approval workflows.</description>
+    <location>plugins/pricing-strategy/skills/pricing-governance/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>procurement-playbook</name>
+    <description>Use to manage legal, security, and procurement workflows for complex</description>
+    <location>plugins/enterprise-sales/skills/procurement-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>production-ops</name>
+    <description>Use when coordinating shoots, vendors, budgets, and compliance for video</description>
+    <location>plugins/video-marketing/skills/production-ops/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>production-playbook</name>
+    <description>Use to convert creative briefs into actionable task plans with owners</description>
+    <location>plugins/design-creative/skills/production-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>program-ops</name>
+    <description>Use when standardizing event workflows, tooling, and routing across portfolios.</description>
+    <location>plugins/event-marketing/skills/program-ops/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>provider-scorecard</name>
+    <description>Use to track enrichment provider success, cost, latency, and quality</description>
+    <location>plugins/data-signal-enrichment/skills/provider-scorecard/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>publishing-process</name>
+    <description>Use to orchestrate approvals, QA, and go-live steps for SEO content +</description>
+    <location>plugins/seo-workflow-orchestration/skills/publishing-process/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>pursuit-governance</name>
+    <description>Use to set cadences, decision logs, and escalation paths for enterprise</description>
+    <location>plugins/enterprise-sales/skills/pursuit-governance/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>qa-gates</name>
+    <description>Use before launching sequences to validate content, data, compliance,</description>
+    <location>plugins/email-sequence-orchestration/skills/qa-gates/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>quality-gates</name>
+    <description>Use when establishing tests, monitoring, and incident response for analytics</description>
+    <location>plugins/analytics-pipeline-orchestration/skills/quality-gates/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>quality-review-checklist</name>
+    <description>Checklist covering accuracy, style, accessibility, and localization requirements</description>
+    <location>plugins/technical-writing/skills/quality-review-checklist/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>quota-health</name>
+    <description>Use to analyze quota distribution, attainment fairness, and productivity</description>
+    <location>plugins/sales-operations/skills/quota-health/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>reference-ops</name>
+    <description>Use to manage workflows, compliance, and measurement for customer references.</description>
+    <location>plugins/customer-advocacy-orchestration/skills/reference-ops/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>registration-ops</name>
+    <description>Use when configuring registration flows, reminders, and data sync for</description>
+    <location>plugins/webinar-automation/skills/registration-ops/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>regulator-briefing-playbook</name>
+    <description>Template pack for preparing regulator communications, responses, and</description>
+    <location>plugins/financial-services/skills/regulator-briefing-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>regulatory-review-checklist</name>
+    <description>Step-by-step checklist for routing healthcare marketing assets through</description>
+    <location>plugins/healthcare-marketing/skills/regulatory-review-checklist/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>reinforcement-drills</name>
+    <description>Use to queue practice reps, certifications, and accountability cadences</description>
+    <location>plugins/sales-coaching/skills/reinforcement-drills/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>reinforcement-loop</name>
+    <description>Use to plan post-training reinforcement cadences, certifications, and</description>
+    <location>plugins/sales-enablement/skills/reinforcement-loop/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>renewal-playbooks</name>
+    <description>Use to design and maintain structured renewal/save motions across segments</description>
+    <location>plugins/renewal-orchestration/skills/renewal-playbooks/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>research-brief-blueprint</name>
+    <description>Standard template + checklist for scoping market research projects.</description>
+    <location>plugins/market-research/skills/research-brief-blueprint/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>retention-dashboard</name>
+    <description>Use to visualize churn, expansion, and health metrics across cohorts.</description>
+    <location>plugins/customer-analytics/skills/retention-dashboard/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>retention-ltv-playbook</name>
+    <description>Lifecycle frameworks for driving repeat purchase, loyalty, and subscription</description>
+    <location>plugins/e-commerce/skills/retention-ltv-playbook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>revenue-health-dashboard</name>
+    <description>Visualization blueprint for revenue KPIs, guardrails, and action callouts.</description>
+    <location>plugins/revenue-analytics/skills/revenue-health-dashboard/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>reward-ops</name>
+    <description>Use to run day-to-day loyalty reward catalog management and fulfillment.</description>
+    <location>plugins/loyalty-lifecycle-orchestration/skills/reward-ops/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>risk-playbooks</name>
+    <description>Use when identifying launch risks, mitigation plans, and escalation owners.</description>
+    <location>plugins/product-launch-orchestration/skills/risk-playbooks/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>risk-register</name>
+    <description>Use to track pursuit risks, owners, mitigation steps, and escalation</description>
+    <location>plugins/enterprise-sales/skills/risk-register/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>risk-scoring-framework</name>
+    <description>Method for calculating customer health/risk tiers using quantitative</description>
+    <location>plugins/customer-success/skills/risk-scoring-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>roe-governance</name>
+    <description>Use to codify sales rules of engagement, escalation paths, and exception</description>
+    <location>plugins/sales-operations/skills/roe-governance/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>roi-benchmark-library</name>
+    <description>Reference benchmarks for CAC, CPL, ROAS, and payback across channels</description>
+    <location>plugins/marketing-analytics/skills/roi-benchmark-library/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>routing-logic</name>
+    <description>Use when defining or adjusting marketing-to-sales assignment rules.</description>
+    <location>plugins/sales-handoff-orchestration/skills/routing-logic/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>save-play-library</name>
+    <description>Use to catalog churn/expansion plays tied to specific signals, cohorts,</description>
+    <location>plugins/customer-analytics/skills/save-play-library/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>scriptwriting</name>
+    <description>Use when crafting scripts, storyboards, and messaging for video content.</description>
+    <location>plugins/video-marketing/skills/scriptwriting/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>segmentation</name>
+    <description>Use when designing filters, suppression logic, and personalization cohorts</description>
+    <location>plugins/email-marketing/skills/segmentation/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>segmentation-framework</name>
+    <description>Use to design and document customer segments with clear criteria, metrics,</description>
+    <location>plugins/customer-analytics/skills/segmentation-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>sentiment-analysis</name>
+    <description>Use to interpret qualitative feedback, trends, and risks across community</description>
+    <location>plugins/community-orchestration/skills/sentiment-analysis/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>sentiment-feedback-loop</name>
+    <description>Process for capturing qualitative feedback and injecting it into CS playbooks.</description>
+    <location>plugins/customer-success/skills/sentiment-feedback-loop/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>seo-writing</name>
+    <description>Use when planning or drafting search-optimized content that balances keyword intent with GTM messaging.</description>
+    <location>plugins/content-marketing/skills/seo-writing/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>signal-correlation-workbench</name>
+    <description>Toolkit for linking VoC feedback with telemetry, revenue, and operational</description>
+    <location>plugins/voice-of-customer/skills/signal-correlation-workbench/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>signal-intel</name>
+    <description>Use when consolidating intent, product usage, and third-party signals</description>
+    <location>plugins/abm-orchestration/skills/signal-intel/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>signal-scoring</name>
+    <description>Use to design composite intent scoring models with decay, weighting,</description>
+    <location>plugins/intent-signal-orchestration/skills/signal-scoring/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>signal-taxonomy</name>
+    <description>Use to define schemas, topic tags, and lineage metadata for enriched</description>
+    <location>plugins/data-signal-enrichment/skills/signal-taxonomy/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>site-performance-watch</name>
+    <description>Monitoring and alerting framework for ecommerce site speed, errors, and</description>
+    <location>plugins/e-commerce/skills/site-performance-watch/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>skill-creator</name>
+    <description>Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.</description>
+    <location>examples/skills/skill-creator/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>sla-tracking</name>
+    <description>Use to design measurement, alerting, and reporting for MQL\u2192SQL\</description>
+    <location>plugins/sales-handoff-orchestration/skills/sla-tracking/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>slack-gif-creator</name>
+    <description>Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation primitives. This skill applies when users request animated GIFs or emoji animations for Slack from descriptions like "make me a GIF for Slack of X doing Y".</description>
+    <location>examples/skills/slack-gif-creator/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>social-calendar-system</name>
+    <description>Operational template for building social content calendars with approvals</description>
+    <location>plugins/social-media-marketing/skills/social-calendar-system/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>social-selling</name>
+    <description>Use when engaging prospects through LinkedIn, communities, and social channels to spark warm conversations and meetings.</description>
+    <location>plugins/sales-prospecting/skills/social-selling/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>stakeholder-ops</name>
+    <description>Use to coordinate approvals, communications, and accountability across</description>
+    <location>plugins/customer-feedback-orchestration/skills/stakeholder-ops/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>storytelling</name>
+    <description>Use when crafting narratives that connect product value to customer pain through clear setup-conflict-resolution arcs.</description>
+    <location>plugins/content-marketing/skills/storytelling/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>storytelling</name>
+    <description>Use to craft compelling narratives and assets from customer advocacy</description>
+    <location>plugins/customer-advocacy-orchestration/skills/storytelling/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>student-success-scorecard</name>
+    <description>Metrics framework for monitoring engagement, progression, and completion.</description>
+    <location>plugins/edtech-growth/skills/student-success-scorecard/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>success-planning-framework</name>
+    <description>Use to structure collaborative success plans with milestones, KPIs, and</description>
+    <location>plugins/account-management/skills/success-planning-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>suppression-logic</name>
+    <description>Use to define guardrails that pause signal-driven plays when accounts</description>
+    <location>plugins/intent-signal-orchestration/skills/suppression-logic/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>survey-design</name>
+    <description>Use to craft rigorous survey instruments with sampling, question logic,</description>
+    <location>plugins/customer-feedback-orchestration/skills/survey-design/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>technical-bid-library</name>
+    <description>Central repository structure for manufacturing RFP responses, compliance</description>
+    <location>plugins/manufacturing-sales/skills/technical-bid-library/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>technical-seo</name>
+    <description>Use when diagnosing crawl/index issues, performance regressions, or structured</description>
+    <location>plugins/seo/skills/technical-seo/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>territory-optimization</name>
+    <description>Use to score territory scenarios for fairness, whitespace, and productivity.</description>
+    <location>plugins/sales-operations/skills/territory-optimization/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>theme-factory</name>
+    <description>Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.</description>
+    <location>examples/skills/theme-factory/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>thought-leadership</name>
+    <description>Use when crafting executive POVs, visionary articles, or keynote narratives that elevate brand authority.</description>
+    <location>plugins/content-marketing/skills/thought-leadership/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>trend-research</name>
+    <description>Use when identifying cultural moments, audio trends, memes, or creator</description>
+    <location>plugins/social-media/skills/trend-research/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>usage-health-scorecard</name>
+    <description>Framework for monitoring activation, engagement, and monetization guardrails.</description>
+    <location>plugins/product-led-growth/skills/usage-health-scorecard/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>usage-to-value-map</name>
+    <description>Method for translating product telemetry into ROI narratives and expansion</description>
+    <location>plugins/b2b-saas/skills/usage-to-value-map/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>validation-rulebook</name>
+    <description>Use to define validation, freshness, and compliance checks for enriched</description>
+    <location>plugins/data-signal-enrichment/skills/validation-rulebook/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>value-messaging</name>
+    <description>Use to map pricing/packaging tiers to tailored value pillars, proof,</description>
+    <location>plugins/pricing-strategy/skills/value-messaging/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>value-story-framework</name>
+    <description>Use to craft executive-ready value narratives and ROI/TCO stories for</description>
+    <location>plugins/enterprise-sales/skills/value-story-framework/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>variance-analysis</name>
+    <description>Use to attribute forecast vs actual deltas and recommend remediation</description>
+    <location>plugins/revenue-forecasting-pipeline/skills/variance-analysis/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>versioning-dashboard</name>
+    <description>Dashboard pattern for tracking doc coverage across product versions,</description>
+    <location>plugins/technical-writing/skills/versioning-dashboard/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>vertical-solution-templates</name>
+    <description>Library of reusable solution briefs, architecture, and pricing frames per industry.</description>
+    <location>plugins/b2b-saas/skills/vertical-solution-templates/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>visualization-patterns</name>
+    <description>Use when designing dashboards, reports, and narratives for GTM stakeholders.</description>
+    <location>plugins/analytics-pipeline-orchestration/skills/visualization-patterns/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>voice-guidelines</name>
+    <description>Use when enforcing brand tone, style, and localization rules across copy.</description>
+    <location>plugins/copywriting/skills/voice-guidelines/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>voice-of-customer</name>
+    <description>Use to design, run, and synthesize customer feedback programs tied to</description>
+    <location>plugins/customer-journey-orchestration/skills/voice-of-customer/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>war-room-ops</name>
+    <description>Use when running launch command centers, standups, and escalation workflows.</description>
+    <location>plugins/product-launch-orchestration/skills/war-room-ops/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>waterfall-blueprint</name>
+    <description>Use to design provider sequences, throttling logic, and credit policies</description>
+    <location>plugins/data-signal-enrichment/skills/waterfall-blueprint/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>webapp-testing</name>
+    <description>Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.</description>
+    <location>examples/skills/webapp-testing/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>webinar-design</name>
+    <description>Use when crafting compelling webinar narratives, engagement tactics,</description>
+    <location>plugins/webinar-automation/skills/webinar-design/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>webinars</name>
+    <description>Use when planning, producing, and repurposing webinars or virtual events for GTM campaigns.</description>
+    <location>plugins/content-marketing/skills/webinars/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>whitepapers</name>
+    <description>Use when producing research-heavy whitepapers or technical guides that require structured argumentation and data.</description>
+    <location>plugins/content-marketing/skills/whitepapers/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>win-loss-dataset</name>
+    <description>Structure for capturing qualitative + quantitative win/loss insights</description>
+    <location>plugins/competitive-intelligence/skills/win-loss-dataset/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>workflow-testing</name>
+    <description>Use when validating automation builds before launch or after significant</description>
+    <location>plugins/marketing-automation/skills/workflow-testing/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>xlsx</name>
+    <description>Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas</description>
+    <location>examples/skills/document-skills/xlsx/SKILL.md</location>
+  </skill>
+</available_skills>

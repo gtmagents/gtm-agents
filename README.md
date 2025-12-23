@@ -402,6 +402,158 @@ Builds account-based marketing campaign with personalized content and multi-chan
 - 🗣️ **Customer Feedback Orchestration** - surveys, insight synthesis, routing
 - 🎁 **Loyalty Lifecycle Orchestration** - rewards modeling, member analytics, ops
 
+## 🔌 Agent Skills - Cross-Tool Compatibility
+
+GTM Agents skills follow the [Agent Skills](https://agentskills.io) open standard, making them **portable across multiple AI coding tools**:
+
+| Tool | Status | How to Use |
+|------|--------|------------|
+| **Claude Code** | ✅ Native | Skills load automatically from `plugins/*/skills/` |
+| **OpenAI Codex** | ✅ Compatible | Copy skills to `.codex/skills/` directory |
+| **Cursor** | ✅ Compatible | Reference skills in `.cursorrules` or project context |
+| **VS Code Copilot** | ✅ Compatible | Add skills to workspace context |
+| **GitHub Copilot** | ✅ Compatible | Include skills in repository for context |
+
+### What Are Agent Skills?
+
+A skill packages instructions, resources, and optional scripts so AI agents can perform specific workflows reliably. Each skill is a folder containing:
+
+```
+skill-name/
+├── SKILL.md          # Required: instructions + metadata
+├── scripts/          # Optional: executable code
+├── references/       # Optional: documentation
+└── assets/           # Optional: templates, resources
+```
+
+Skills use **progressive disclosure** - agents load only the name and description at startup, then read full instructions when the skill is activated.
+
+### Using Skills in OpenAI Codex
+
+Codex loads skills from these locations (in order of precedence):
+
+| Scope | Location | Use Case |
+|-------|----------|----------|
+| `REPO` | `$CWD/.codex/skills` | Project-specific skills |
+| `REPO` | `$REPO_ROOT/.codex/skills` | Repository-wide skills |
+| `USER` | `~/.codex/skills` | Personal skills across all projects |
+| `ADMIN` | `/etc/codex/skills` | System-wide skills |
+
+**To use GTM Agents skills in Codex:**
+
+```bash
+# Option 1: Copy skills to your Codex skills directory
+cp -r plugins/sales-prospecting/skills/* ~/.codex/skills/
+
+# Option 2: Symlink the entire skills collection
+ln -s $(pwd)/plugins ~/.codex/gtm-plugins
+
+# Option 3: Use skill-installer for individual skills
+$skill-installer gtm-agents/account-tiering
+```
+
+**Invoking skills in Codex:**
+
+1. **Explicit invocation**: Use `/skills` command or type `$` to mention a skill
+   ```
+   $account-tiering Help me define T1/T2/T3 accounts for our ABM program
+   ```
+
+2. **Implicit invocation**: Codex automatically selects skills based on task description
+   ```
+   I need to set up account tiers for our enterprise sales motion
+   ```
+
+### Using Skills in Claude Code
+
+Skills are automatically discovered from `plugins/*/skills/`:
+
+```bash
+# Skills load automatically when you install a plugin
+/plugin install sales-prospecting
+
+# Use skills by describing your task
+"Help me with cold outreach best practices"
+# → Claude activates the cold-outreach skill
+
+# Or reference skills directly
+"Using the account-tiering skill, help me define our ABM tiers"
+```
+
+### Using Skills in Cursor
+
+Add skills to your project context:
+
+```bash
+# Copy skills to your project
+cp -r plugins/content-marketing/skills .cursor/skills/
+
+# Reference in .cursorrules
+echo "Use skills from .cursor/skills/ for GTM workflows" >> .cursorrules
+```
+
+### Skills Index
+
+The repository includes auto-generated skill discovery files:
+
+| File | Purpose |
+|------|---------|
+| `skills-index.json` | Complete catalog of all 263 skills with metadata |
+| `available_skills.xml` | XML format for agent prompt injection |
+
+Regenerate after adding/modifying skills:
+```bash
+python scripts/generate_skills_index.py --xml
+```
+
+### Creating Custom Skills
+
+Use the built-in scaffolding:
+
+```bash
+# Create a new skill
+python scripts/scaffold_asset.py skill plugins/my-plugin/skills/my-skill --with-assets
+
+# Validate your skill
+python scripts/validate_skills.py plugins/my-plugin/skills/my-skill
+```
+
+Or create manually with this template:
+
+```yaml
+---
+name: skill-name
+description: Description that helps agents select this skill
+license: Apache-2.0
+compatibility: Claude Code (or similar products)
+metadata:
+  author: your-name
+  version: "1.0"
+  category: sales|marketing|growth
+---
+
+# Skill Title
+
+## When to Use
+- Trigger condition 1
+- Trigger condition 2
+
+## Framework
+1. Step one
+2. Step two
+
+## Templates
+- See `assets/template.md` for...
+
+## Tips
+- Best practice
+- Pitfall to avoid
+```
+
+For the complete specification, see [agentskills.io/specification](https://agentskills.io/specification).
+
+---
+
 ## 🏗️ Architecture Highlights
 
 ### Business-Optimized Design
@@ -426,13 +578,16 @@ gtm-agents/
 │   ├── sales-prospecting/
 │   │   ├── agents/               # 4 prospecting experts
 │   │   ├── commands/             # Lead gen tools
-│   │   └── skills/               # 5 outreach skills
+│   │   └── skills/               # 5 outreach skills (Agent Skills compliant)
 │   ├── content-marketing/
 │   │   ├── agents/               # 3 content experts
 │   │   ├── commands/             # Content tools
-│   │   └── skills/               # 6 writing skills
+│   │   └── skills/               # 6 writing skills (Agent Skills compliant)
 │   └── ... (65 more plugins)
+├── skills-index.json              # Auto-generated skills catalog (263 skills)
+├── available_skills.xml           # XML format for agent prompt injection
 ├── docs/                          # Comprehensive documentation
+├── scripts/                       # Validation and scaffolding tools
 ├── templates/                     # Reusable business templates
 └── README.md                      # This file
 ```

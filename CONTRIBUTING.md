@@ -53,9 +53,11 @@ gtm-agents/
 
 2. **Install Pre-commit Hooks**
    ```bash
-   # Husky hooks will run validation scripts automatically
-   npm install  # If using npm-based hooks
-   # Or manually set up git hooks
+   # Install pre-commit
+   pip install pre-commit
+   pre-commit install
+   
+   # This will run validation on every commit
    ```
 
 3. **Verify Setup**
@@ -99,8 +101,11 @@ python scripts/scaffold_asset.py agent plugins/your-plugin/agents/example.md
 # Create a new command
 python scripts/scaffold_asset.py command plugins/your-plugin/commands/run-example.md
 
-# Create a new skill
-python scripts/scaffold_asset.py skill plugins/your-plugin/skills/example/SKILL.md
+# Create a new skill (Agent Skills compliant)
+python scripts/scaffold_asset.py skill plugins/your-plugin/skills/example-skill
+
+# Create a skill with optional directories
+python scripts/scaffold_asset.py skill plugins/your-plugin/skills/example-skill --with-assets --with-scripts
 ```
 
 ### Plugin Creation Guidelines
@@ -117,12 +122,69 @@ python scripts/scaffold_asset.py skill plugins/your-plugin/skills/example/SKILL.
 - **Model Selection**: Use Haiku for data processing, Sonnet for strategy/creative work
 - **Comprehensive Content**: Include relevant knowledge, frameworks, and best practices
 
-### Skill Guidelines
+### Skill Guidelines (Agent Skills Compliant)
 
-- **Modular Design**: Skills should be self-contained knowledge packages
-- **Progressive Disclosure**: Load only when needed to minimize token usage
-- **Practical Focus**: Include actionable frameworks, templates, and examples
-- **Clear Structure**: Follow the SKILL.md template format
+Skills follow the [Agent Skills](https://agentskills.io) open standard for portability across Claude Code, Cursor, VS Code, GitHub Copilot, and other compatible agents.
+
+#### Required Structure
+
+```
+skill-name/
+├── SKILL.md          # Required: YAML frontmatter + instructions
+├── scripts/          # Optional: executable code
+├── references/       # Optional: additional documentation
+└── assets/           # Optional: templates, resources
+```
+
+#### SKILL.md Format
+
+```yaml
+---
+name: skill-name                    # Required (must match directory name)
+description: What it does...        # Required (max 1024 chars)
+license: Apache-2.0                 # Recommended
+compatibility: Claude Code          # Recommended
+metadata:                           # Recommended
+  author: gtm-agents
+  version: "1.0"
+  category: sales|marketing|growth|orchestration
+---
+
+# Skill Title
+
+## When to Use
+- Trigger condition 1
+- Trigger condition 2
+
+## Framework
+1. Step one
+2. Step two
+
+## Templates
+- See `assets/template.md` for...
+
+## Tips
+- Best practice
+- Pitfall to avoid
+```
+
+#### Validation
+
+```bash
+# Validate a single skill
+python scripts/validate_skills.py plugins/[plugin]/skills/[skill]
+
+# Validate all skills
+python scripts/validate_skills.py
+```
+
+#### Key Requirements
+
+- **Name Match**: `name` field must match the directory name exactly
+- **Description**: Max 1024 characters, describe what it does and when to use
+- **Lowercase Hyphenated**: Names use only lowercase letters, numbers, and hyphens
+- **No Consecutive Hyphens**: `skill-name` is valid, `skill--name` is not
+- **Body Under 500 Lines**: Move detailed content to `references/` directory
 
 ### Command Guidelines
 
@@ -162,13 +224,17 @@ All contributions must include:
 Before submitting, ensure:
 
 ```bash
-# All validation scripts pass
+# Validate all skills (Agent Skills compliance)
+python scripts/validate_skills.py
+
+# Validate marketplace configuration
 python scripts/validate_marketplace.py
+
+# Run smoke tests
 python scripts/smoke_test_plugins.py
 
-# No linting errors
-# Check that all referenced files exist
-# Verify JSON syntax in marketplace.json
+# Or run all pre-commit hooks manually
+pre-commit run --all-files
 ```
 
 ### Testing
