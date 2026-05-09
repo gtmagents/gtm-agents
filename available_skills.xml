@@ -1145,6 +1145,11 @@
     <location>plugins/social-media-marketing/skills/social-calendar-system/SKILL.md</location>
   </skill>
   <skill>
+    <name>tweetclaw-social-automation</name>
+    <description>Use when executing X/Twitter research, posting, reply, follower export, monitoring, or giveaway workflows through TweetClaw and Xquik.</description>
+    <location>plugins/social-media-marketing/skills/tweetclaw-social-automation/SKILL.md</location>
+  </skill>
+  <skill>
     <name>social-selling</name>
     <description>Use when engaging prospects through LinkedIn, communities, and social channels to spark warm conversations and meetings.</description>
     <location>plugins/sales-prospecting/skills/social-selling/SKILL.md</location>
