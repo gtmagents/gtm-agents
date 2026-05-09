@@ -112,7 +112,7 @@ You're spending too much time on repetitive tasks:
 
 ## 🎁 What's Included
 
-**67 specialized plugins** with **92 AI agents**, **52 business skills**, and **20 workflow orchestrators**
+**67 specialized plugins** with **92 AI agents**, **53 business skills**, and **20 workflow orchestrators**
 
 **Built for:**
 - 💼 **Sales Teams** - Prospecting, pipeline management, call prep, deal analysis
@@ -270,7 +270,7 @@ Specialized knowledge packages following Anthropic's progressive disclosure:
 **Marketing Operations:**
 - Content Marketing (6 skills): SEO writing, thought leadership, case studies, whitepapers, webinars
 - Email Marketing (4 skills): drip campaigns, segmentation, A/B testing, deliverability
-- Social Media (5 skills): LinkedIn strategy, Twitter growth, content calendars, engagement tactics
+- Social Media (5 skills): LinkedIn strategy, X/Twitter execution, content calendars, engagement tactics
 
 **Growth & Analytics:**
 - Growth Experiments (3 skills): hypothesis testing, statistical significance, experiment design
@@ -498,7 +498,7 @@ The repository includes auto-generated skill discovery files:
 
 | File | Purpose |
 |------|---------|
-| `skills-index.json` | Complete catalog of all 263 skills with metadata |
+| `skills-index.json` | Complete catalog of all 264 skills with metadata |
 | `available_skills.xml` | XML format for agent prompt injection |
 
 Regenerate after adding/modifying skills:
@@ -584,7 +584,7 @@ gtm-agents/
 │   │   ├── commands/             # Content tools
 │   │   └── skills/               # 6 writing skills (Agent Skills compliant)
 │   └── ... (65 more plugins)
-├── skills-index.json              # Auto-generated skills catalog (263 skills)
+├── skills-index.json              # Auto-generated skills catalog (264 skills)
 ├── available_skills.xml           # XML format for agent prompt injection
 ├── docs/                          # Comprehensive documentation
 ├── scripts/                       # Validation and scaffolding tools

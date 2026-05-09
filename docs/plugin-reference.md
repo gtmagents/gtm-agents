@@ -65,7 +65,7 @@ Definitive catalog generated from `.claude-plugin/marketplace.json`. Use this ta
 | seo | marketing | Keyword strategy, on-page optimization, and technical SEO operations | 3 | 3 | 3 |
 | seo-workflow-orchestration | orchestration | SEO workflow orchestration from keyword strategy through technical diagnostics | 3 | 3 | 3 |
 | social-media | marketing | Social strategy, content production, and community management | 3 | 3 | 3 |
-| social-media-marketing | marketing | Cross-channel social strategy, experimentation, and community governance | 3 | 3 | 4 |
+| social-media-marketing | marketing | Cross-channel social strategy, experimentation, and community governance | 3 | 3 | 5 |
 | social-scheduler-orchestration | orchestration | Cross-network social scheduling orchestrator with approvals and performance insights | 3 | 3 | 3 |
 | technical-writing | content | Documentation strategy, API references, and release communication workflows | 3 | 3 | 4 |
 | video-marketing | marketing | Video strategy, creative production, and performance analytics | 3 | 3 | 3 |

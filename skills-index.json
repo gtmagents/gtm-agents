@@ -2,7 +2,7 @@
   "version": "1.0",
   "specification": "https://agentskills.io/specification",
   "generated_from": ".claude-plugin/marketplace.json",
-  "total_skills": 263,
+  "total_skills": 264,
   "categories": {
     "analytics": 12,
     "customer-success": 4,
@@ -81,7 +81,7 @@
     "seo": 3,
     "seo-workflow-orchestration": 3,
     "social-media": 3,
-    "social-media-marketing": 4,
+    "social-media-marketing": 5,
     "social-scheduler-orchestration": 3,
     "technical-writing": 4,
     "video-marketing": 3,
@@ -2404,6 +2404,16 @@
       "category": "marketing",
       "license": "Apache-2.0",
       "compatibility": "Claude Code (or similar products)"
+    },
+    {
+      "name": "tweetclaw-social-automation",
+      "description": "Use when executing X/Twitter research, posting, reply, follower export, monitoring, or giveaway workflows through TweetClaw and Xquik.",
+      "path": "plugins/social-media-marketing/skills/tweetclaw-social-automation",
+      "location": "plugins/social-media-marketing/skills/tweetclaw-social-automation/SKILL.md",
+      "plugin": "social-media-marketing",
+      "category": "marketing",
+      "license": "Apache-2.0",
+      "compatibility": "Claude Code, OpenClaw"
     },
     {
       "name": "social-selling",
